@@ -1,0 +1,22 @@
+/*
+ * Verdigris canonical palette
+ * Source-friendly CSS custom properties for ports and color preview tools.
+ */
+
+:root {
+  /* Core identity palette */
+  --verdigris-ashbronze: #665c54;
+  --verdigris-vellum: #ebdbb2;
+  --verdigris-fern: #8ec07c;
+  --verdigris-patina: #689d6a;
+  --verdigris-aqua: #83a598;
+  --verdigris-ochre: #e6bf86;
+
+  /* Additional colors */
+  --verdigris-moss: #70764a;
+  --verdigris-teal: #458588;
+  --verdigris-oxblood: #74363d;
+  --verdigris-goldenrod: #b8863b;
+  --verdigris-deep-copper: #b9805f;
+  --verdigris-ink-violet: #8989b0;
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Verdigris",
+  "version": "0.1.2",
+  "description": "Canonical Verdigris palette: six first-class identity colors plus six additional colors for ANSI, diff, semantic, and app-specific roles.",
+  "colors": [
+    {
+      "name": "ashbronze",
+      "role": "background / weathered metal",
+      "hex": "#665c54"
+    },
+    {
+      "name": "vellum",
+      "role": "foreground / warm text",
+      "hex": "#ebdbb2"
+    },
+    {
+      "name": "fern",
+      "role": "bright green accent",
+      "hex": "#8ec07c"
+    },
+    {
+      "name": "patina",
+      "role": "primary green",
+      "hex": "#689d6a"
+    },
+    {
+      "name": "aqua",
+      "role": "cool aqua accent",
+      "hex": "#83a598"
+    },
+    {
+      "name": "ochre",
+      "role": "warm brass accent",
+      "hex": "#e6bf86"
+    }
+  ],
+  "extended": [
+    {
+      "name": "moss",
+      "role": "muted olive / additions / success",
+      "hex": "#70764a"
+    },
+    {
+      "name": "teal",
+      "role": "secondary blue-teal",
+      "hex": "#458588"
+    },
+    {
+      "name": "oxblood",
+      "role": "deep red for removals / errors",
+      "hex": "#74363d"
+    },
+    {
+      "name": "goldenrod",
+      "role": "muted gold for warnings / search",
+      "hex": "#b8863b"
+    },
+    {
+      "name": "deep-copper",
+      "role": "muted copper for changes / caution",
+      "hex": "#b9805f"
+    },
+    {
+      "name": "ink-violet",
+      "role": "readable violet for rare / special accents",
+      "hex": "#8989b0"
+    }
+  ],
+  "supporting": [
+    {
+      "name": "ochre-alt",
+      "role": "older/deeper brass trial retained for app-specific nuance",
+      "hex": "#d8a65c"
+    },
+    {
+      "name": "brown-green",
+      "role": "liked brownish-green candidate",
+      "hex": "#604b29"
+    },
+    {
+      "name": "dark-ochre-trial",
+      "role": "dark yellow/brown trial; too dark for Obsidian H3/tag use",
+      "hex": "#8b6021"
+    }
+  ]
+}

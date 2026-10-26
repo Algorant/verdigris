@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+root=$(git rev-parse --show-toplevel)
+private_config="$HOME/.config/privacy-check/literals.gitleaks.toml"
+if [[ ! -r "$private_config" ]]; then
+  printf 'Missing required local privacy policy: %s\n' "$private_config" >&2
+  exit 1
+fi
+
+while read -r local_ref local_oid remote_ref remote_oid; do
+  # A deleted ref introduces no commits.
+  [[ "$local_oid" =~ ^0+$ ]] && continue
+
+  if [[ "$remote_oid" =~ ^0+$ ]]; then
+    range="$local_oid"
+  else
+    range="$remote_oid..$local_oid"
+  fi
+
+  printf 'Checking %s -> %s\n' "$local_ref" "$remote_ref" >&2
+  for config in "$root/.gitleaks.toml" "$root/.gitleaks-privacy.toml" "$private_config"; do
+    mise exec gitleaks@8.30.1 -- gitleaks git \
+      --no-banner --redact --config "$config" --log-opts="$range" "$root"
+    git log --name-only --format='%an <%ae>%n%cn <%ce>%n%B' "$range" |
+      mise exec gitleaks@8.30.1 -- gitleaks stdin \
+        --no-banner --redact --config "$config"
+  done
+done

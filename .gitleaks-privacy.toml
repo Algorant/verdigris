@@ -1,0 +1,23 @@
+title = "Verdigris privacy checks"
+
+# Keep these independent: the default secret allowlists permit home paths.
+
+[[rules]]
+id = "linux-home"
+description = "Personal Linux home path"
+regex = '''[/]home[/][^/\s"'<>]+'''
+
+[[rules]]
+id = "windows-home"
+description = "Personal Windows home path"
+regex = '''(?i)[a-z]:\\+users\\+'''
+
+[[rules]]
+id = "tailnet-host"
+description = "Private tailnet hostname"
+regex = '''(?i)\b[a-z0-9.-]+[.]ts[.]net\b'''
+
+[[rules]]
+id = "private-network"
+description = "Private network address"
+regex = '''\b(?:192[.]168[.]|10[.][0-9]{1,3}[.][0-9]{1,3}[.][0-9]{1,3}|172[.](?:1[6-9]|2[0-9]|3[01])[.][0-9]{1,3}[.][0-9]{1,3}|100[.](?:6[4-9]|[7-9][0-9]|1[01][0-9]|12[0-7])[.][0-9]{1,3}[.][0-9]{1,3})'''

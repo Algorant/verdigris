@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Verdigris additional colors swatch</title>
+  <desc id="desc">Six additional Verdigris colors for specific roles: moss, teal, oxblood, goldenrod, deep copper, and ink violet.</desc>
+  <rect width="1200" height="520" fill="#2b2926"/>
+  <g id="moss">
+    <rect x="0" y="0" width="200" height="360" fill="#70764a"/>
+    <rect x="0" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="20" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">moss</text>
+    <text x="20" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#70764a</text>
+    <text x="20" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">additions / success</text>
+  </g>
+  <g id="teal">
+    <rect x="200" y="0" width="200" height="360" fill="#458588"/>
+    <rect x="200" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="220" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">teal</text>
+    <text x="220" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#458588</text>
+    <text x="220" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">secondary blue-teal</text>
+  </g>
+  <g id="oxblood">
+    <rect x="400" y="0" width="200" height="360" fill="#74363d"/>
+    <rect x="400" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="420" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">oxblood</text>
+    <text x="420" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#74363d</text>
+    <text x="420" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">removals / errors</text>
+  </g>
+  <g id="goldenrod">
+    <rect x="600" y="0" width="200" height="360" fill="#b8863b"/>
+    <rect x="600" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="620" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">goldenrod</text>
+    <text x="620" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#b8863b</text>
+    <text x="620" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">warnings / search</text>
+  </g>
+  <g id="deep-copper">
+    <rect x="800" y="0" width="200" height="360" fill="#b9805f"/>
+    <rect x="800" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="820" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">deep copper</text>
+    <text x="820" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#b9805f</text>
+    <text x="820" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">changes / caution</text>
+  </g>
+  <g id="ink-violet">
+    <rect x="1000" y="0" width="200" height="360" fill="#8989b0"/>
+    <rect x="1000" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="1020" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">ink violet</text>
+    <text x="1020" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#8989b0</text>
+    <text x="1020" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">rare accent</text>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+title = "Verdigris default secret checks"
+
+[extend]
+useDefault = true
