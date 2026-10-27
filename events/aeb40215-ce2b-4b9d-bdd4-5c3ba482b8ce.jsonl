@@ -1,0 +1,6 @@
+{"ts":"2026-10-27T02:25:47Z","event":"rules.updated","id":"rules","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":1,"data":{"action":"add","ruleId":"always-1"}}
+{"ts":"2026-10-27T02:25:48Z","event":"rules.updated","id":"rules","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":2,"data":{"action":"add","ruleId":"always-2"}}
+{"ts":"2026-10-27T02:25:48Z","event":"rules.updated","id":"rules","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":3,"data":{"action":"add","ruleId":"never-2"}}
+{"ts":"2026-10-27T02:25:48Z","event":"rules.updated","id":"rules","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":4,"data":{"action":"add","ruleId":"never-1"}}
+{"ts":"2026-10-27T02:25:48Z","event":"rules.updated","id":"rules","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":5,"data":{"action":"add","ruleId":"prefer-1"}}
+{"ts":"2026-10-27T02:25:48Z","event":"rules.updated","id":"rules","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":6,"data":{"action":"add","ruleId":"context-1"}}
