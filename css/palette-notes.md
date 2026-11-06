@@ -101,7 +101,7 @@ Visual swatches:
 - `teal` is the alternate blue used by Obsidian, Ghostty, and Neovim-style roles.
 - `oxblood` is `#74363d`, a dark mineral red selected for removals/errors and as the palette's primary red shade.
 - Oxblood replaces the previous coral-like `diff-red` (`#e36f63`) in palette version `0.1.0`. Existing ports may migrate separately.
-- Oxblood is only 1.8:1 on `#1d2021`, so it fails as text. Palette version `0.2.0` keeps `#74363d` for red fills, bars, meters and blocked-state fills, and adds the named tints `oxblood-text` (`#c66f70`, a lighter tint in oxblood's red family) for red text and ANSI red, and `oxblood-bright` (`#d47b7c`) for ANSI bright red. They replace Gruvbox `#cc241d` / `#fb4934` in the Herdr, Ghostty, Windows Terminal, bat, Atuin, Yazi and btop ports.
+- Oxblood is only 1.8:1 on `#1d2021`, so it fails as text. Palette version `0.2.0` keeps `#74363d` for red fills, bars, meters and blocked-state fills, and adds the named tints `oxblood-text` (`#c66f70`, a lighter tint in oxblood's red family) for red text and ANSI red, and `oxblood-bright` (`#d47b7c`) for ANSI bright red. This role-based mapping replaces Gruvbox `#cc241d` / `#fb4934` in the Herdr, Ghostty, Windows Terminal, bat, Atuin, Yazi and btop ports.
 - `goldenrod` is `#b8863b`, a darker muted gold selected for warning/search roles while retaining normal-text readability on dark note surfaces.
 - Goldenrod replaces the previous `yellow` (`#d29a46`) in palette version `0.1.2`. Existing ports may migrate separately.
 - `deep-copper` is `#b9805f`, a muted copper selected for caution/change roles and readable category labels on dark note surfaces.
