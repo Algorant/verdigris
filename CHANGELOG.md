@@ -2,6 +2,24 @@
 
 Palette releases follow [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] - 2026-11-06
+
+### Added
+
+- Added `oxblood-text` (`#c66f70`) and `oxblood-bright` (`#d47b7c`) as named supporting tints of oxblood for readable red text, ANSI red (1) and ANSI bright red (9).
+
+### Changed
+
+- Documented oxblood (`#74363d`) as the red for fills, bars and meters; red text uses its tints.
+- Herdr app theme: ANSI red and `blocked` use `#c66f70`; ANSI bright red uses `#d47b7c`.
+- Ghostty and Windows Terminal: red uses `#c66f70`, bright red uses `#d47b7c`.
+- bat (deleted gutter, invalid), Atuin (error alerts) and Yazi (cut marker) use `#c66f70`.
+- btop CPU and used-meter gradient ends use oxblood `#74363d`.
+
+### Scope
+
+- Other ports (Obsidian, Pi, Omarchy notifications, Hokum, Pele) are unchanged. The standalone Omarchy theme adopts this release in its own repository.
+
 ## [0.1.2] - 2026-08-26
 
 ### Changed

@@ -28,7 +28,7 @@ Yazi themes map manager chrome, status segments, prompts, help, permissions, fil
   --yazi-find-keyword: #8ec07c;
   --yazi-find-position: #e6bf86;
   --yazi-marker-selected: #8ec07c;
-  --yazi-marker-cut: #fb4934;
+  --yazi-marker-cut: #c66f70;
 
   --yazi-mode-normal-fg: #ebdbb2;
   --yazi-mode-normal-bg: #665c54;
@@ -65,6 +65,6 @@ Yazi themes map manager chrome, status segments, prompts, help, permissions, fil
 - Ochre `#e6bf86` is used for positions, archive files, write permissions, mode warnings, and important help/key text.
 - Vellum `#ebdbb2` is used for regular filenames, primary status text, and normal-mode status contrast.
 - Ashbronze `#665c54` handles borders, inactive separators, low-emphasis structural UI, and the normal-mode status pill.
-- Red remains reserved for destructive/cut/error states.
+- Red remains reserved for destructive/cut/error states, using oxblood text `#c66f70` (the readable tint of oxblood `#74363d`).
 
 Yazi is a semantic TUI port: it keeps file-manager state legible while replacing Gruvbox's brighter accents with Verdigris identity colors.

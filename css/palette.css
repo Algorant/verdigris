@@ -19,4 +19,8 @@
   --verdigris-goldenrod: #b8863b;
   --verdigris-deep-copper: #b9805f;
   --verdigris-ink-violet: #8989b0;
+
+  /* Supporting tints: readable text / ANSI shades of oxblood */
+  --verdigris-oxblood-text: #c66f70;
+  --verdigris-oxblood-bright: #d47b7c;
 }

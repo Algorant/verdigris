@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
   <title id="title">Verdigris additional colors swatch</title>
-  <desc id="desc">Six additional Verdigris colors for specific roles: moss, teal, oxblood, goldenrod, deep copper, and ink violet.</desc>
+  <desc id="desc">Six additional Verdigris colors for specific roles: moss, teal, oxblood, goldenrod, deep copper, and ink violet, with oxblood's text and bright tints.</desc>
   <rect width="1200" height="520" fill="#2b2926"/>
   <g id="moss">
     <rect x="0" y="0" width="200" height="360" fill="#70764a"/>
@@ -18,6 +18,10 @@
   </g>
   <g id="oxblood">
     <rect x="400" y="0" width="200" height="360" fill="#74363d"/>
+    <rect x="400" y="260" width="200" height="50" fill="#c66f70"/>
+    <rect x="400" y="310" width="200" height="50" fill="#d47b7c"/>
+    <text x="420" y="292" fill="#1f1d1a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">text #c66f70</text>
+    <text x="420" y="342" fill="#1f1d1a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">bright #d47b7c</text>
     <rect x="400" y="360" width="200" height="160" fill="#1f1d1a"/>
     <text x="420" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">oxblood</text>
     <text x="420" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#74363d</text>

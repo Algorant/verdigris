@@ -1,6 +1,6 @@
 {
   "name": "Verdigris",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Canonical Verdigris palette: six first-class identity colors plus six additional colors for ANSI, diff, semantic, and app-specific roles.",
   "colors": [
     {
@@ -81,6 +81,16 @@
       "name": "dark-ochre-trial",
       "role": "dark yellow/brown trial; too dark for Obsidian H3/tag use",
       "hex": "#8b6021"
+    },
+    {
+      "name": "oxblood-text",
+      "role": "readable text tint of oxblood: red text, labels, status dots, error/deletion/cut markers, ANSI red",
+      "hex": "#c66f70"
+    },
+    {
+      "name": "oxblood-bright",
+      "role": "bright tint of oxblood: ANSI bright red",
+      "hex": "#d47b7c"
     }
   ]
 }

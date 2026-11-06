@@ -24,7 +24,7 @@ Copy this object into the top-level `schemes` array in Windows Terminal `setting
     "cursorColor": "#E6BF86",
     "selectionBackground": "#665C54",
     "black": "#1B1B1B",
-    "red": "#CC241D",
+    "red": "#C66F70",
     "green": "#689D6A",
     "yellow": "#D8A65C",
     "blue": "#458588",
@@ -32,7 +32,7 @@ Copy this object into the top-level `schemes` array in Windows Terminal `setting
     "cyan": "#83A598",
     "white": "#A89984",
     "brightBlack": "#928374",
-    "brightRed": "#FB4934",
+    "brightRed": "#D47B7C",
     "brightGreen": "#8EC07C",
     "brightYellow": "#E6BF86",
     "brightBlue": "#83A598",
@@ -85,4 +85,5 @@ Example Windows Terminal profile setting after copying/stowing the icon to a Win
 - `green` / `brightGreen`: Verdigris patina `#689d6a` and fern `#8ec07c`.
 - `cyan` / `brightBlue`: Verdigris aqua `#83a598`.
 - `brightYellow` / cursor: Verdigris ochre `#e6bf86`.
+- `red` / `brightRed`: Verdigris oxblood text `#c66f70` and oxblood bright `#d47b7c`, readable tints of oxblood `#74363d`.
 - Missing terminal ANSI roles retain nearest Gruvbox Dark colors for compatibility and familiar shell output semantics.

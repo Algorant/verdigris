@@ -28,7 +28,7 @@ Atuin themes map semantic UI meanings to colors. The dotfiles theme derives from
   --atuin-muted: #665c54;
   --atuin-alert-info: #689d6a;
   --atuin-alert-warn: #e6bf86;
-  --atuin-alert-error: #fb4934;
+  --atuin-alert-error: #c66f70;
 }
 ```
 
@@ -43,5 +43,6 @@ Atuin themes map semantic UI meanings to colors. The dotfiles theme derives from
 - Aqua `#83a598` is used for guidance/prompts/hints.
 - Patina `#689d6a` is used for informational alerts.
 - Ashbronze `#665c54` is muted/low-emphasis UI.
+- Oxblood text `#c66f70`, the readable tint of oxblood `#74363d`, is used for error alerts.
 
 Atuin is a semantic TUI port: it maps Verdigris colors to Atuin's meaning roles rather than defining a full terminal palette.

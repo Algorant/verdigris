@@ -1,6 +1,6 @@
 # Additional Colors
 
-Palette version: `0.1.2`
+Palette version: `0.2.0`
 
 ![Verdigris additional colors](./verdigris-additional-colors-swatch.svg)
 
@@ -15,6 +15,15 @@ The core Verdigris palette is intentionally small. These additional colors are t
 | goldenrod | `#b8863b` | warnings / search |
 | deep-copper | `#b9805f` | changes / caution |
 | ink-violet | `#8989b0` | rare / special accent |
+
+### Oxblood tints
+
+Oxblood `#74363d` is a fill color: bars, meters, removed-line bands and badge backgrounds under vellum text. It is too dark to read as text on Verdigris backgrounds, so red text uses its supporting tints:
+
+| Name | Hex | Role |
+|---|---:|---|
+| oxblood-text | `#c66f70` | red text, labels, status dots, error/deletion/cut markers, ANSI red (1) |
+| oxblood-bright | `#d47b7c` | ANSI bright red (9) |
 
 ## Examples
 

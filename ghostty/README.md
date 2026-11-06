@@ -26,7 +26,7 @@ Enabled from:
   --ghostty-cursor-text: #1d2021;
 
   --ghostty-black: #1d2021;
-  --ghostty-red: #cc241d;
+  --ghostty-red: #c66f70;
   --ghostty-green: #689d6a;
   --ghostty-yellow: #e6bf86;
   --ghostty-blue: #458588;
@@ -34,7 +34,7 @@ Enabled from:
   --ghostty-cyan: #83a598;
   --ghostty-white: #d4be9a;
   --ghostty-bright-black: #928374;
-  --ghostty-bright-red: #fb4934;
+  --ghostty-bright-red: #d47b7c;
   --ghostty-bright-green: #8ec07c;
   --ghostty-bright-yellow: #e6bf86;
   --ghostty-bright-blue: #83a598;
@@ -50,6 +50,7 @@ Enabled from:
 - Background stays at `#1d2021` for terminal readability and to match the Pi Verdigris UI base.
 - Vellum `#ebdbb2` is the main foreground and cursor color.
 - Ashbronze `#665c54` is used for selection background.
+- ANSI red uses oxblood text `#c66f70` and bright red uses oxblood bright `#d47b7c`, readable tints of Verdigris oxblood `#74363d`.
 - ANSI green/yellow/cyan slots are shifted toward Verdigris identity colors: patina, fern, ochre, and aqua.
 - This terminal ANSI palette affects tools that render ANSI colors in Ghostty, including Fastfetch palette dots.
 

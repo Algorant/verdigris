@@ -32,7 +32,7 @@ Enabled from:
 
   --btop-cpu-start: #689d6a;
   --btop-cpu-mid: #e6bf86;
-  --btop-cpu-end: #fb4934;
+  --btop-cpu-end: #74363d;
 
   --btop-free-start: #70764a;
   --btop-free-end: #8ec07c;
@@ -42,7 +42,7 @@ Enabled from:
   --btop-available-end: #e6bf86;
   --btop-used-start: #604b29;
   --btop-used-mid: #8b6021;
-  --btop-used-end: #cc241d;
+  --btop-used-end: #74363d;
 }
 ```
 
@@ -54,8 +54,8 @@ Enabled from:
 - Main text/title use vellum `#ebdbb2`.
 - Box borders and selection background use ashbronze `#665c54`.
 - Shortcut hints use fern `#8ec07c` so key hints are distinct from normal vellum text.
-- CPU and temperature gradients use patina/aqua through ochre into red.
-- Used memory/disk meters avoid beige-to-red and instead move brown-green → dark ochre → red.
+- CPU and temperature gradients use patina/aqua through ochre into oxblood `#74363d`.
+- Used memory/disk meters avoid beige-to-red and instead move brown-green → dark ochre → oxblood `#74363d`; these are fills, so they use oxblood itself rather than its text tints.
 - Network download leans patina/aqua; upload leans brown-green/ochre/purple.
 
 btop is a graph-heavy TUI port, so Verdigris is expanded into practical gradients rather than only the core palette.

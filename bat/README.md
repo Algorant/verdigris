@@ -60,7 +60,7 @@ This matters on first install, after editing `Verdigris.tmTheme`, after copying/
   --bat-gutter: #928374;
   --bat-gutter-added: #8ec07c;
   --bat-gutter-modified: #e6bf86;
-  --bat-gutter-deleted: #fb4934;
+  --bat-gutter-deleted: #c66f70;
 
   --bat-comment: #928374;
   --bat-string: #8ec07c;
@@ -69,7 +69,7 @@ This matters on first install, after editing `Verdigris.tmTheme`, after copying/
   --bat-type: #83a598;
   --bat-operator: #83a598;
   --bat-number: #d8a65c;
-  --bat-invalid: #fb4934;
+  --bat-invalid: #c66f70;
 }
 ```
 
@@ -84,6 +84,6 @@ This matters on first install, after editing `Verdigris.tmTheme`, after copying/
 - Aqua `#83a598` is used for types, operators, links, and escapes.
 - Ochre `#e6bf86` is used for functions, warnings, and emphasis.
 - Comments and gutter metadata use muted Gruvbox/Verdigris support tones.
-- Red is reserved for invalid scopes and deleted diff markup.
+- Red is reserved for invalid scopes and deleted diff markup, using oxblood text `#c66f70` (the readable tint of oxblood `#74363d`).
 
 The bat port is a syntax-theme expansion of Verdigris: it maps TextMate scopes onto the compact palette and nearby support colors rather than adding new canonical colors.

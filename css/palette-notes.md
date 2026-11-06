@@ -2,7 +2,7 @@
 
 These notes track the canonical Verdigris identity palette, the additional colors, and the design intent behind both.
 
-Current palette version: `0.1.2`. See [`../CHANGELOG.md`](../CHANGELOG.md) for release history.
+Current palette version: `0.2.0`. See [`../CHANGELOG.md`](../CHANGELOG.md) for release history.
 
 ## Canonical core palette
 
@@ -47,10 +47,26 @@ These extended colors are available for ports that need specific roles outside t
 |---|---:|---|
 | moss | `#70764a` | muted olive / additions / success |
 | teal | `#458588` | secondary blue-teal |
-| oxblood | `#74363d` | deep red for removals / errors |
+| oxblood | `#74363d` | deep red for removals / errors (fills) |
 | goldenrod | `#b8863b` | muted gold for warnings / search |
 | deep-copper | `#b9805f` | muted copper for changes / caution |
 | ink-violet | `#8989b0` | readable violet for rare / special accents |
+
+## Oxblood tints
+
+Oxblood is a fill color. Where red is text, ports use its named supporting tints instead (listed under `supporting` in [`palette.json`](./palette.json)):
+
+```css
+:root {
+  --verdigris-oxblood-text: #c66f70;
+  --verdigris-oxblood-bright: #d47b7c;
+}
+```
+
+| Name | Hex | Role |
+|---|---:|---|
+| oxblood-text | `#c66f70` | readable oxblood tint for red text, labels, status dots, error/deletion/cut markers and ANSI red (1) |
+| oxblood-bright | `#d47b7c` | bright oxblood tint for ANSI bright red (9) |
 
 Goldenrod uses `#b8863b` for warning/search roles. Deep copper uses `#b9805f` for caution/change roles, and ink violet uses `#8989b0` for rare/special accents.
 
@@ -85,6 +101,7 @@ Visual swatches:
 - `teal` is the alternate blue used by Obsidian, Ghostty, and Neovim-style roles.
 - `oxblood` is `#74363d`, a dark mineral red selected for removals/errors and as the palette's primary red shade.
 - Oxblood replaces the previous coral-like `diff-red` (`#e36f63`) in palette version `0.1.0`. Existing ports may migrate separately.
+- Oxblood is only 1.8:1 on `#1d2021`, so it fails as text. Palette version `0.2.0` keeps `#74363d` for red fills, bars, meters and blocked-state fills, and adds the named tints `oxblood-text` (`#c66f70`, a lighter tint in oxblood's red family) for red text and ANSI red, and `oxblood-bright` (`#d47b7c`) for ANSI bright red. They replace Gruvbox `#cc241d` / `#fb4934` in the Herdr, Ghostty, Windows Terminal, bat, Atuin, Yazi and btop ports.
 - `goldenrod` is `#b8863b`, a darker muted gold selected for warning/search roles while retaining normal-text readability on dark note surfaces.
 - Goldenrod replaces the previous `yellow` (`#d29a46`) in palette version `0.1.2`. Existing ports may migrate separately.
 - `deep-copper` is `#b9805f`, a muted copper selected for caution/change roles and readable category labels on dark note surfaces.
