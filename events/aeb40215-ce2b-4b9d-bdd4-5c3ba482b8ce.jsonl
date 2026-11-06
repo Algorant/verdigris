@@ -10,3 +10,4 @@
 {"ts":"2026-11-06T15:05:24Z","event":"accord.claimed","id":"task-2","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":10,"data":{}}
 {"ts":"2026-11-06T15:08:57Z","event":"accord.released","id":"task-2","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":11,"data":{"disposition":"reassign"}}
 {"ts":"2026-11-06T15:09:01Z","event":"accord.claimed","id":"task-2","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":12,"data":{}}
+{"ts":"2026-11-06T15:10:49Z","event":"accord.blocked","id":"task-2","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":13,"data":{}}
