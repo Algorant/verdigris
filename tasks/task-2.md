@@ -3,21 +3,21 @@ id: task-2
 uid: cc3ec6d4-3efe-46f9-99e5-70ccad1e96a0
 type: task
 title: "Adopt oxblood fills and readable red tints across Verdigris ports"
-state: "in-progress"
+state: "todo"
 priority: "medium"
 effort: "medium"
 references: ["https://github.com/Algorant/herdra/blob/c31209e/research/task-73.md", "https://github.com/Algorant/omarchy-verdigris-theme"]
 relatedFiles: ["css/palette.json", "css/palette.css", "css/palette-notes.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg", "CHANGELOG.md", "herdr-app/verdigris.json", "ghostty/README.md", "bat/README.md", "atuin/README.md", "btop/README.md", "yazi/README.md", "windows-terminal/README.md"]
 accord:
-  status: "claimed"
+  status: "ready"
   acceptance: ["Canonical palette includes documented oxblood-text #c66f70 and oxblood-bright #d47b7c as supporting tints, with CSS, palette notes, swatches and release/version references consistent.", "Herdr and the six named main-repository ports use the approved role-based red mappings; unrelated ports and live configuration remain untouched.", "Standalone Omarchy theme colors.toml uses red #c66f70 and bright_red #d47b7c, with its palette mapping rationale/version updated and published.", "A real terminal colour test and a Herdr screenshot crop demonstrate the updated red roles; evidence names the artifact paths and deployed/source versions.", "Both owned repositories' approved changes are published, and Herdra/Algomarchy receive the commits for the separately owned live refresh."]
   claimedAt: "2026-11-06T15:05:24Z"
   validation: ["$ git diff --check", "$ python3 -m json.tool css/palette.json > /dev/null", "$ python3 -m json.tool herdr-app/verdigris.json > /dev/null"]
   constraints: ["No deployment or refresh of Algorant's live Herdr/Omarchy settings; Algomarchy owns that step.", "Do not add maintained tests or unrelated abstractions.", "Leave the strict push-guard papercut task-1 out of scope."]
-  updatedAt: "2026-11-06T15:05:24Z"
+  note: "Manus pi:oxblood-ports has published and handed back the main source track at 86582c5; it is closing its tab. Verdigris Ceph continues the already-published Omarchy update (4371ca5) and downstream Algomarchy deployment/render verification."
+  updatedAt: "2026-11-06T15:08:57Z"
 createdAt: "2026-11-06T15:04:57Z"
-updatedAt: "2026-11-06T15:05:24Z"
-assignee: "pi:oxblood-ports"
+updatedAt: "2026-11-06T15:08:57Z"
 ---
 Algorant approved Herdra task-73's oxblood direction (request md8d55095). Keep canonical oxblood #74363d for red fills/bars; add named supporting colours oxblood-text #c66f70 and oxblood-bright #d47b7c for readable text/ANSI red and bright red. Maintain palette metadata, CSS, notes, swatches and release documentation consistently. Update only the requested owned ports: Herdr desktop theme, Omarchy standalone theme and ghostty/bat/atuin/btop/yazi/windows-terminal port READMEs/configs present in this repository. Do not alter Obsidian, Pi, Hokum, Pele, notification plugin or historical Herdra renders.
 
