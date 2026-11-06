@@ -12,3 +12,4 @@
 {"ts":"2026-11-06T15:09:01Z","event":"accord.claimed","id":"task-2","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":12,"data":{}}
 {"ts":"2026-11-06T15:10:49Z","event":"accord.blocked","id":"task-2","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":13,"data":{}}
 {"ts":"2026-11-06T15:18:43Z","event":"accord.resumed","id":"task-2","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":14,"data":{}}
+{"ts":"2026-11-06T15:18:55Z","event":"accord.delivered","id":"task-2","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":15,"data":{}}
