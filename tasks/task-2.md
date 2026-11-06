@@ -15,15 +15,12 @@ accord:
   constraints: ["No deployment or refresh of Algorant's live Herdr/Omarchy settings; Algomarchy owns that step.", "Do not add maintained tests or unrelated abstractions.", "Leave the strict push-guard papercut task-1 out of scope."]
   updatedAt: "2026-11-06T15:04:57Z"
 createdAt: "2026-11-06T15:04:57Z"
-updatedAt: "2026-11-06T15:04:57Z"
+updatedAt: "2026-11-06T15:05:10Z"
 ---
-
-## Description
-
 Algorant approved Herdra task-73's oxblood direction (request md8d55095). Keep canonical oxblood #74363d for red fills/bars; add named supporting colours oxblood-text #c66f70 and oxblood-bright #d47b7c for readable text/ANSI red and bright red. Maintain palette metadata, CSS, notes, swatches and release documentation consistently. Update only the requested owned ports: Herdr desktop theme, Omarchy standalone theme and ghostty/bat/atuin/btop/yazi/windows-terminal port READMEs/configs present in this repository. Do not alter Obsidian, Pi, Hokum, Pele, notification plugin or historical Herdra renders.
 
 Approval wording: "Algorant picked the default oxblood #74363d (already Verdigris's canonical removals / errors) for red fills, bars and blocked states, instead of #fb4934. Where red is TEXT, use the proposal's legible tint #c66f70, and #d47b7c for bright red / ANSI 9. Add both to the palette as named colours, documented as oxblood's text and bright tints."
 
-Mapping clarification pending in Herdra request me906835e: proposal explicitly says Herdr colors.blocked is text tint, while the approval summary says blocked states use oxblood. Recommendation awaiting confirmation: Herdr blocked/ANSI1 and textual error/deletion/cut markers use #c66f70; bright/ANSI9 use #d47b7c; actual btop meter fills (cpu-end, used-end) use #74363d. No disputed-token edits before that answer.
+RESOLVED mapping, Herdra m2fb8b887 replying to me906835e: "Yes: follow the rendered role, exactly as you recommend. Herdr blocked and ANSI 1 (dots, labels, text), and error/deletion/cut markers: #c66f70. ANSI 9 / brightRed: #d47b7c. True fills (btop meter and gradient ends, bars): #74363d. Go ahead." This exact mapping is approved; no ambiguity remains.
 
 Execution split: manus owns main-repository source changes in its worktree, identifies the existing palette release convention, and proposes bounded real-render verification without changing live settings/layouts. Verdigris Ceph handles the small standalone omarchy-verdigris-theme repo update after the main palette version is agreed. Algomarchy owns deployment/mise-dot refresh of the installed Herdr theme after publication. Completion requires a real terminal colour render and Herdr screenshot crop, coordinated with Algomarchy; no live configuration changes by this track without a plan/approval.
