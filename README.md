@@ -61,13 +61,13 @@ See [Additional Colors](./additional-colors/).
 Install the push scanner and enable this repository's pre-push hook on each clone:
 
 ```sh
-mise install gitleaks@8.30.1
+mise install gitleaks@latest
 git config core.hooksPath .githooks
 ```
 
 The hook also requires a locally provisioned `$HOME/.config/privacy-check/literals.gitleaks.toml` (permissions `0600`) for personal privacy rules, and fails if it is missing. Keep this file outside every repository; never commit it.
 
-The hook scans outgoing commits and their metadata with Gitleaks' default secret rules, generic project privacy rules and the local policy. It covers ordinary pushes of every branch, including manual board pushes. Tandem's automatic sync currently bypasses Git hooks; its scanning policy is still being decided.
+The hook scans outgoing commits and their metadata with Gitleaks' default secret rules and the local policy. Machine names, home paths, network names and commit-author email are publishable under the [sharing framework](https://github.com/Algorant/Algorant/blob/main/docs/sharing-framework.md), so the hook does not block them. It covers ordinary pushes of every branch, including manual board pushes. Tandem's automatic sync currently bypasses Git hooks; its scanning policy is still being decided.
 
 ## Palette artifacts
 
