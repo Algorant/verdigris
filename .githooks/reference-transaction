@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# gitguard's reference-transaction guard; core.hooksPath points here for this repo.
+set -euo pipefail
+exec gitguard hook reference-transaction "$@"

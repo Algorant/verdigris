@@ -67,7 +67,9 @@ git config core.hooksPath .githooks
 
 The hook also requires a locally provisioned `$HOME/.config/privacy-check/literals.gitleaks.toml` (permissions `0600`) for personal privacy rules, and fails if it is missing. Keep this file outside every repository; never commit it.
 
-The hook scans outgoing commits and their metadata with Gitleaks' default secret rules and the local policy. Machine names, home paths, network names and commit-author email are publishable under the [sharing framework](https://github.com/Algorant/Algorant/blob/main/docs/sharing-framework.md), so the hook does not block them. It covers ordinary pushes of every branch, including manual board pushes. Tandem's automatic sync currently bypasses Git hooks; its scanning policy is still being decided.
+The hook scans outgoing commits and their metadata with Gitleaks' default secret rules and the local policy, then hands the same push to [gitguard](https://github.com/Algorant/gitguard) (`.gitguard.toml`, `mode = "enabled"`) for credentials and personal records, including its TypeSafe/Jev step. Machine names, home paths, network names and commit-author email are publishable under the [sharing framework](https://github.com/Algorant/Algorant/blob/main/docs/sharing-framework.md), so neither guard blocks them. `.githooks/reference-transaction` runs the same gitguard check for non-branch refs such as Tandem's board branch. Install gitguard with `mise install gitguard@latest`, and set its user credentials once (`~/.config/gitguard/config.toml`, `auth = "fnox"`).
+
+When a guard stops a push, fix the text; never run `gitguard accept` without Algorant's word. It covers ordinary pushes of every branch, including manual board pushes. Tandem's automatic sync currently bypasses Git hooks; its scanning policy is still being decided.
 
 ## Palette artifacts
 

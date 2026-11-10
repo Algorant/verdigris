@@ -7,9 +7,12 @@ if [[ ! -r "$private_config" ]]; then
   printf 'Missing required local privacy policy: %s\n' "$private_config" >&2
   exit 1
 fi
+# Both guards read the same pre-push ref lines, so read them once.
+input=$(cat)
 
 while read -r local_ref local_oid remote_ref remote_oid; do
-  # A deleted ref introduces no commits.
+  # An empty line (nothing to push) and a deleted ref introduce no commits.
+  [[ -n "$local_ref$local_oid$remote_ref$remote_oid" ]] || continue
   [[ "$local_oid" =~ ^0+$ ]] && continue
 
   if [[ "$remote_oid" =~ ^0+$ ]]; then
@@ -26,4 +29,7 @@ while read -r local_ref local_oid remote_ref remote_oid; do
       mise exec gitleaks@latest -- gitleaks stdin \
         --no-banner --redact --config "$config"
   done
-done
+done <<<"$input"
+
+# gitguard owns credentials and personal records; its exit status stops the push.
+printf '%s\n' "$input" | gitguard hook pre-push
