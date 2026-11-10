@@ -1,6 +1,3 @@
----
-description: Verdigris, Algorant's oxidized-copper colour palette and its theme ports for terminal, editor and desktop apps.
----
 
 # Verdigris
 
