@@ -18,7 +18,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-PALETTE = Path(__file__).resolve().parent.parent / "css" / "palette.json"
+PALETTE = Path(__file__).resolve().parent.parent / "palette" / "verdigris.json"
 
 
 def palette() -> dict[str, str]:
