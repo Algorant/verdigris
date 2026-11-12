@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="gAsh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a7066"/><stop offset="1" stop-color="#4b443e"/>
+    </linearGradient>
+    <linearGradient id="gDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#333a33"/><stop offset="1" stop-color="#1b1f1c"/>
+    </linearGradient>
+    <linearGradient id="gGround" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151918"/><stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="gOchre" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d2a2"/><stop offset="1" stop-color="#d9ae74"/>
+    </linearGradient>
+    <linearGradient id="gAqua" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#95b6aa"/><stop offset="1" stop-color="#6f9084"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="#0d1117"/>
+  <rect x="404" y="46" width="472" height="214" rx="24" fill="url(#gGround)"/>
+  <g>
+    <rect x="452" y="74" width="112" height="112" rx="14" fill="#e6bf86"/>
+    <rect x="576" y="74" width="112" height="112" rx="14" fill="#ebdbb2"/>
+    <rect x="700" y="74" width="112" height="112" rx="14" fill="url(#gAqua)"/>
+    <rect x="452" y="198" width="112" height="34" rx="10" fill="#8ec07c"/>
+    <rect x="576" y="198" width="112" height="34" rx="10" fill="url(#gAsh)"/>
+    <rect x="700" y="198" width="112" height="34" rx="10" fill="url(#gDark)"/>
+  </g>
+  <text x="640" y="296" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="42" font-weight="700" letter-spacing="6" fill="#8ec07c">verdigris</text>
+</svg>
