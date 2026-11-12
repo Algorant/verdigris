@@ -52,6 +52,12 @@ Every app has a folder with its theme file, an install line and screenshots.
 
 Dark only. There is no light variant.
 
+## screenshots
+
+![fastfetch](apps/fastfetch/screenshot.png)
+
+![yazi](apps/yazi/screenshot.png)
+
 ## how to use
 
 Don't clone this into your config. Copy the file for the app you want from its folder, or point your agent at the palette and have it build the rest.
