@@ -1,6 +1,6 @@
 # Changelog
 
-Palette releases follow [Semantic Versioning](https://semver.org/).
+Palette releases follow [Semantic Versioning](https://semver.org/). Every app's theme file lives under `apps/` in its own format and states the palette version it follows.
 
 ## [0.2.0] - 2026-11-06
 
