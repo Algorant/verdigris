@@ -1,0 +1,20 @@
+// Verdigris palette on the installed Capsule layout: no per-app styling.
+name "Verdigris Capsule"
+theme "capsule"
+
+tokens {
+    fill "#1d2021"
+    text "#ebdbb2"
+    muted "#d4be9a"
+    faint "#928374"
+    border 1 "#665c54"
+    accent "#8ec07c"
+    shadow "soft"
+}
+
+rule urgency="critical" {
+    tokens {
+        border 2 "#c66f70" // oxblood text tint (herdra task-73)
+        accent "#74363d" // oxblood: fills the icon badge
+    }
+}
