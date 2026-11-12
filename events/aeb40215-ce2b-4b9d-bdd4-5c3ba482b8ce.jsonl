@@ -18,3 +18,4 @@
 {"ts":"2026-11-08T02:35:42Z","event":"accord.delivered","id":"task-1","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":18,"data":{}}
 {"ts":"2026-11-08T02:35:49Z","event":"task.completed","id":"task-1","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":19,"data":{}}
 {"ts":"2026-11-12T14:41:20Z","event":"task.created","id":"task-3","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":20,"data":{"title":"Rescope verdigris as a public colour-scheme repo with a theme and screenshot per app"}}
+{"ts":"2026-11-12T14:44:35Z","event":"accord.claimed","id":"task-3","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":21,"data":{}}

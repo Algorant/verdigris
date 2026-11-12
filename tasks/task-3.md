@@ -3,17 +3,19 @@ id: task-3
 uid: 5f36ad2d-a8c5-4005-ab9e-7262c4cfa302
 type: task
 title: "Rescope verdigris as a public colour-scheme repo with a theme and screenshot per app"
-state: todo
+state: "in-progress"
 priority: "high"
 effort: "medium"
 references: ["https://github.com/kepano/flexoki", "https://stephango.com/flexoki"]
 relatedFiles: ["README.md", "css/palette.json", "herdr-app/verdigris.json"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["A plan post is published in a new Sideshow session \"verdigris rescope\" with the Decide box first (only Algorant's calls), the proposed repo layout, and a short app table covering today versus missing.", "The proposal is modelled on flexoki and at least one similar scheme repo: palette as source of truth, one folder per supported app with a real installable theme file, and a screenshot per app.", "The app list reflects what Algorant actually uses (Omarchy desktop, terminals, herdr app, pi, Obsidian, editors, browser, etc.), each marked as existing or to be made, with Algomarchy's machine inventory as evidence.", "The proposed README follows the repo style rules: banner, lowercase names, first-person voice, showroom tone, and a final \"## License\" linking MIT.", "Nothing in the repository is changed or refactored in this Task; Algorant iterates on the plan in Sideshow before implementation is dispatched."]
-  updatedAt: "2026-11-12T14:41:20Z"
+  claimedAt: "2026-11-12T14:44:35Z"
+  updatedAt: "2026-11-12T14:44:35Z"
 createdAt: "2026-11-12T14:41:20Z"
-updatedAt: "2026-11-12T14:41:20Z"
+updatedAt: "2026-11-12T14:44:35Z"
+assignee: "pi:verdigris"
 ---
 
 ## Description
