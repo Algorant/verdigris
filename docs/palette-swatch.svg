@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Verdigris core palette swatch</title>
+  <desc id="desc">Six color swatches for the first-class Verdigris core palette, including canonical ochre #e6bf86.</desc>
+  <rect width="1200" height="520" fill="#2b2926"/>
+  <g id="ashbronze">
+    <rect x="0" y="0" width="200" height="360" fill="#665c54"/>
+    <rect x="0" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="20" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">ashbronze</text>
+    <text x="20" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#665c54</text>
+    <text x="20" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">weathered metal</text>
+  </g>
+  <g id="vellum">
+    <rect x="200" y="0" width="200" height="360" fill="#ebdbb2"/>
+    <rect x="200" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="220" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">vellum</text>
+    <text x="220" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#ebdbb2</text>
+    <text x="220" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">warm text</text>
+  </g>
+  <g id="fern">
+    <rect x="400" y="0" width="200" height="360" fill="#8ec07c"/>
+    <rect x="400" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="420" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">fern</text>
+    <text x="420" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#8ec07c</text>
+    <text x="420" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">bright green accent</text>
+  </g>
+  <g id="patina">
+    <rect x="600" y="0" width="200" height="360" fill="#689d6a"/>
+    <rect x="600" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="620" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">patina</text>
+    <text x="620" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#689d6a</text>
+    <text x="620" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">primary green</text>
+  </g>
+  <g id="aqua">
+    <rect x="800" y="0" width="200" height="360" fill="#83a598"/>
+    <rect x="800" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="820" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">aqua</text>
+    <text x="820" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#83a598</text>
+    <text x="820" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">cool aqua accent</text>
+  </g>
+  <g id="ochre">
+    <rect x="1000" y="0" width="200" height="360" fill="#e6bf86"/>
+    <rect x="1000" y="360" width="200" height="160" fill="#1f1d1a"/>
+    <text x="1020" y="410" fill="#ebdbb2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">ochre</text>
+    <text x="1020" y="448" fill="#d6c6a1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">#e6bf86</text>
+    <text x="1020" y="482" fill="#a89984" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">warm brass accent</text>
+  </g>
+</svg>
