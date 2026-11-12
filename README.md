@@ -1,27 +1,10 @@
 ![verdigris](docs/banner.png)
 
-verdigris is a colour scheme built around oxidized copper: weathered bronze, warm vellum, patina green, cool aqua, brass ochre. It is what I use on every machine, ported to the software I actually run.
+verdigris is a dark mode colorscheme built around oxidized copper: weathered bronze, warm vellum, patina green, cool aqua, brass ochre. 
 
-## palette
+It is what I use on every machine, ported to the software I actually run.
 
-| name | hex | role |
-| --- | --- | --- |
-| ashbronze | `#665c54` | weathered metal, selection |
-| vellum | `#ebdbb2` | text |
-| fern | `#8ec07c` | bright accent |
-| patina | `#689d6a` | primary green |
-| aqua | `#83a598` | cool accent |
-| ochre | `#e6bf86` | brass accent |
-| moss | `#70764a` | quiet green, additions |
-| teal | `#458588` | secondary blue |
-| oxblood | `#74363d` | red fills, removals |
-| oxblood-text | `#c66f70` | red text, errors |
-| oxblood-bright | `#d47b7c` | bright red |
-| goldenrod | `#b8863b` | muted warning |
-| deep-copper | `#b9805f` | changes, caution |
-| ink-violet | `#8989b0` | rare accents |
-
-Machine-readable in [`palette/verdigris.json`](palette/verdigris.json), version 0.2.0.
+<Add that old image and description I had here instead of this palette thing>
 
 ## apps
 
@@ -50,25 +33,6 @@ Every app has a folder with its theme file, an install line and screenshots.
 | eza | CLI listing | [apps/eza](apps/eza) |
 | fastfetch | CLI summary | [apps/fastfetch](apps/fastfetch) |
 
-Dark only. There is no light variant.
-
-## screenshots
-
-Terminal apps are rendered off-screen with vhs, and each screenshot's tape sits beside it, so a frame can be rebuilt with `vhs screenshot.tape`. Windowed apps are captured at their native size. The few that would show private content say so in their folder.
-
-![omarchy](apps/omarchy/screenshot.png)
-
-![atuin](apps/atuin/screenshot.png)
-
-![yazi](apps/yazi/screenshot.png)
-
-![leaf](apps/leaf/screenshot.png)
-
-![starship](apps/starship/screenshot.png)
-
-![eza](apps/eza/screenshot.png)
-
-![fastfetch](apps/fastfetch/screenshot.png)
 
 ## how to use
 
