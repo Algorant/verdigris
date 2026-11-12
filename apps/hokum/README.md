@@ -9,3 +9,5 @@ Copy `verdigris-capsule.kdl` into `~/.config/hokum/themes/`, then set `theme "ve
 ## notes
 
 It extends Hokum's Capsule layout and overrides only colours, so the card layout is unchanged.
+
+No screenshot: a notification card shows the sending app's content, which is not mine to publish.

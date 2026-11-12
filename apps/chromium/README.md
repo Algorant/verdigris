@@ -9,3 +9,5 @@ Copy `verdigris.theme` into your Chromium profile's theme path, or paste the thr
 ## notes
 
 The file is a single RGB triplet, which is what Chromium's theme hook reads. Zen is my default browser and stays unthemed.
+
+Screenshot deferred with the other windowed apps.

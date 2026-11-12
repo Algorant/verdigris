@@ -15,3 +15,5 @@ It installs as `verdigris` and brings the wallpapers with it.
 ## notes
 
 Dark only. Omarchy generates the per-app files for ghostty, foot, hyprland, chromium and the shell from this theme's colours; the apps that matter on their own have their own folder here.
+
+Screenshot pending a windowed capture of the desktop.

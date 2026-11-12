@@ -9,3 +9,5 @@ Copy `verdigris.ini` into `~/.config/foot/` as `verdigris.ini`, then start foot 
 ## notes
 
 The palette sits under `[colors-dark]` so foot's own light mode is untouched.
+
+Screenshot pending a windowed capture, for the same reason as ghostty.

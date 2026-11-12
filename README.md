@@ -54,6 +54,8 @@ Dark only. There is no light variant.
 
 ## screenshots
 
+Terminal apps are rendered off-screen with vhs, and each screenshot's tape sits beside it, so a frame can be rebuilt with `vhs screenshot.tape`. Windowed apps are captured at their native size. The few that would show private content say so in their folder.
+
 ![fastfetch](apps/fastfetch/screenshot.png)
 
 ![yazi](apps/yazi/screenshot.png)
