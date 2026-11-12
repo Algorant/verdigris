@@ -27,3 +27,4 @@
 {"ts":"2026-11-12T22:10:50Z","event":"task.updated","id":"task-3","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":27,"data":{"fields":["body"]}}
 {"ts":"2026-11-12T22:33:25Z","event":"task.created","id":"task-4","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":28,"data":{"title":"Atuin's red is not verdigris oxblood"}}
 {"ts":"2026-11-12T22:34:07Z","event":"task.updated","id":"task-3","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":29,"data":{"fields":["body"]}}
+{"ts":"2026-11-12T23:13:52Z","event":"task.created","id":"task-5","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":30,"data":{"title":"Give every app README the homepage gallery format"}}
