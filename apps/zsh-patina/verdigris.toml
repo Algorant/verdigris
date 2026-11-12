@@ -1,0 +1,19 @@
+# Verdigris syntax accents over Patina's complete built-in scope coverage.
+# Source palette: palette/verdigris.json; readable error red
+# follows the Omarchy port because canonical oxblood is too dark on #1d2021.
+"comment" = "#928374"                         # muted supporting text
+"string" = "#8ec07c"                          # fern
+"constant.character.escape" = "#83a598"       # aqua
+"constant.numeric" = "#e6bf86"                # ochre
+"keyword" = "#83a598"                         # aqua
+"keyword.operator" = "#b9805f"                # deep copper
+"variable.function" = "#83a598"               # callable name
+"variable.parameter.option" = "#e6bf86"       # flags
+"variable.other" = "#ebdbb2"                  # vellum
+"punctuation.definition.variable" = "#83a598" # variable sigil
+"dynamic.callable" = "#83a598"                 # valid executable
+"dynamic.callable.missing" = "#fb4934"         # readable error red
+"dynamic.path" = { foreground = "#8ec07c", underline = true }
+
+[metadata]
+extends = "patina"
