@@ -54,7 +54,7 @@ These extended colors are available for ports that need specific roles outside t
 
 ## Oxblood tints
 
-Oxblood is a fill color. Where red is text, ports use its named supporting tints instead (listed under `supporting` in [`palette.json`](./palette.json)):
+Oxblood is a fill color. Where red is text, ports use its named supporting tints instead (listed under `supporting` in [`verdigris.json`](./verdigris.json)):
 
 ```css
 :root {
@@ -70,12 +70,9 @@ Oxblood is a fill color. Where red is text, ports use its named supporting tints
 
 Goldenrod uses `#b8863b` for warning/search roles. Deep copper uses `#b9805f` for caution/change roles, and ink violet uses `#8989b0` for rare/special accents.
 
-Machine-readable source: [`palette.json`](./palette.json)
+Machine-readable source: [`verdigris.json`](./verdigris.json)
 
-Visual swatches:
-
-- Core: [`../_images/verdigris-core-swatch.svg`](../_images/verdigris-core-swatch.svg)
-- Additional Colors: [`../additional-colors/verdigris-additional-colors-swatch.svg`](../additional-colors/verdigris-additional-colors-swatch.svg)
+Visual swatches: each app folder shows the colours it uses in practice.
 
 ## Trial colors
 
