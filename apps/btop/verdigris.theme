@@ -19,7 +19,7 @@ theme[hi_fg]="#8ec07c"
 theme[selected_bg]="#665c54"
 
 # Foreground color of selected items
-theme[selected_fg]="#fbf1c7"
+theme[selected_fg]="#ebdbb2"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#3c3836"
@@ -42,12 +42,12 @@ theme[div_line]="#3c3836"
 # Temperature graph colors
 theme[temp_start]="#83a598"
 theme[temp_mid]="#e6bf86"
-theme[temp_end]="#fb4934"
+theme[temp_end]="#c66f70"
 
 # CPU graph colors
 theme[cpu_start]="#689d6a"
 theme[cpu_mid]="#e6bf86"
-theme[cpu_end]="#fb4934"
+theme[cpu_end]="#c66f70"
 
 # Mem/Disk free meter
 theme[free_start]="#70764a"
@@ -67,7 +67,7 @@ theme[available_end]="#e6bf86"
 # Mem/Disk used meter
 theme[used_start]="#604b29"
 theme[used_mid]="#8b6021"
-theme[used_end]="#cc241d"
+theme[used_end]="#74363d"
 
 # Download graph colors
 theme[download_start]="#3c3836"
@@ -77,9 +77,9 @@ theme[download_end]="#83a598"
 # Upload graph colors
 theme[upload_start]="#604b29"
 theme[upload_mid]="#e6bf86"
-theme[upload_end]="#d3869b"
+theme[upload_end]="#8989b0"
 
 # Process box color gradient for threads, mem and cpu usage
 theme[process_start]="#689d6a"
 theme[process_mid]="#e6bf86"
-theme[process_end]="#fb4934"
+theme[process_end]="#c66f70"

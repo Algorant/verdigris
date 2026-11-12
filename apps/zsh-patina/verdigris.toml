@@ -12,7 +12,7 @@
 "variable.other" = "#ebdbb2"                  # vellum
 "punctuation.definition.variable" = "#83a598" # variable sigil
 "dynamic.callable" = "#83a598"                 # valid executable
-"dynamic.callable.missing" = "#fb4934"         # readable error red
+"dynamic.callable.missing" = "#c66f70"         # readable error red
 "dynamic.path" = { foreground = "#8ec07c", underline = true }
 
 [metadata]

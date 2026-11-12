@@ -33,13 +33,13 @@ body.theme-dark {
   --v-teal:      #458588; /* secondary blue-teal */
   --v-diff-red:  #c66f70;
   --v-yellow:    #d29a46;
-  --v-orange:    #c96f3d;
-  --v-purple:    #ad8294;
+  --v-orange:    #b9805f;
+  --v-purple:    #8989b0;
 
   /* ---- Gruvbox-grounded values (current tuned look) ---- */
   --v-bg:        #282828;
   --v-bg-alt:    #1e2021;
-  --v-fg:        #fbf1c7;
+  --v-fg:        #ebdbb2;
   --v-fg-muted:  #bdae93;
   --v-fg-faint:  #7c6f64;
   --v-ui1:       #3c3836;
@@ -49,7 +49,7 @@ body.theme-dark {
   --v-cream:     #d4be9a;
   --v-ochre-deep:#d8a65c; /* deeper app-specific brass used for tags / H3.
                              Set to var(--v-ochre) to use the canonical brass. */
-  --v-olive:     #98971a; /* gruvbox green (syntax/semantic green) */
+  --v-olive:     #689d6a; /* gruvbox green (syntax/semantic green) */
 
   /* ---- Minimal base variables ---- */
   --bg1: var(--v-bg);

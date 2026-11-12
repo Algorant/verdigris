@@ -9,8 +9,8 @@ transparent_background = true
 
 # Board workflow-state chips. TODO intentionally keeps the muted fallback.
 [aliases]
-burnt-copper = "#c96f3d"
-heather = "#ad8294"
+burnt-copper = "#b9805f"
+heather = "#8989b0"
 
 [badges.states]
 in-progress = "burnt-copper"
