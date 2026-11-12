@@ -9,3 +9,5 @@ Copy `verdigris.theme` into `~/.config/btop/themes/`, then set `color_theme = "v
 ## notes
 
 Gradients run from patina through ochre into oxblood; oxblood is a fill colour, so it is used here without its text tint.
+
+The frame carries real system totals (CPU model, memory, disk); hostname, clock and uptime are switched off.

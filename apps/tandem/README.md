@@ -9,3 +9,5 @@ Copy `verdigris.toml` into `~/.config/tandem/themes/`, then set the theme to `ve
 ## notes
 
 Transparent background, so the terminal's own background shows through like my other ports.
+
+The board in the picture is a fixture one, deliberately empty.

@@ -9,3 +9,5 @@ Copy `verdigris.toml` into `~/.config/zsh-patina/themes/`, then select it in `co
 ## notes
 
 Colours only; Patina supplies the scope coverage.
+
+Screenshot pending a working render; the capture harness is still failing on the last step.
