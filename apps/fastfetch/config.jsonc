@@ -1,0 +1,54 @@
+// Compact Verdigris Fastfetch for the Omarchy profile.
+// Logo: the official Omarchy mark (logos/omarchy-mark.svg, an exact 15x15 grid of
+// /usr/share/omarchy/icon.png) as 2100px PNGs in the seven arch-verdigris colors.
+// Rebuild: github.com/Algorant/verdigris logos/README.md (mask-from-grid.py, render.py).
+// Height only: Fastfetch derives the width from the square image (no stretch), and
+// top padding 2 spans the seven info rows. Fastfetch caches resized logos by path,
+// so give changed art a new filename instead of overwriting it.
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "$(ls ~/.config/fastfetch/logos/*.png | shuf -n 1)",
+    "height": 7,
+    "padding": { "top": 2, "left": 1, "right": 2 }
+  },
+  "display": {
+    "separator": " ▐ ",
+    "color": "#e6bf86",
+    "size": { "ndigits": 1 }
+  },
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "command",
+      "key": "\udbc0\udc00",
+      "keyColor": "#8ec07c",
+      "text": "version=$(omarchy-version) && printf 'Omarchy %s' \"$version\""
+    },
+    { "type": "uptime", "key": "󰥔", "keyColor": "#83a598" },
+    { "type": "shell", "key": "", "keyColor": "#e6bf86" },
+    { "type": "wm", "key": "", "keyColor": "#689d6a" },
+    { "type": "terminal", "key": "", "keyColor": "#e6bf86" },
+    {
+      "type": "memory",
+      "key": "󰍛",
+      "keyColor": "#458588",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "disk",
+      "key": "󰋊",
+      "keyColor": "#8ec07c",
+      "folders": "/",
+      "format": "{size-used} / {size-total} ({size-percentage})"
+    },
+    "break",
+    {
+      "type": "command",
+      "key": " ",
+      "text": "printf '\\033[38;2;102;92;84m●\\033[0m \\033[38;2;235;219;178m●\\033[0m \\033[38;2;69;133;136m●\\033[0m \\033[38;2;104;157;106m●\\033[0m \\033[38;2;131;165;152m●\\033[0m \\033[38;2;230;191;134m●\\033[0m \\033[38;2;142;192;124m●\\033[0m'"
+    }
+  ]
+}
