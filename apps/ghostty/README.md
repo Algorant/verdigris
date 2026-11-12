@@ -10,4 +10,4 @@ Copy `verdigris` into `~/.config/ghostty/themes/`, then set `theme = verdigris`.
 
 Colours only; font, padding and behaviour stay in my dotfiles.
 
-Screenshot pending a windowed capture; a terminal emulator cannot be photographed from inside another terminal.
+The picture is a floating ghostty running fastfetch, which shows the terminal and the floating-window look at once.

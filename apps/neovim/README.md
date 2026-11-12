@@ -14,4 +14,4 @@ The colourscheme is its own plugin: [Algorant/verdigris.nvim](https://github.com
 
 Dark only. The plugin owns the highlight groups; this folder is the catalogue entry and the palette it follows.
 
-The editor runs the real plugin from Algorant/verdigris.nvim, cloned into the capture sandbox, over a fixture module.
+Four pictures: the editor plain, the file picker, lazy and mason.

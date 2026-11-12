@@ -30,6 +30,8 @@ Every app has a folder with its theme file, an install line and screenshots.
 | yazi | TUI file manager | [apps/yazi](apps/yazi) |
 | leaf | TUI markdown reader | [apps/leaf](apps/leaf) |
 | tandem | TUI board | [apps/tandem](apps/tandem) |
+| spotifast | GUI music | [apps/spotifast](apps/spotifast) |
+| quickshell | GUI widgets | [apps/quickshell](apps/quickshell) |
 | starship | shell prompt | [apps/starship](apps/starship) |
 | zsh-patina | shell highlighting | [apps/zsh-patina](apps/zsh-patina) |
 | eza | CLI listing | [apps/eza](apps/eza) |

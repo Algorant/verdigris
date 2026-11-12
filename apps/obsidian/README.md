@@ -10,4 +10,4 @@ Copy `verdigris.css` into your vault's `.obsidian/snippets/`, then enable it und
 
 A snippet rather than a theme, so it layers over Minimal's variables. My desktop generates this file from the omarchy theme; this copy is the standalone version.
 
-Screenshot deferred with the other windowed apps; the vault used for it is a throwaway one.
+Two pictures from my own vault. The first needs a higher-resolution retake; it is a placeholder until then.
