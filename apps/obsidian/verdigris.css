@@ -31,7 +31,7 @@ body.theme-dark {
   /* ---- Verdigris additional colors ---- */
   --v-moss:      #70764a;
   --v-teal:      #458588; /* secondary blue-teal */
-  --v-diff-red:  #e36f63;
+  --v-diff-red:  #c66f70;
   --v-yellow:    #d29a46;
   --v-orange:    #c96f3d;
   --v-purple:    #ad8294;
@@ -69,7 +69,7 @@ body.theme-dark {
   --hl2: rgba(210, 154, 70, 0.25);  /* yellow highlight */
 
   /* ---- Obsidian semantic colors ---- */
-  --color-red-rgb: 227, 111, 99;
+  --color-red-rgb: 198, 111, 112;
   --color-orange-rgb: 201, 111, 61;
   --color-yellow-rgb: 210, 154, 70;
   --color-green-rgb: 152, 151, 26;
