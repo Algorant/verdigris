@@ -8,35 +8,35 @@ It is what I use on every machine, ported to the software I actually run.
 
 Six core colours carry the scheme: ashbronze metal, vellum text, fern and patina greens, aqua, ochre. Everything else in the palette is a supporting role for one app or one state, listed in [`palette/verdigris.json`](palette/verdigris.json).
 
+## what it looks like
+
+![omarchy](apps/omarchy/screenshot.png)
+
+The shell, menus and wallpapers on my desktop.
+
+![ghostty](apps/ghostty/screenshot.png)
+
+A floating terminal, running the omarchy fastfetch.
+
+![neovim](apps/neovim/screenshot-3.png)
+
+Neovim, with lazy open.
+
+![obsidian](apps/obsidian/screenshot.png)
+
+My vault in Obsidian.
+
+![spotifast](apps/spotifast/screenshot.png)
+
+Spotifast, my spotify client.
+
+![quickshell](apps/quickshell/calendar.png)
+
+The calendar widget, one of the quickshell panels.
+
 ## apps
 
-Every app has a folder with its theme file, an install line and screenshots.
-
-| app | type | folder |
-| --- | --- | --- |
-| omarchy | desktop shell | [apps/omarchy](apps/omarchy) |
-| herdr app | GUI | [apps/herdr-app](apps/herdr-app) |
-| ghostty | GUI terminal | [apps/ghostty](apps/ghostty) |
-| foot | GUI terminal | [apps/foot](apps/foot) |
-| chromium | GUI browser | [apps/chromium](apps/chromium) |
-| obsidian | GUI notes | [apps/obsidian](apps/obsidian) |
-| hokum | GUI notifications | [apps/hokum](apps/hokum) |
-| hyprland | compositor | [apps/hyprland](apps/hyprland) |
-| neovim | TUI editor | [apps/neovim](apps/neovim) |
-| pi | TUI agent harness | [apps/pi](apps/pi) |
-| claude code | TUI agent | [apps/claude-code](apps/claude-code) |
-| btop | TUI monitor | [apps/btop](apps/btop) |
-| atuin | TUI history | [apps/atuin](apps/atuin) |
-| yazi | TUI file manager | [apps/yazi](apps/yazi) |
-| leaf | TUI markdown reader | [apps/leaf](apps/leaf) |
-| tandem | TUI board | [apps/tandem](apps/tandem) |
-| spotifast | GUI music | [apps/spotifast](apps/spotifast) |
-| quickshell | GUI widgets | [apps/quickshell](apps/quickshell) |
-| starship | shell prompt | [apps/starship](apps/starship) |
-| zsh-patina | shell highlighting | [apps/zsh-patina](apps/zsh-patina) |
-| eza | CLI listing | [apps/eza](apps/eza) |
-| fastfetch | CLI summary | [apps/fastfetch](apps/fastfetch) |
-
+omarchy · [herdr app](apps/herdr-app) · [ghostty](apps/ghostty) · [foot](apps/foot) · [chromium](apps/chromium) · [obsidian](apps/obsidian) · [spotifast](apps/spotifast) · [quickshell](apps/quickshell) · [hokum](apps/hokum) · [hyprland](apps/hyprland) · [neovim](apps/neovim) · [pi](apps/pi) · [claude code](apps/claude-code) · [btop](apps/btop) · [atuin](apps/atuin) · [yazi](apps/yazi) · [leaf](apps/leaf) · [tandem](apps/tandem) · [starship](apps/starship) · [zsh-patina](apps/zsh-patina) · [eza](apps/eza) · [fastfetch](apps/fastfetch)
 
 ## how to use
 
