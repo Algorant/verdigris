@@ -4,7 +4,7 @@
 
 Single-color logo marks recolored with named Verdigris palette colors, plus the
 scripts and steps that produce them. Colors always come from
-[`../css/palette.json`](../css/palette.json), so a palette release can be
+[`../palette/verdigris.json`](../palette/verdigris.json), so a palette release can be
 re-rendered instead of hand-edited.
 
 | Set | Source | Colors | Used by |

@@ -19,11 +19,11 @@ Not quite gruvbox-dark, and not quite everforest, but inspired by both.
 | aqua | `#83a598` | cool aqua accent |
 | ochre | `#e6bf86` | warm brass accent |
 
-Machine-readable palette available [`here`](./css/palette.json).
+Machine-readable palette available [`here`](./palette/verdigris.json).
 
 ## Versioning
 
-The palette follows [Semantic Versioning](https://semver.org/) beginning with `0.1.0`. The current version is recorded in [`css/palette.json`](./css/palette.json), and release history is tracked in [`CHANGELOG.md`](./CHANGELOG.md). Application ports may adopt palette releases independently.
+The palette follows [Semantic Versioning](https://semver.org/) beginning with `0.1.0`. The current version is recorded in [`palette/verdigris.json`](./palette/verdigris.json), and release history is tracked in [`CHANGELOG.md`](./CHANGELOG.md). Application ports may adopt palette releases independently.
 
 ## Additional Colors
 
@@ -70,8 +70,8 @@ When a guard stops a push, fix the text; never run `gitguard accept` without Alg
 
 ## Palette artifacts
 
-- [`css/palette.json`](./css/palette.json) — canonical machine-readable palette data
-- [`css/palette.css`](./css/palette.css) — CSS custom properties for ports and color preview tools
-- [`css/palette-notes.md`](./css/palette-notes.md) — design notes, role decisions, and palette history
+- [`palette/verdigris.json`](./palette/verdigris.json) — canonical machine-readable palette data
+- [`css/palette.css`](./palette/verdigris.css) — CSS custom properties for ports and color preview tools
+- [`palette/notes.md`](./palette/notes.md) — design notes, role decisions, and palette history
 - [`_images/verdigris-core-swatch.svg`](./_images/verdigris-core-swatch.svg) — core swatch
 - [`additional-colors/`](./additional-colors/) — additional colors guide and swatch

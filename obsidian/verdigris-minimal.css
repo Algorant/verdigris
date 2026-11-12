@@ -2,7 +2,7 @@
  * Verdigris for Obsidian (Minimal)
  * --------------------------------
  * Single source of truth for the Verdigris look in Obsidian.
- * Canonical palette: css/palette.json in the Verdigris repository
+ * Canonical palette: palette/verdigris.json in the Verdigris repository
  *
  * WHY A SNIPPET (not Style Settings):
  *   Style Settings only emits CSS for option IDs the *currently installed*
