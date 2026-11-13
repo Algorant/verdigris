@@ -3,11 +3,10 @@ id: task-9
 uid: fd141598-2ad2-4383-8b6c-54c6759d3847
 type: task
 title: "Restore additional colors reference"
-state: "validation"
 effort: "medium"
 relatedFiles: ["README.md", "additional-colors/", "build/generate-additional-colors.py", "build/README.md", "palette/verdigris.json"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["Additional-colors page contains version, six-color-only swatch and one table of the old six short roles; no tints/trials/examples/footer/essay/generator.", "Trial JSON entries ochre-alt/brown-green/dark-ochre-trial removed unless actual shipped-port usage proves retention necessary; no port modified.", "Oxblood-text and oxblood-bright remain in palette JSON but do not appear on the additional-colors page or swatch.", "Homepage link targets additional-colors/ and no generator/docs bullet remains.", "Same Sideshow post 4caGtaNYbmE updated with GitHub-style render, JSON changes reported to Herdra, no merge before approval."]
   claimedAt: "2026-11-13T04:41:44Z"
   deliveredAt: "2026-11-13T04:59:54Z"
@@ -16,14 +15,18 @@ accord:
   summary: "Six-only historical-style reference ready at 4892e48; same preview post updated, JSON retained by actual shipped-port exception, unmerged for Algorant."
   evidence: ["Owner verified current README contains only title/version/swatch/six short-role rows; six SVG groups, no tint overlays; diff --check clean.", "JSON byte-identical: all three trial hexes have actual shipped-port uses (btop/Leaf/Obsidian/Starship), so explicit exception applies. Oxblood tints retained in JSON only.", "Same Sideshow post 4caGtaNYbmE: GitHub Markdown render, HTTP 200 session; no app configuration changes or merge/push."]
   filesChanged: ["README.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg"]
-  updatedAt: "2026-11-13T05:01:16Z"
+  updatedAt: "2026-11-13T05:01:33Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T05:01:16Z"
+updatedAt: "2026-11-13T05:01:33Z"
 assignee: "pi:additional-colors-reference"
 validation.criterion: "Same Sideshow post 4caGtaNYbmE updated with GitHub-style render, JSON changes reported to Herdra, no merge before approval."
 validation.note: "Six-only revision 4892e48 ready for Algorant: no prose, tints, trials or examples. JSON unchanged only because all three trial values have documented actual shipped-port use. Same session/post; unmerged/unpushed pending yes."
 validation.requestedAt: "2026-11-13T04:59:56Z"
 validation.reviewer: "Algorant"
+archivedAt: "2026-11-13T05:01:33Z"
+resolution:
+  outcome: "completed"
+  note: "Merged by worker_finish: additional-colors-reference → main at 71a6865e1d89283c8451446fd430c5c32984c4df."
 ---
 
 ## Description
