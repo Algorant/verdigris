@@ -1,11 +1,15 @@
-# verdigris for fastfetch
+# fastfetch
 
-CLI system summary, shown at login.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>shot</sub></td>
+  </tr>
+</table>
 
-## install
+- System summary, printed at login
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
-Copy `config.jsonc` to `~/.config/fastfetch/config.jsonc`.
+## files
 
-## notes
-
-Uses the omarchy mark recoloured in the palette; the logo art lives in my dotfiles.
+- `config.jsonc`
+- `logos/`

@@ -1,7 +1,5 @@
 # omarchy-verdigris-theme
 
-## gallery
-
 <table>
   <tr>
     <td align="center"><a href="screenshot.png"><img src="thumbs/omarchy.jpg" width="260"></a><br><sub>omarchy</sub></td>
@@ -9,24 +7,19 @@
   </tr>
 </table>
 
+- Desktop theme for omarchy: bar, menus, borders and wallpapers
+- [omarchy-verdigris-theme](https://github.com/Algorant/omarchy-verdigris-theme)
+- [Algomarchy](https://github.com/Algorant/omarchy-setup) — my omarchy setup, where this theme is used
+
 ## files
 
-- [`colors.toml`](https://github.com/Algorant/omarchy-verdigris-theme/blob/main/colors.toml) — the theme's colours
-- [wallpapers](https://github.com/Algorant/omarchy-verdigris-theme/tree/main/backgrounds) — two triptychs and 26 recoloured alternates
-
-## project
-
-- Desktop theme for omarchy: bar, menus, borders and wallpapers
-- [Algorant/omarchy-verdigris-theme](https://github.com/Algorant/omarchy-verdigris-theme), for [omarchy](https://github.com/omacom/omarchy)
+- [`colors.toml`](https://github.com/Algorant/omarchy-verdigris-theme/blob/main/colors.toml)
+- [wallpapers](https://github.com/Algorant/omarchy-verdigris-theme/tree/main/backgrounds)
 
 ## parts
 
-- [widgets](widgets) — calendar, flux, system monitor and the rest of the bar
-- [hyprland](hyprland) — window borders and the share picker
-- [floating terminal](floating-terminal) — ghostty as a floating window
-- [omari](omari) — the overview and alt-tab keybinds
-- [hokum](../hokum) — notification cards
+- [widgets](widgets) · [hyprland](hyprland) · [floating terminal](floating-terminal) · [omari](omari) · [hokum](../hokum)
 
 ## notes
 
-`omarchy theme install https://github.com/Algorant/omarchy-verdigris-theme` installs it as `verdigris`. Omarchy generates the ghostty, foot, hyprland, chromium and shell files from these colours; apps worth their own page have one.
+`omarchy theme install https://github.com/Algorant/omarchy-verdigris-theme` installs it as `verdigris`.

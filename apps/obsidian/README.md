@@ -1,13 +1,15 @@
-# verdigris for obsidian
+# obsidian
 
-GUI notes app. My vault, with the Minimal theme.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot-2.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>note</sub></td>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/2.jpg" width="260"></a><br><sub>second note</sub></td>
+  </tr>
+</table>
 
-## install
+- Notes, wearing the theme
+- [obsidian](https://obsidian.md)
 
-Copy `verdigris.css` into your vault's `.obsidian/snippets/`, then enable it under Appearance → CSS snippets.
+## files
 
-## notes
-
-A snippet rather than a theme, so it layers over Minimal's variables. My desktop generates this file from the omarchy theme; this copy is the standalone version.
-
-Two pictures from my own vault. The first needs a higher-resolution retake; it is a placeholder until then.
+- `verdigris.css`

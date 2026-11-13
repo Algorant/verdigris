@@ -1,13 +1,15 @@
-# verdigris for hokum
+# hokum
 
-GUI notification daemon. The notification cards on my desktop.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/hokum.jpg" width="260"></a><br><sub>three cards</sub></td>
+    <td align="center"><a href="screenshot-2.png"><img src="thumbs/hokum-2.jpg" width="260"></a><br><sub>cards close up</sub></td>
+  </tr>
+</table>
 
-## install
+- Notification cards, in the theme's colours
+- [hokum](https://github.com/Algorant/hokum)
 
-Copy `verdigris-capsule.kdl` into `~/.config/hokum/themes/`, then set `theme "verdigris-capsule"`.
+## files
 
-## notes
-
-It extends Hokum's Capsule layout and overrides only colours, so the card layout is unchanged.
-
-No screenshot: a notification card shows the sending app's content, which is not mine to publish.
+- `verdigris-capsule.kdl`

@@ -1,13 +1,14 @@
-# verdigris for pi
+# pi
 
-TUI coding agent harness. Where I run agents all day.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/pi.jpg" width="260"></a><br><sub>pi</sub></td>
+  </tr>
+</table>
 
-## install
+- Coding agent harness, with the theme loaded
+- [pi](https://github.com/earendil-works/pi)
 
-Copy `verdigris.json` into `~/.pi/agent/themes/` and select `verdigris`.
+## files
 
-## notes
-
-The theme is owned here; my pi setup links to this file instead of keeping a copy.
-
-No screenshot: the interface needs a signed-in session before it settles on a themed screen, and a first-run frame would show no theme.
+- `verdigris.json`

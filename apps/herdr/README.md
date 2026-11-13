@@ -1,14 +1,14 @@
 # herdr
 
-## files
-
-- [`verdigris.json`](verdigris.json) — the app theme
-
-## project
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/herdr.jpg" width="260"></a><br><sub>herdr</sub></td>
+  </tr>
+</table>
 
 - Terminal and agent window
-- [Algorant/herdr](https://github.com/Algorant/herdr)
+- [herdr](https://herdr.dev)
 
-## notes
+## files
 
-Dark only. Copy the file into `~/.config/herdr-app/themes/` and pick verdigris in the theme menu.
+- `verdigris.json`

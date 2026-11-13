@@ -1,11 +1,14 @@
-# verdigris for yazi
+# yazi
 
-TUI file manager. My file browsing in the terminal.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>shot</sub></td>
+  </tr>
+</table>
 
-## install
+- File manager for the terminal
+- [yazi](https://github.com/sxyazi/yazi)
 
-Copy `verdigris.toml` to `~/.config/yazi/theme.toml`.
+## files
 
-## notes
-
-Cut markers use the oxblood text tint so they stay legible on the dark background.
+- `verdigris.toml`

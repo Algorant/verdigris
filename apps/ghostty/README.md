@@ -1,13 +1,14 @@
-# verdigris for ghostty
+# ghostty
 
-GUI terminal. My daily terminal.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>shot</sub></td>
+  </tr>
+</table>
 
-## install
+- Terminal
+- [ghostty](https://github.com/ghostty-org/ghostty)
 
-Copy `verdigris` into `~/.config/ghostty/themes/`, then set `theme = verdigris`.
+## files
 
-## notes
-
-Colours only; font, padding and behaviour stay in my dotfiles.
-
-The picture is a floating ghostty running fastfetch, which shows the terminal and the floating-window look at once.
+- `verdigris`

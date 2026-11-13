@@ -1,13 +1,14 @@
-# verdigris for leaf
+# leaf
 
-TUI markdown reader. Reading notes in the terminal.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>shot</sub></td>
+  </tr>
+</table>
 
-## install
+- Markdown reader for the terminal
+- [leaf](https://github.com/rivolink/leaf)
 
-Copy `verdigris.toml` into `~/.config/leaf/themes/`, then run `leaf --theme verdigris`.
+## files
 
-## notes
-
-Leaf cannot load a custom syntax theme, so syntax colours come from a built-in base16 scheme; the UI colours are mine.
-
-The picture is a readme open in leaf on my desktop.
+- `verdigris.toml`

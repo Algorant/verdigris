@@ -1,11 +1,16 @@
-# verdigris for eza
+# eza
 
-CLI file listing. `ls` and `la` on my machines.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/2.jpg" width="260"></a><br><sub>eza</sub></td>
+    <td align="center"><a href="screenshot-2.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>my ls alias</sub></td>
+    <td align="center"><a href="screenshot-3.png"><img src="thumbs/3.jpg" width="260"></a><br><sub>tree view</sub></td>
+  </tr>
+</table>
 
-## install
+- File listing, coloured
+- [eza](https://github.com/eza-community/eza)
 
-Copy `theme.yml` to `~/.config/eza/theme.yml`.
+## files
 
-## notes
-
-No window of its own; screenshots show it inside a terminal. The second picture is my own `ls`, which is aliased to eza. It is a candidate rather than a showpiece.
+- `theme.yml`
