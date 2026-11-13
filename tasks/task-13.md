@@ -6,16 +6,17 @@ title: "Explore algOS wordmarks"
 state: "in-progress"
 effort: "small"
 accord:
-  status: "delivered"
+  status: "rework"
   acceptance: ["Only verified JetBrains Mono Regular is used in round4; prior-font continuity or switch is stated accurately.", "4×2 side-by-side grid compares all four mark colors at 33% vs40% with controlled OS cap/mark geometry; each cell includes banner and square icon.", "Blue-only small-size ladder for each ratio is rendered and inspected, without inventing differences in unchanged standalone icons.", "All rounds' artifacts are preserved, and SVG+PNG for all four colors/both sizes persist under ~/.local/share/verdigris/algos/, not only /tmp.", "New post in same Sideshow session is reported to Herdra with persistent folder path; no repo/live branding changes."]
   claimedAt: "2026-11-13T14:17:59Z"
   deliveredAt: "2026-11-13T18:07:32Z"
   constraints: ["No repository source edits, commits, pushes or live settings changes.", "Preserve all existing artifacts; durable local artwork under ~/.local/share/verdigris/algos/ supersedes /tmp-only storage.", "No image-generation spend, dependency installs or new tools required; use existing SVG/raster tools and fonts.", "American spelling; keep standard original Omarchy mark geometry."]
   summary: "Round 4: verified JetBrains Mono Nerd Font Regular, four mark-color rows × 33/40% body-to-cap columns with banner+icon cells, blue whole-wordmark ladders, and all rounds preserved in durable storage."
   evidence: ["Sideshow post 'algOS round 4 — Mono Regular, four colors, two ratios' in existing session 0kP-K1iU0P0 (postId aEcdwJDSGIA); matrix and two blue wordmark ladders published, MagicDNS session HTTP 200.", "fontconfig resolves JetBrains Mono Regular to /usr/share/fonts/TTF/JetBrainsMonoNerdFont-Regular.ttf; fc-query reports Regular. Round-3 JetBrains Mono regular row used the same resolved face.", "Rendered cell pixels measured 33% column at 26.0/78.5=0.331 and 40% at 29.0/73.0=0.397 across all four colors. Each pair has its own SVG and PNG; each cell includes banner and square icon.", "Copied complete prior /tmp/algos-mockups-1794579494 tree to ~/.local/share/verdigris/algos/2026-11-13-algos-wordmark-concepts/; diff -qr confirms prior contents identical and original /tmp remains. round4/INVENTORY.md inventories all eight cells and comparison sheets.", "Inspected final matrix and both ladders: all labels legible, whole-wordmark ladders non-overlapping, no clipped glyphs. Project git status --porcelain remains empty; no source/live changes, installs, or spend."]
-  updatedAt: "2026-11-13T18:07:32Z"
+  note: "Herdra requested a controlled-scale correction before owner handoff: share one fit scale across all eight matrix cells and paired ladder steps so OS/mark cap is identical at 33% and 40%; snapshot previous published round4 artifacts first. Also state Nerd-Font-patched regular face accurately."
+  updatedAt: "2026-11-13T18:12:14Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T18:07:32Z"
+updatedAt: "2026-11-13T18:12:14Z"
 assignee: "pi:algos-wordmark-concepts"
 ---
 
