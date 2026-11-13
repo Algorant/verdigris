@@ -12,7 +12,7 @@ accord:
   acceptance: ["Every app README opens with a gallery table in the approved format: three columns where there is room, a small caption under each tile, each tile linking to the full screenshot.", "Each app's thumbnails are small copies beside the app (thumbs/) generated from its own screenshots, and a README with more than about nine shots folds the extras under more screenshots.", "The pattern is proven on one app as a mockup before it is applied everywhere; the installed layout still shows the install steps and notes below the gallery."]
   updatedAt: "2026-11-12T23:13:52Z"
 createdAt: "2026-11-12T23:13:52Z"
-updatedAt: "2026-11-13T02:35:55Z"
+updatedAt: "2026-11-13T02:41:39Z"
 ---
 
 ## Description
@@ -105,3 +105,12 @@ Algorant: "those rules are fine for now and yes the recommended algomarchy link"
 - Privacy: the hokum cards read "Backup failed — couldn't reach the NAS", "Weathered Copper · Patina Sessions", "Standup in 10 minutes · Daily sync · Room 2"; sample content, flagged to Herdra, no crop applied. The docker video shows only a permission error and a pacman cache listing, so nothing needed hiding.
 
 Colour finding: fzf's own colours are already verdigris (FZF_DEFAULT_OPTS, ~/.config/zsh/.zshrc:22-26); the off red comes from `bat --color=always` in the nv preview, which uses bat's default syntax theme. Smallest fix, routed through Algomarchy: `BAT_THEME=ansi` in his shell so bat borrows the terminal's verdigris ANSI red (oxblood-text), no new file. Upgrade path if he wants independent control: a verdigris tmTheme in apps/bat/ plus `bat cache --build`.
+
+
+## App pages merged (Algorant via Herdra m09991905)
+
+Algorant: "yes merge the app pages from the branch for now".
+
+- PR #4 merged with merge commit 5f7b1cd286b0e2ea8e500f47d201e080a20c6274; branch deleted; local main fast-forwarded.
+- Pages verified rendering on main: btop, nvim, omarchy, pi, herdr, eza, zsh/patina, hokum all 200; the zsh-patina GIF serves (333 KB).
+- Still open with Algorant: the bat red fix (BAT_THEME=ansi through Algomarchy, or a verdigris tmTheme), the step-10 dotfiles switch, and the hokum/spotifast/flea questions (no upstream links for hokum and spotifast, no folder for flea).
