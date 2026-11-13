@@ -12,7 +12,7 @@ accord:
   acceptance: ["Every app README opens with a gallery table in the approved format: three columns where there is room, a small caption under each tile, each tile linking to the full screenshot.", "Each app's thumbnails are small copies beside the app (thumbs/) generated from its own screenshots, and a README with more than about nine shots folds the extras under more screenshots.", "The pattern is proven on one app as a mockup before it is applied everywhere; the installed layout still shows the install steps and notes below the gallery."]
   updatedAt: "2026-11-12T23:13:52Z"
 createdAt: "2026-11-12T23:13:52Z"
-updatedAt: "2026-11-13T02:12:23Z"
+updatedAt: "2026-11-13T02:27:16Z"
 ---
 
 ## Description
@@ -82,3 +82,14 @@ Applied (c06805e, branch only): all three pages now title → bare table → one
 Rule set proposed in the session post "app pages: rules from your edits" (8 rules: real project name as title, gallery with no heading, two bullets, files only for real files, notes rare, no headings for one-liners, desktop pages link Algomarchy + parts, nothing repeated). Herdra adds them to the global repo-style rules after Algorant OKs.
 
 Open question for Herdra: the public URL for Algomarchy (Algorant/omarchy-setup is currently private).
+
+
+## Rules applied to every page (Algorant via Herdra m976a7b22)
+
+Algorant: "those rules are fine for now and yes the recommended algomarchy link". Herdra added the 8 rules to his style memory.
+
+- Algomarchy link stays as https://github.com/Algorant/omarchy-setup (live when the guide goes public).
+- Branch app-pages2 (059bcec) applies the rules to all 17 pages: bare gallery table with thumbs generated per app, one sentence plus project link, files only where files exist, notes only where situational (omarchy install line, patina's missing picture).
+- Omarchy parts pages (widgets, hyprland, floating-terminal, omari) and zsh/patina follow the same shape.
+- Pages with no picture: herdr, hokum, pi, zsh, zsh/patina, hyprland, omari.
+- Links that could not be verified and are therefore omitted: hokum and spotifast have no resolvable upstream repo; herdr points at https://herdr.dev. Needs Algorant's word if they have GitHub repos worth linking.
