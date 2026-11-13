@@ -17,7 +17,7 @@ PALETTE = ROOT / "palette" / "verdigris.json"
 
 # Terminal ANSI slots, in order, as palette color names.
 ANSI = [
-    "base", "oxblood-text", "patina", "ochre", "teal", "ink-violet", "aqua", "soft-light",
+    "base", "oxblood-text", "patina", "ochre", "teal", "ink-violet", "aqua", "vellum",
     "muted", "oxblood-bright", "fern", "ochre", "aqua", "ink-violet", "aqua", "vellum",
 ]
 
