@@ -1,5 +1,11 @@
 # zsh-patina
 
+<table>
+  <tr>
+    <td align="center"><a href="zsh-patina.gif"><img src="zsh-patina.gif" width="420"></a><br><sub>typing a couple of commands</sub></td>
+  </tr>
+</table>
+
 - Syntax highlighting while typing in zsh
 - [michel-kraemer/zsh-patina](https://github.com/michel-kraemer/zsh-patina)
 
@@ -9,4 +15,4 @@
 
 ## notes
 
-Copy it into `~/.config/zsh-patina/themes/` and select it in `config.toml`. No picture yet: the highlighting only exists while typing in a real zsh.
+Copy it into `~/.config/zsh-patina/themes/` and select it in `config.toml`.
