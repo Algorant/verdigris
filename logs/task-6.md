@@ -3,13 +3,12 @@ id: task-6
 uid: 1535b669-8b69-419b-8fc0-68ca13485f8b
 type: task
 title: "Port verdigris to lazygit and add its page"
-state: "in-progress"
 priority: "medium"
 effort: "small"
 relatedFiles: ["apps/lazygit/", "README.md"]
 tags: ["port", "app-page", "verify-with-algorant"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["apps/lazygit/config.yml holds a gui.theme block built only from palette/verdigris.json tokens, and every key it sets exists in lazygit's default theme", "apps/lazygit/README.md follows the page rules and is linked from the homepage terminal/cli list", "Algomarchy has applied the block to his live ~/.config/lazygit/config.yml; he has opened lazygit and answered", "His retaken screenshot replaces the pre-port one in the gallery, md5-checked against his file", "Pushed to main only after his OK, with the branch left local until then"]
   claimedAt: "2026-11-13T03:08:49Z"
   deliveredAt: "2026-11-13T03:11:41Z"
@@ -17,10 +16,16 @@ accord:
   summary: "lazygit ported and published: 11-key gui.theme block from palette 0.2.0, apps/lazygit page with his retake, homepage entry; his live config verified identical by parsing both files."
   evidence: ["main 4bc1fcf apps/lazygit/screenshot.png md5 787410b1fe2e = his retake", "live ~/.config/lazygit/config.yml gui.theme == repo block, 11 keys, no extras", "pre-push check: media only, no findings"]
   filesChanged: ["apps/lazygit/config.yml", "apps/lazygit/README.md", "apps/lazygit/screenshot.png", "apps/lazygit/thumbs/1.jpg", "apps/lazygit/screenshot.tape", "README.md"]
-  updatedAt: "2026-11-13T03:11:41Z"
+  reviewer: "Algorant"
+  updatedAt: "2026-11-13T20:31:36Z"
 createdAt: "2026-11-13T03:05:14Z"
-updatedAt: "2026-11-13T03:11:41Z"
+updatedAt: "2026-11-13T20:31:36Z"
 assignee: "verdigris-ceph"
+archivedAt: "2026-11-13T20:31:36Z"
+resolution:
+  outcome: "completed"
+  note: "Settled during approved session rollover: Algorant approved the live theme and push (Herdra m72bb5a4f, mf1dbcd0a), then explicitly supplied the accepted retake (m10b17070). Retake already pushed in 4bc1fcf, md5 787410b1fe2e verified again; live config is now symlinked and byte-identical to repo. No implementation left; closing the delivered Task as previously instructed."
+  reviewer: "Algorant"
 ---
 
 ## Description
