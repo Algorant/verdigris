@@ -14,4 +14,4 @@ Annotation = "#928374" # muted gray: secondary metadata
 Muted = "#665c54"      # ashbronze: low-emphasis UI
 AlertInfo = "#689d6a"  # patina: informational state
 AlertWarn = "#e6bf86"  # ochre: warnings
-AlertError = "#c66f70" # red: errors
+AlertError = "#74363d" # oxblood: errors
