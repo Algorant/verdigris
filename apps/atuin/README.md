@@ -1,13 +1,15 @@
-# verdigris for atuin
+# atuin
 
-TUI shell history. Ctrl+R on every machine.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot-2.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>theme</sub></td>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/2.jpg" width="260"></a><br><sub>my history</sub></td>
+  </tr>
+</table>
 
-## install
+- Shell history, searched from the terminal
+- [atuin](https://github.com/atuinsh/atuin)
 
-Copy `verdigris.toml` into `~/.config/atuin/themes/`, then set `theme.name = "verdigris"`.
+## files
 
-## notes
-
-Alerts use the readable oxblood tint, not the fill.
-
-The first picture is rendered from the committed tape; the second is my own history. The red in that one is not yet verdigris oxblood, so it is a placeholder until the colour is fixed and the shot retaken.
+- `verdigris.toml`

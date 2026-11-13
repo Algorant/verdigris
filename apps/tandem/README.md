@@ -1,13 +1,15 @@
-# verdigris for tandem
+# tandem
 
-TUI and CLI task board.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot-2.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>board</sub></td>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/2.jpg" width="260"></a><br><sub>seeded board</sub></td>
+  </tr>
+</table>
 
-## install
+- Task board
+- [tandem](https://github.com/Algorant/tandem)
 
-Copy `verdigris.toml` into `~/.config/tandem/themes/`, then set the theme to `verdigris`.
+## files
 
-## notes
-
-Transparent background, so the terminal's own background shows through like my other ports.
-
-The board in the picture is a fixture one, deliberately empty.
+- `verdigris.toml`

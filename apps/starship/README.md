@@ -1,13 +1,14 @@
-# verdigris for starship
+# starship
 
-Shell prompt. The pill prompt on every machine.
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>shot</sub></td>
+  </tr>
+</table>
 
-## install
+- Prompt
+- [starship](https://github.com/starship/starship)
 
-Paste the `[palettes.verdigris]` table into your `starship.toml` and set `palette = 'verdigris'`.
+## files
 
-## notes
-
-Only the palette lives here; my prompt layout and modules stay in my dotfiles.
-
-The prompt carries a clock, so this frame shows the time it was rendered.
+- `verdigris.toml`
