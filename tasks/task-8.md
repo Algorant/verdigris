@@ -14,7 +14,7 @@ accord:
   constraints: ["No live configuration changes.", "Correct Hokum upstream to anomalyco/hokum; do not change omarchy-setup links.", "Use American spelling.", "Do not push; owner verifies and pushes after integration."]
   updatedAt: "2026-11-13T04:41:27Z"
 createdAt: "2026-11-13T04:38:01Z"
-updatedAt: "2026-11-13T04:41:27Z"
+updatedAt: "2026-11-13T04:42:18Z"
 assignee: "verdigris"
 ---
 
@@ -33,3 +33,9 @@ Owner performs final full-history scan and version recommendation after document
 Algorant: "hokum is an opencode project with its own github. I only have a specific colorscheme for it". The actual upstream is https://github.com/anomalyco/hokum, not Algorant/hokum. Supersedes the earlier prohibition on editing that link: correct apps/hokum/README.md in the same documentation commit. omarchy-setup stays unchanged.
 ## Additional colors scope correction (m01044254)
 Algorant says the homepage placeholder is for the deleted additional-colors reference, not a link to remove or substitute. Restoration is a separate Task; that Task owns the final README target and visible swatch. task-8's already-integrated palette-notes link is interim and superseded by the restored page. Continue other documentation gaps, version proposal and scan without treating the interim link as fulfilling restoration.
+## Delivered
+Documentation changes integrated and pushed as 51dfaff42536dcff862162af7b372e070d77255e (README intermediate palette-notes link, Spotifast inheritance note, accurate changelog coverage/version claim, corrected anomalyco/hokum upstream). Additional colors restoration/final homepage target now owned by task-9; no replacement of that requested visible reference is claimed here. omarchy-setup link unchanged.
+
+Full-history command: `gitguard scan --all-refs --history` using gitguard 0.5.1 after integration at 51dfaff. Exit 0. Result: `no findings in 140 commit(s), but 121 item(s) not verified: not clean`; 121 media files unscanned (1 GIF, 62 JPG, 58 PNG). Log: /tmp/verdigris-history-scan-51dfaff.log. No whole-history clean claim; these media remain outside gitguard coverage. Normal push gitleaks checks found no leaks.
+
+Version proposal (not executed): one annotated v0.2.0 tag for the palette/reference baseline, after Algorant accepts task-9's restored visible reference and media review coverage is accounted for. No tag or release now; no automated release machinery. State explicitly that app ports adopt independently and this is the palette version, not a claim of synchronized version headers across ports.

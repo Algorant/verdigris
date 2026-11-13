@@ -54,3 +54,4 @@
 {"ts":"2026-11-13T04:41:25Z","event":"task.created","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":54,"data":{"title":"Restore additional colors reference"}}
 {"ts":"2026-11-13T04:41:27Z","event":"task.updated","id":"task-8","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":55,"data":{"fields":["acceptance","body"]}}
 {"ts":"2026-11-13T04:41:44Z","event":"accord.claimed","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":56,"data":{}}
+{"ts":"2026-11-13T04:42:18Z","event":"task.updated","id":"task-8","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":57,"data":{"fields":["body"]}}
