@@ -12,13 +12,13 @@ accord:
   claimedAt: "2026-11-13T04:41:44Z"
   deliveredAt: "2026-11-13T04:59:54Z"
   validation: ["$ git diff --check"]
-  constraints: ["No live changes, app-port changes, tags or releases.", "Only authorized palette edits are unused trial removals; oxblood text/bright tints retained.", "No palette-to-theme generators.", "No merge until Algorant accepts visible result.", "American spelling."]
+  constraints: ["No live changes, app-port changes, tags or releases.", "Only authorized palette edits are unused trial removals; oxblood text/bright tints retained.", "No palette-to-theme generators.", "Algorant accepted 4892e48 via Herdra m2f99760a; merge/push authorized, tag not authorized.", "American spelling."]
   summary: "Six-only historical-style reference ready at 4892e48; same preview post updated, JSON retained by actual shipped-port exception, unmerged for Algorant."
   evidence: ["Owner verified current README contains only title/version/swatch/six short-role rows; six SVG groups, no tint overlays; diff --check clean.", "JSON byte-identical: all three trial hexes have actual shipped-port uses (btop/Leaf/Obsidian/Starship), so explicit exception applies. Oxblood tints retained in JSON only.", "Same Sideshow post 4caGtaNYbmE: GitHub Markdown render, HTTP 200 session; no app configuration changes or merge/push."]
   filesChanged: ["README.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg"]
-  updatedAt: "2026-11-13T04:59:54Z"
+  updatedAt: "2026-11-13T05:01:16Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T04:59:56Z"
+updatedAt: "2026-11-13T05:01:16Z"
 assignee: "pi:additional-colors-reference"
 validation.criterion: "Same Sideshow post 4caGtaNYbmE updated with GitHub-style render, JSON changes reported to Herdra, no merge before approval."
 validation.note: "Six-only revision 4892e48 ready for Algorant: no prose, tints, trials or examples. JSON unchanged only because all three trial values have documented actual shipped-port use. Same session/post; unmerged/unpushed pending yes."
@@ -46,3 +46,5 @@ Page: version line, swatch displaying ONLY moss/teal/oxblood/goldenrod/deep-copp
 Branch additional-colors-reference at 4892e48, unpushed/unmerged. Page now only title, palette version, six-only swatch, one six-row table with historical short roles. No prose/tints/trials/examples/footer/generator. Net diff from 51dfaff is three files only: homepage link and reference README/SVG.
 JSON is byte-identical, per explicit shipped-port exception: #d8a65c (ochre-alt) in Leaf inline_code_fg/search_match_bg, Obsidian --v-ochre-deep, Starship color_ochre_alt; #604b29 (brown-green) in btop available_start/used_start/upload_start and Starship color_brown_green; #8b6021 (dark-ochre-trial) in btop used_mid and Starship color_dark_ochre. No port changed; oxblood text/bright tints retained in JSON and absent from page/swatch.
 Same Sideshow post 4caGtaNYbmE revised using GitHub Markdown API. Owner verified six table rows, six SVG color groups, all non-page supporting names absent, JSON unchanged; inspected bounded six-only swatch. Manus verified real rendered page has only H1, version paragraph, image and six-row table. Session http://desktop.tail1cefc.ts.net:8228/session/rsnVsfi6go4 returns HTTP 200. Waiting on Algorant.
+## Algorant approval (Herdra m2f99760a)
+Algorant: "I approved the new six only colors page". Approved revision 4892e48 for integration into main and push; run gitguard on the pushed range and complete task-9. No tag approval: only propose annotated v0.2.0 tag/message, do not create it yet.
