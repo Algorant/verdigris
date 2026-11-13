@@ -13,7 +13,7 @@ accord:
   constraints: ["No live settings edits, no theme-value changes.", "No merge or changes to additional-colors branch/task-9.", "No push by Worker; owner runs explicit gitguard check and pushes.", "American spelling."]
   updatedAt: "2026-11-13T04:55:36Z"
 createdAt: "2026-11-13T04:55:15Z"
-updatedAt: "2026-11-13T04:55:36Z"
+updatedAt: "2026-11-13T04:58:55Z"
 assignee: "verdigris"
 ---
 
@@ -25,3 +25,8 @@ Header-only cleanup of two historical generated comments is escalated separately
 
 ## Header clarification (Herdra m8775da0e)
 Approved: remove stale Generated-from wording in Ghostty and Hyprland headers, preserving every actual color/configuration byte. Unchanged means config/values, not stale comments. Keep true runtime Omarchy-generation and screenshot/logo-tool instructions.
+## Verified and pushed
+432eb3a9e9c928f4e8ed738e151e9fcf6496b750 is on origin/main. Deleted build/generate.py and build/generate-spotifast.py; no other tracked palette-to-theme generator remains. Docs describe hand-kept bespoke ports; stale Generated-from comments removed from Ghostty/Hyprland only, with actual non-comment configuration independently compared unchanged. Spotifast JSON byte-identical to pre-removal file.
+Retained build/mask_from_grid.py and build/render_logos.py: inspected implementation and Worker ran both in disposable temp directories. Mask tool emits currentColor SVG mask; logo tool emits palette-colored PNGs and a preview sheet. Neither creates theme/config files. Stale usage filenames captured separately as papercut task-12, not changed here.
+Explicit gitguard scan --range ebcebe8..432eb3a exited 0: no findings in 1 commit. Push also exited 0 with no leaks in the existing gitleaks hook checks. Logs /tmp/verdigris-generator-removal-gitguard.log and /tmp/verdigris-generator-removal-push.log. These are this commit's results, not a new full-history clean claim.
+Repo-only: no live configuration/theme values changed. Additional-colors branch remains separate/unmerged and drops its own generator. task-7 canceled and rescope task-3 records Algorant's rule.
