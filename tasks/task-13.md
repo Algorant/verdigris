@@ -6,17 +6,16 @@ title: "Explore algOS wordmarks"
 state: "in-progress"
 effort: "small"
 accord:
-  status: "rework"
+  status: "delivered"
   acceptance: ["Final plain asset set uses selected JetBrains Mono Regular at measured 40% lowercase body/OS cap, standard unmodified Omarchy O, all four approved colors.", "SVG master per color plus useful high-resolution banner, square-icon and favicon-ladder PNG exports are present, including suitable dark/light contexts; no generator script in final/ folder.", "Final assets persist under ~/.local/share/verdigris/algos/final/, distinct from and not deleting earlier rounds/artifacts.", "Final set is visually inspected and published to same algOS mockups Sideshow session; exact folder/link reported to Herdra and Algomarchy.", "No repo/source/live cutover occurs; permanent-home and rebrand plan remain Algomarchy's separate work."]
   claimedAt: "2026-11-13T14:17:59Z"
-  deliveredAt: "2026-11-13T18:12:41Z"
+  deliveredAt: "2026-11-13T18:19:01Z"
   constraints: ["No repository source edits, commits, pushes or live settings changes.", "Preserve all existing artifacts; durable local artwork under ~/.local/share/verdigris/algos/ supersedes /tmp-only storage.", "No image-generation spend, dependency installs or new tools required; use existing SVG/raster tools and fonts.", "American spelling; keep standard original Omarchy mark geometry."]
-  summary: "Round-4 comparison corrected to one shared scale: both ratios now render the OS cap at 84 px across all eight color cells and at identical paired ladder steps; previous published assets snapshotted before replacement."
-  evidence: ["Updated the same Sideshow post aEcdwJDSGIA (version 2) in session 0kP-K1iU0P0; replaced matrix with the shared-scale rendering and corrected both ladder images and captions.", "Measured final cell PNGs in all four colors: 33% body 28 px / shared OS cap 84 px = 0.333; 40% body 33.5 px / same 84 px = 0.399. Shared matrix scale 0.58647 fits the wider 40% layout; OS and O remain same size in both columns.", "Both blue ladders use a common scale per paired step. Matched OS caps read 68, 59, 49, 39 px in both; lower-case body sizes differ as intended.", "Before replacing any published round-4 files, copied the complete previous round4/ outputs and generator into ~/.local/share/verdigris/algos/2026-11-13-algos-wordmark-concepts/round4-revision-1/. Updated round4/INVENTORY.md documents the snapshot; all earlier rounds and original /tmp tree remain.", "Verified font accurately as installed JetBrainsMono Nerd Font Regular, the Nerd-Font-patched JetBrains Mono regular face; fc-match and fc-query resolve style Regular and the same face as round 3. Final images inspected; git status --porcelain empty."]
-  note: "Algorant selected 40%; finalize reusable plain SVG/PNG assets in all four colors, durable final folder, preview and handoff. Cutover plan owned by Algomarchy."
-  updatedAt: "2026-11-13T18:13:00Z"
+  summary: "Final reusable 40% algOS artwork is in ~/.local/share/verdigris/algos/final/ with SVG masters, dark/light banner exports, high-resolution icons and favicon sizes; published in the existing Sideshow session."
+  evidence: ["New final post dNzGN5MDwXs in session 0kP-K1iU0P0; banner and icon contact sheets show all four colors, dark/light contexts and actual-size favicon ladder; MagicDNS session HTTP 200.", "Final folder has 81 plain files: 8 SVG masters, 72 PNGs and one README, zero scripts. Includes 1280×360 and 2560×720 banners per color/context; icons at 1024/512/256/64/48/32/16 per color/context.", "Actual 1280 banner raster measurement: alg body 57 px against OS cap 143–144 px (0.396–0.399 across contexts, approximately 40%). Common 142-unit SVG design cap and alignment across colors.", "Original mark verified against apps/fastfetch/logos/omarchy-mark.svg: all 51 rects match; two-tone coverage remains exactly the same 95 cells. Font is installed JetBrainsMono Nerd Font Regular (Nerd-Font-patched JetBrains Mono regular face), documented as SVG text dependency; PNGs are rasterized.", "Rounds 1–4 and round4-revision-1 snapshots remain in ~/.local/share/verdigris/algos/2026-11-13-algos-wordmark-concepts/; final set is separate. Project git status --porcelain is empty; no source/live cutover, installs or spend."]
+  updatedAt: "2026-11-13T18:19:01Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T18:13:00Z"
+updatedAt: "2026-11-13T18:19:01Z"
 assignee: "pi:algos-wordmark-concepts"
 ---
 
