@@ -48,7 +48,7 @@
 
 ## terminal/cli
 
-[ghostty](apps/ghostty) · [nvim](apps/nvim) · [pi](apps/pi) · [atuin](apps/atuin) · [eza](apps/eza) · [btop](apps/btop) · [yazi](apps/yazi) · [leaf](apps/leaf) · [starship](apps/starship) · [fastfetch](apps/fastfetch) · [zsh](apps/zsh)
+[ghostty](apps/ghostty) · [nvim](apps/nvim) · [lazygit](apps/lazygit) · [pi](apps/pi) · [atuin](apps/atuin) · [eza](apps/eza) · [btop](apps/btop) · [yazi](apps/yazi) · [leaf](apps/leaf) · [starship](apps/starship) · [fastfetch](apps/fastfetch) · [zsh](apps/zsh)
 
 ## apps
 

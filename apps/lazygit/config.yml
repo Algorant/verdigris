@@ -1,0 +1,27 @@
+# verdigris for lazygit. Paste the gui.theme block into ~/.config/lazygit/config.yml.
+# Values are from palette/verdigris.json (0.2.0); oxblood's text tint serves red.
+gui:
+  theme:
+    activeBorderColor:
+      - "#8ec07c" # fern
+      - bold
+    inactiveBorderColor:
+      - "#665c54" # ashbronze
+    optionsTextColor:
+      - "#83a598" # aqua
+    selectedLineBgColor:
+      - "#292d2a" # lighter background
+    cherryPickedCommitBgColor:
+      - "#458588" # teal
+    cherryPickedCommitFgColor:
+      - "#ebdbb2" # vellum
+    unstagedChangesColor:
+      - "#c66f70" # oxblood-text
+    defaultFgColor:
+      - "#ebdbb2" # vellum
+    searchingActiveBorderColor:
+      - "#b8863b" # goldenrod
+    markedBaseCommitFgColor:
+      - "#e6bf86" # ochre
+    markedBaseCommitBgColor:
+      - "#3a4038" # selected line, lifted
