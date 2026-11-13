@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>shot</sub></td>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>login view</sub></td>
   </tr>
 </table>
 
