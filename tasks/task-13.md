@@ -15,7 +15,7 @@ accord:
   evidence: ["Sideshow post 'algOS round 2 — small alg, capital OS' in session 0kP-K1iU0P0 (postId JQWbpeZmp4w): contact sheet, six banners (01A/01B/03A/03B/05A/05B), three square icons and a real-size icon ladder.", "Ratios measured from rendered pixels: 01A 79/126.5=0.62, 01B 64/126.5=0.51, 03A 0.62, 03B 0.51, 05A 80/127.5=0.63, 05B 64.5/127.5=0.51; alg type at 82% and 66% of the OS size; mark 121 px against the OS cap; side gaps 17/13.5 px; g descender 18.5-27 px below baseline, no clipping.", "Quiet Aqua keeps the blue thin outline: stroke A/B rendered at 3.0/3.8/4.6/5.5% of the mark height and set to 3.8% after inspection.", "git status --porcelain in /home/algorant/Projects/verdigris is empty; round-2 artifacts under /tmp/algos-mockups-1794579494/round2, round-1 files untouched; no installs, image generation or live changes."]
   updatedAt: "2026-11-13T16:46:35Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T16:46:35Z"
+updatedAt: "2026-11-13T16:47:14Z"
 assignee: "pi:algos-wordmark-concepts"
 ---
 
@@ -35,3 +35,6 @@ Preview: http://desktop.tail1cefc.ts.net:8228/session/0kP-K1iU0P0 .
 Algorant, verbatim:
 "algos feedback: I like term, quiet (well the blue and thin outline really) and brass + patina designs. as far as font or general style I would want the 'alg' part smaller and more in lowercase and the 'OS' part larger/capitalized similar to how people do nixOS. not sure of percentages but typical split of size between lowercase and uppercase, maybe a tad bit more exaggerated for a wordmark. take that feedback and focus on just those 3"
 Keep only 01 Term Patina, 03 Quiet Aqua (blue and thin outline mark), 05 Brass and Patina. Lowercase alg smaller, capital OS larger, O still the Omarchy mark. Show each design at two measured ratios (typical and more exaggerated), with banners/square icons and small-size icon ladder. New post in SAME algOS mockups session 0kP-K1iU0P0; clear 01A/01B,03A/03B,05A/05B or equivalent numbered comparison. Drop 02/04/06 from round 2, preserve round-1 post as history. Scratch-only, no installed branding/repo changes.
+## Round 2 delivered
+New post JQWbpeZmp4w (algOS round 2 — small alg, capital OS) in same session 0kP-K1iU0P0. Only 01 Term Patina, 03 Quiet Aqua, 05 Brass and Patina, each A/B. A lowercase body measures ~62–63% of OS cap, B ~50–51%; nominal alg type sizes ~82% and 66% of OS. Omarchy O now ~98% of OS cap so it reads as capital, optical gaps checked. Quiet keeps blue thin-outline mark. Three icons plus actual 64/48/32/24/16px ladder; mark-only square icons don't change between A/B ratios.
+Owner inspected bounded contact-sheet halves and icon ladder, verified clean git and session HTTP 200. Artifacts /tmp/algos-mockups-1794579494/round2; round-1 sources and post preserved. No commits, installs, live/source changes or branding adoption. Needs Algorant's next taste feedback.
