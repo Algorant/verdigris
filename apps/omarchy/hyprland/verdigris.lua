@@ -1,4 +1,4 @@
--- verdigris for hyprland. Generated from palette/verdigris.json.
+-- verdigris for hyprland.
 local active = "#8ec07c"
 local inactive = "rgba(595959aa)"
 
