@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>before the port: his first look</sub></td>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>a staged change, an untracked one, and the log</sub></td>
   </tr>
 </table>
 
@@ -16,3 +16,5 @@
 ## notes
 
 Fern marks the active panel, ashbronze the idle ones, and the lighter background sits under the selected line. Staged and unstaged changes use oxblood's text tint, which is the only red in the palette that stays readable on `#1d2021`.
+
+Two accents are set but not in frame: cherry-picked commits (teal) and the search prompt's border (goldenrod), which need a marked commit and an open search.
