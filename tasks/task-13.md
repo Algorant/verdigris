@@ -6,17 +6,16 @@ title: "Explore algOS wordmarks"
 state: "in-progress"
 effort: "small"
 accord:
-  status: "rework"
+  status: "delivered"
   acceptance: ["Round-2 post in existing algOS mockups session 0kP-K1iU0P0 includes only 01 Term Patina, 03 Quiet Aqua and 05 Brass and Patina.", "Each design shows two labeled size ratios: small lowercase alg then larger capital OS, O the Omarchy mark; Quiet retains blue/thin outline.", "Banners, square icons and small-size icon ladder are rendered and inspected; ratios are meaningfully distinct and labeled.", "All artifacts stay in scratch /tmp, project source and live settings unchanged; no brand adopted.", "New same-session post is reported to Herdra for Algorant's next taste feedback."]
   claimedAt: "2026-11-13T14:17:59Z"
-  deliveredAt: "2026-11-13T14:39:40Z"
+  deliveredAt: "2026-11-13T16:46:35Z"
   constraints: ["No repository source edits, commits, pushes or live settings changes.", "Scratch artifacts only under /tmp.", "No image-generation spend, dependency installs or new tools required; use existing SVG/raster tools and fonts.", "American spelling; preserve algOS's requested spelling except deliberate labeled case variants."]
-  summary: "Six numbered algOS O-mark mockups published in one new Sideshow session (algOS mockups) for Algorant's judgement; scratch-only, no repo or live changes."
-  evidence: ["Sideshow post 'algOS wordmarks — six mockups' in session 0kP-K1iU0P0: contact sheet, six 1280x360 banners, six 256x256 square icons, and a real-size icon legibility ladder.", "Rendered PNGs inspected at 2x crops: mark baselines on the text baseline, side gaps 11-14px (~0.08em) both sides, mark tops inset 6-9px under cap height, no clipping or seams.", "git status --porcelain on /home/algorant/Projects/verdigris is empty; all SVG/PNG/scripts live under /tmp/algos-mockups-1794579494; no fonts installed, no image generation, no live app or theme changes."]
-  note: "Algorant selected 01/03/05 for round 2: small lowercase alg, big capital OS, typical and exaggerated ratios, same session/new post. No actual rebrand approval."
-  updatedAt: "2026-11-13T16:19:54Z"
+  summary: "Round 2: three designs (Term, Quiet, Brass and Patina) at two measured ratios (alg body 62% and 50% of the OS cap), published as a new post in the same Sideshow session; round-1 post preserved."
+  evidence: ["Sideshow post 'algOS round 2 — small alg, capital OS' in session 0kP-K1iU0P0 (postId JQWbpeZmp4w): contact sheet, six banners (01A/01B/03A/03B/05A/05B), three square icons and a real-size icon ladder.", "Ratios measured from rendered pixels: 01A 79/126.5=0.62, 01B 64/126.5=0.51, 03A 0.62, 03B 0.51, 05A 80/127.5=0.63, 05B 64.5/127.5=0.51; alg type at 82% and 66% of the OS size; mark 121 px against the OS cap; side gaps 17/13.5 px; g descender 18.5-27 px below baseline, no clipping.", "Quiet Aqua keeps the blue thin outline: stroke A/B rendered at 3.0/3.8/4.6/5.5% of the mark height and set to 3.8% after inspection.", "git status --porcelain in /home/algorant/Projects/verdigris is empty; round-2 artifacts under /tmp/algos-mockups-1794579494/round2, round-1 files untouched; no installs, image generation or live changes."]
+  updatedAt: "2026-11-13T16:46:35Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T16:19:54Z"
+updatedAt: "2026-11-13T16:46:35Z"
 assignee: "pi:algos-wordmark-concepts"
 ---
 
