@@ -6,17 +6,16 @@ title: "Explore algOS wordmarks"
 state: "in-progress"
 effort: "small"
 accord:
-  status: "rework"
+  status: "delivered"
   acceptance: ["Every round-3 cell uses the original unmodified Omarchy mark geometry, with recoloring only; Quiet's invented contour/extras are removed.", "Font-treatment × mark-color matrix fixes wordmark layout and lowercase/OS proportion; each cell has clear font/color/ratio label.", "Separate measured size sweep starts at 50% and includes roughly 40/33/28/25%; strongest-looking font used, iconic recommendation stated as proposal.", "Small-size check covers only 2–3 best cells; all rendered comparisons inspected.", "New numbered same-session Sideshow post is reported to Herdra; artifacts scratch-only and git/live unchanged."]
   claimedAt: "2026-11-13T14:17:59Z"
-  deliveredAt: "2026-11-13T16:46:35Z"
+  deliveredAt: "2026-11-13T17:54:18Z"
   constraints: ["No repository source edits, commits, pushes or live settings changes.", "Scratch artifacts only under /tmp.", "No image-generation spend, dependency installs or new tools required; use existing SVG/raster tools and fonts.", "American spelling; preserve algOS's requested spelling except deliberate labeled case variants."]
-  summary: "Round 2: three designs (Term, Quiet, Brass and Patina) at two measured ratios (alg body 62% and 50% of the OS cap), published as a new post in the same Sideshow session; round-1 post preserved."
-  evidence: ["Sideshow post 'algOS round 2 — small alg, capital OS' in session 0kP-K1iU0P0 (postId JQWbpeZmp4w): contact sheet, six banners (01A/01B/03A/03B/05A/05B), three square icons and a real-size icon ladder.", "Ratios measured from rendered pixels: 01A 79/126.5=0.62, 01B 64/126.5=0.51, 03A 0.62, 03B 0.51, 05A 80/127.5=0.63, 05B 64.5/127.5=0.51; alg type at 82% and 66% of the OS size; mark 121 px against the OS cap; side gaps 17/13.5 px; g descender 18.5-27 px below baseline, no clipping.", "Quiet Aqua keeps the blue thin outline: stroke A/B rendered at 3.0/3.8/4.6/5.5% of the mark height and set to 3.8% after inspection.", "git status --porcelain in /home/algorant/Projects/verdigris is empty; round-2 artifacts under /tmp/algos-mockups-1794579494/round2, round-1 files untouched; no installs, image generation or live changes."]
-  note: "Algorant rejects modified Quiet mark and wants standard geometry, font/color matrix, stronger ratio sweep 50→40→33→28→25, shortlist-only small-size checks."
-  updatedAt: "2026-11-13T17:43:52Z"
+  summary: "Round 3: unmodified Omarchy mark geometry (verified pixel-identical at 80x), 3x4 type/color matrix at a fixed 33% ratio, 50-25% size sweep, shortlist and 3-cell small-size check; new post in the same Sideshow session."
+  evidence: ["Sideshow post 'algOS round 3 — one mark, type by color' (postId GIYDGn8cNq4, v2) in session 0kP-K1iU0P0: matrix, size sweep, shortlist, icon check.", "Geometry check: the repo file and this board's mark rendered at 1200px (80x the 15-cell grid) compare at AE=0, pixel-identical; at 121px the 828 differing pixels are edge antialiasing only. Two-tone cells use the same 95 cells with zero overlap.", "Matrix fixed layout at 33%: alg body 25.7px vs 78px OS cap, mark 76px; sweep measured 75/60/50/42/38px against a 150px cap = 0.50/0.40/0.33/0.28/0.25. Edge strips of all four sheets contain zero ink (no clipping); g descenders 9-14px inside their rows.", "git status --porcelain empty; artifacts under /tmp/algos-mockups-1794579494/round3; no installs, generation spend or live changes."]
+  updatedAt: "2026-11-13T17:54:18Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T17:43:52Z"
+updatedAt: "2026-11-13T17:54:18Z"
 assignee: "pi:algos-wordmark-concepts"
 ---
 
