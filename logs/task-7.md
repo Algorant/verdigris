@@ -4,7 +4,6 @@ uid: d37d204e-b202-495c-a1cc-6d1d2a2071a9
 type: task
 kind: "papercut"
 title: "build/generate.py writes ports to paths the repo does not track"
-state: todo
 priority: "medium"
 effort: "small"
 relatedFiles: ["build/generate.py"]
@@ -13,7 +12,11 @@ accord:
   acceptance: ["build/generate.py run leaves git status clean", "The four ports it currently drops are either tracked at their real paths or their generators are gone"]
   updatedAt: "2026-11-13T03:47:59Z"
 createdAt: "2026-11-13T03:47:59Z"
-updatedAt: "2026-11-13T03:47:59Z"
+updatedAt: "2026-11-13T04:55:13Z"
+archivedAt: "2026-11-13T04:55:13Z"
+resolution:
+  outcome: "canceled"
+  note: "Algorant via Herdra m42d858bc: \"yes delete the generator. I do not want it in the verdigris repo. that is an omarchy thing or the colorscheme creator that omarchy uses. I do everything more bespoke even if the generator does a good job\". Generator removal supersedes repair of its stray output paths."
 ---
 
 ## Description
