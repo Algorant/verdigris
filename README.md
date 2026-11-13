@@ -43,19 +43,17 @@ Six core colours carry the scheme: ashbronze metal, vellum text, fern and patina
 </table>
 </details>
 
-## apps
+## os
 
-### omarchy
+[omarchy](apps/omarchy) · [widgets](apps/omarchy/widgets) · [hyprland](apps/omarchy/hyprland) · [floating terminal](apps/omarchy/floating-terminal) · [omari](apps/omarchy/omari) · [hokum](apps/hokum)
 
-[theme](apps/omarchy) · [widgets](apps/omarchy/widgets) · [hyprland](apps/omarchy/hyprland) · [floating terminal](apps/omarchy/floating-terminal) · [omari](apps/omarchy/omari) · [hokum](apps/hokum)
-
-### apps
-
-[herdr](apps/herdr) · [obsidian](apps/obsidian) · [spotifast](apps/spotifast) · [tandem](apps/tandem)
-
-### terminal/cli
+## terminal/cli
 
 [ghostty](apps/ghostty) · [nvim](apps/nvim) · [pi](apps/pi) · [atuin](apps/atuin) · [eza](apps/eza) · [btop](apps/btop) · [yazi](apps/yazi) · [leaf](apps/leaf) · [starship](apps/starship) · [fastfetch](apps/fastfetch) · [zsh](apps/zsh)
+
+## apps
+
+[herdr](apps/herdr) · [obsidian](apps/obsidian) · [spotifast](apps/spotifast) · [tandem](apps/tandem)
 
 ## how to use
 
