@@ -6,15 +6,15 @@ title: "Close portfolio documentation gaps"
 state: "in-progress"
 effort: "small"
 references: ["algorant task-4", "mdca7870e"]
-relatedFiles: ["README.md", "apps/spotifast/README.md", "CHANGELOG.md"]
+relatedFiles: ["README.md", "apps/spotifast/README.md", "CHANGELOG.md", "apps/hokum/README.md"]
 accord:
   status: "claimed"
-  acceptance: ["README additional colors reference resolves to existing palette documentation.", "Spotifast page says it inherits the Omarchy system theme and needs no separate theme file.", "Changelog describes current coverage and version metadata truthfully, preserving historical palette changes without advertising deleted ports.", "Full-history gitguard result is reported with findings and unverified coverage distinguished.", "Report proposes whether to tag 0.2.0; no tag or release is created."]
+  acceptance: ["README additional colors reference resolves to existing palette documentation.", "Spotifast page says it inherits the Omarchy system theme and needs no separate theme file.", "Changelog describes current coverage and version metadata truthfully, preserving historical palette changes without advertising deleted ports.", "Full-history gitguard result is reported with findings and unverified coverage distinguished.", "Report proposes whether to tag 0.2.0; no tag or release is created.", "Hokum project line points to https://github.com/anomalyco/hokum in the same documentation commit."]
   claimedAt: "2026-11-13T04:38:12Z"
-  constraints: ["No live configuration changes.", "Do not change Hokum or omarchy-setup links.", "Use American spelling.", "Do not push; owner verifies and pushes after integration."]
-  updatedAt: "2026-11-13T04:38:12Z"
+  constraints: ["No live configuration changes.", "Correct Hokum upstream to anomalyco/hokum; do not change omarchy-setup links.", "Use American spelling.", "Do not push; owner verifies and pushes after integration."]
+  updatedAt: "2026-11-13T04:39:34Z"
 createdAt: "2026-11-13T04:38:01Z"
-updatedAt: "2026-11-13T04:38:12Z"
+updatedAt: "2026-11-13T04:39:34Z"
 assignee: "verdigris"
 ---
 
@@ -28,3 +28,6 @@ Herdra request mdca7870e (portfolio review at 55ad1e7; source: algorant task-4):
 5. After those land, one full-history gitguard pass (the last was at 6aa49f7).
 Leave Algorant/hokum and omarchy-setup links unchanged; their publication is Algorant's call.
 Owner performs final full-history scan and version recommendation after documentation lands; Worker handles the three documentation fixes only.
+
+## Scope correction from Algorant via Herdra (m65c58576)
+Algorant: "hokum is an opencode project with its own github. I only have a specific colorscheme for it". The actual upstream is https://github.com/anomalyco/hokum, not Algorant/hokum. Supersedes the earlier prohibition on editing that link: correct apps/hokum/README.md in the same documentation commit. omarchy-setup stays unchanged.
