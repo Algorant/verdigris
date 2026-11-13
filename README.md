@@ -5,7 +5,7 @@
 ![verdigris core palette](docs/palette-swatch.svg)
 
 - a dark mode colorscheme built around oxidized copper: somewhere between gruvbox dark and everforest.
-- Six core colors carry the scheme, plus some [additional colors](palette/notes.md#additional-colors).
+- Six core colors carry the scheme, plus some [additional colors](additional-colors/).
 
 ## gallery
 
