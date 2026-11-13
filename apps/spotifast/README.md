@@ -9,3 +9,4 @@
 </table>
 
 - Spotify client
+- Follows the Omarchy system theme, so it needs no separate Verdigris theme file.

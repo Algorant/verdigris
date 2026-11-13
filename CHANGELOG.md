@@ -1,6 +1,6 @@
 # Changelog
 
-Palette releases follow [Semantic Versioning](https://semver.org/). Every app's theme file lives under `apps/` in its own format and states the palette version it follows.
+Palette releases follow [Semantic Versioning](https://semver.org/). The palette version is canonical in [`palette/verdigris.json`](palette/verdigris.json) and [`palette/notes.md`](palette/notes.md); each app's theme file lives under `apps/` in its own format and adopts a release independently.
 
 ## [0.2.0] - 2026-11-06
 
@@ -12,13 +12,13 @@ Palette releases follow [Semantic Versioning](https://semver.org/). Every app's 
 
 - Documented oxblood (`#74363d`) as the red for fills, bars and meters; red text uses its tints.
 - Herdr app theme: ANSI red and `blocked` use `#c66f70`; ANSI bright red uses `#d47b7c`.
-- Ghostty and Windows Terminal: red uses `#c66f70`, bright red uses `#d47b7c`.
-- bat (deleted gutter, invalid), Atuin (error alerts) and Yazi (cut marker) use `#c66f70`.
-- btop CPU and used-meter gradient ends use oxblood `#74363d`.
+- Ghostty: red uses `#c66f70`, bright red uses `#d47b7c`.
+- Atuin (error alerts) and Yazi (cut marker) use `#c66f70`.
+- btop's used-meter gradient end uses oxblood `#74363d`; its temperature, CPU and process gradient ends use the `#c66f70` text tint.
 
 ### Scope
 
-- Other ports (Obsidian, Pi, Omarchy notifications, Hokum, Pele) are unchanged. The standalone Omarchy theme adopts this release in its own repository.
+- Ports adopt this release independently: Obsidian, Pi and Hokum also carry the oxblood tints, alongside the ports listed above. The standalone Omarchy theme adopts this release in its own repository.
 
 ## [0.1.2] - 2026-08-26
 

@@ -8,7 +8,7 @@
 </table>
 
 - Notification cards, in the theme's colors
-- [hokum](https://github.com/Algorant/hokum)
+- [hokum](https://github.com/anomalyco/hokum)
 
 ## files
 
