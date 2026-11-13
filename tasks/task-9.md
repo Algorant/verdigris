@@ -7,14 +7,18 @@ state: "in-progress"
 effort: "medium"
 relatedFiles: ["README.md", "additional-colors/", "build/generate-additional-colors.py", "build/README.md"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["Restored additional-colors README and SVG swatch are generated from all extended and supporting JSON entries, with name, hex and exact role.", "Homepage additional colors link points to the restored page.", "Two generator runs produce identical tracked outputs and no unrelated app files.", "README rendered in GitHub style is published to Sideshow and visually checked, with the preview sent to Herdra.", "Branch is left unmerged pending Algorant's yes; old examples todo is follow-up only."]
   claimedAt: "2026-11-13T04:41:44Z"
+  deliveredAt: "2026-11-13T04:52:24Z"
   validation: ["$ python3 build/generate-additional-colors.py", "$ git diff --check"]
   constraints: ["No live changes, palette edits, app-port regeneration, tags or releases.", "No merge until Algorant accepts visible result.", "American spelling."]
-  updatedAt: "2026-11-13T04:41:44Z"
+  summary: "Generated reference and 11-color swatch delivered on unmerged branch additional-colors-reference at 333d1ea; GitHub-rendered preview published for Algorant."
+  evidence: ["Owner ran generator twice: both up to date and worktree clean; exact 11 JSON name/hex/role table rows and matching SVG groups verified.", "Owner inspected bounded 1024px swatch render: all 11 names/hex/roles visible, no clipping.", "Sideshow post 4caGtaNYbmE in rescope session rsnVsfi6go4: README rendered by GitHub Markdown API, github-markdown dark styling; local and MagicDNS session URLs HTTP 200.", "Manus checked render: Obscura table overlap confirmed absent in one-shot Chromium, known renderer gap; no merge/push/live edits."]
+  filesChanged: ["README.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg", "build/generate-additional-colors.py", "build/README.md"]
+  updatedAt: "2026-11-13T04:52:24Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T04:41:44Z"
+updatedAt: "2026-11-13T04:52:24Z"
 assignee: "pi:additional-colors-reference"
 ---
 
