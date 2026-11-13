@@ -12,7 +12,7 @@ accord:
   acceptance: ["Every app README opens with a gallery table in the approved format: three columns where there is room, a small caption under each tile, each tile linking to the full screenshot.", "Each app's thumbnails are small copies beside the app (thumbs/) generated from its own screenshots, and a README with more than about nine shots folds the extras under more screenshots.", "The pattern is proven on one app as a mockup before it is applied everywhere; the installed layout still shows the install steps and notes below the gallery."]
   updatedAt: "2026-11-12T23:13:52Z"
 createdAt: "2026-11-12T23:13:52Z"
-updatedAt: "2026-11-13T02:27:16Z"
+updatedAt: "2026-11-13T02:35:55Z"
 ---
 
 ## Description
@@ -93,3 +93,15 @@ Algorant: "those rules are fine for now and yes the recommended algomarchy link"
 - Omarchy parts pages (widgets, hyprland, floating-terminal, omari) and zsh/patina follow the same shape.
 - Pages with no picture: herdr, hokum, pi, zsh, zsh/patina, hyprland, omari.
 - Links that could not be verified and are therefore omitted: hokum and spotifast have no resolvable upstream repo; herdr points at https://herdr.dev. Needs Algorant's word if they have GitHub repos worth linking.
+
+
+## New pictures and the bat red (Herdra mf055235a / mfc753bc2 / mddbc0361)
+
+- pi: his screenshot at apps/pi/screenshot.png; page now shows it.
+- herdr: apps/herdr/screenshot.png, used as is per Algorant.
+- zsh: his fzf/bat preview still (the `nv` alias) as a placeholder at apps/zsh/screenshot.png.
+- zsh-patina: a 12 s, 12 fps, 96-colour GIF cropped to the terminal from his screen recording (328 KB), at apps/zsh/patina/zsh-patina.gif; both the zsh and patina pages show it.
+- hokum: two shots of the notification cards.
+- Privacy: the hokum cards read "Backup failed — couldn't reach the NAS", "Weathered Copper · Patina Sessions", "Standup in 10 minutes · Daily sync · Room 2"; sample content, flagged to Herdra, no crop applied. The docker video shows only a permission error and a pacman cache listing, so nothing needed hiding.
+
+Colour finding: fzf's own colours are already verdigris (FZF_DEFAULT_OPTS, ~/.config/zsh/.zshrc:22-26); the off red comes from `bat --color=always` in the nv preview, which uses bat's default syntax theme. Smallest fix, routed through Algomarchy: `BAT_THEME=ansi` in his shell so bat borrows the terminal's verdigris ANSI red (oxblood-text), no new file. Upgrade path if he wants independent control: a verdigris tmTheme in apps/bat/ plus `bat cache --build`.
