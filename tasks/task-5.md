@@ -12,7 +12,7 @@ accord:
   acceptance: ["Every app README opens with a gallery table in the approved format: three columns where there is room, a small caption under each tile, each tile linking to the full screenshot.", "Each app's thumbnails are small copies beside the app (thumbs/) generated from its own screenshots, and a README with more than about nine shots folds the extras under more screenshots.", "The pattern is proven on one app as a mockup before it is applied everywhere; the installed layout still shows the install steps and notes below the gallery."]
   updatedAt: "2026-11-12T23:13:52Z"
 createdAt: "2026-11-12T23:13:52Z"
-updatedAt: "2026-11-13T01:35:20Z"
+updatedAt: "2026-11-13T02:12:23Z"
 ---
 
 ## Description
@@ -69,3 +69,16 @@ Applied on branch app-pages (c87f575) to the three samples:
 - neovim: titled verdigris-nvim; project bullet links Algorant/verdigris.nvim, then neovim upstream; no notes
 
 All links 200. Other apps untouched pending his notes on these three.
+
+
+## Algorant's edits and the codified rules (Herdra mf8a64b49 / m79087503)
+
+Algorant: "I made some initial changes to both btop and veridgris-nvim. neither is quite right but they are closer to what I am imagining. I don't want superfluous stuff. if something doesn't make sense cut it. notes are completely optional or situational. when I link to something like omarchy or my OS, I want a link to algomarchy somewhere, and then a gallery of the stuff, and the simplest way to display what/where everything is, and thats it."
+
+His edits on branch app-pages2: btop lost the gallery heading, lost the whole notes section, gained the two project bullets directly under the table, and renamed the link; nvim was renamed verdigris-nvim.
+
+Applied (c06805e, branch only): all three pages now title → bare table → one sentence + project link → files; omarchy adds the Algomarchy link and a parts line; notes kept only where situational (omarchy's install line).
+
+Rule set proposed in the session post "app pages: rules from your edits" (8 rules: real project name as title, gallery with no heading, two bullets, files only for real files, notes rare, no headings for one-liners, desktop pages link Algomarchy + parts, nothing repeated). Herdra adds them to the global repo-style rules after Algorant OKs.
+
+Open question for Herdra: the public URL for Algomarchy (Algorant/omarchy-setup is currently private).
