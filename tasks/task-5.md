@@ -12,7 +12,7 @@ accord:
   acceptance: ["Every app README opens with a gallery table in the approved format: three columns where there is room, a small caption under each tile, each tile linking to the full screenshot.", "Each app's thumbnails are small copies beside the app (thumbs/) generated from its own screenshots, and a README with more than about nine shots folds the extras under more screenshots.", "The pattern is proven on one app as a mockup before it is applied everywhere; the installed layout still shows the install steps and notes below the gallery."]
   updatedAt: "2026-11-12T23:13:52Z"
 createdAt: "2026-11-12T23:13:52Z"
-updatedAt: "2026-11-13T01:17:23Z"
+updatedAt: "2026-11-13T01:35:20Z"
 ---
 
 ## Description
@@ -55,3 +55,17 @@ Algorant: "we definitely need to iron out the individual pages a bit, but hte ho
 - Thumbs committed beside each app in apps/<app>/thumbs/ (480x300).
 - Draft PR #2 closed and the earlier branch deleted, so he reads the rendered pages on the branch.
 - The other 17 apps wait for his notes on these three before any rollout.
+
+
+## Template v2: name, gallery, files, project (Algorant via Herdra me452a093)
+
+Algorant: "I gues the format makes more sense with: <name> <gallery> <files> <project> then a one sentence brief description of what it is as a bullet, followed by a bullet of the parent github project."
+
+Order now: title (literal name), ## gallery, ## files, ## project (one-sentence description bullet, then the upstream repo bullet), notes only if genuinely needed.
+
+Applied on branch app-pages (c87f575) to the three samples:
+- btop: upstream aristocratos/btop
+- omarchy: titled omarchy-verdigris-theme; project bullet links the theme repo and, after "for", omarchy upstream (omacom/omarchy); notes carry the install one-liner
+- neovim: titled verdigris-nvim; project bullet links Algorant/verdigris.nvim, then neovim upstream; no notes
+
+All links 200. Other apps untouched pending his notes on these three.
