@@ -3,7 +3,7 @@ id: task-9
 uid: fd141598-2ad2-4383-8b6c-54c6759d3847
 type: task
 title: "Restore additional colors reference"
-state: "in-progress"
+state: "validation"
 effort: "medium"
 relatedFiles: ["README.md", "additional-colors/", "build/generate-additional-colors.py", "build/README.md"]
 accord:
@@ -18,8 +18,12 @@ accord:
   filesChanged: ["README.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg", "build/generate-additional-colors.py", "build/README.md"]
   updatedAt: "2026-11-13T04:52:24Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T04:52:24Z"
+updatedAt: "2026-11-13T04:52:26Z"
 assignee: "pi:additional-colors-reference"
+validation.criterion: "README rendered in GitHub style is published to Sideshow and visually checked, with the preview sent to Herdra."
+validation.note: "Awaiting Algorant's approval of the rendered restored reference. Preview http://desktop.tail1cefc.ts.net:8228/session/rsnVsfi6go4, post additional colors reference: restored page. Branch additional-colors-reference at 333d1ea remains unmerged and unpushed; review only, no live settings changed."
+validation.requestedAt: "2026-11-13T04:52:26Z"
+validation.reviewer: "Algorant"
 ---
 
 ## Description

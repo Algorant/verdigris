@@ -60,3 +60,4 @@
 {"ts":"2026-11-13T04:42:48Z","event":"task.created","id":"task-10","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":60,"data":{"title":"Ship a generated Spotifast theme"}}
 {"ts":"2026-11-13T04:43:03Z","event":"accord.claimed","id":"task-10","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":61,"data":{}}
 {"ts":"2026-11-13T04:52:24Z","event":"accord.delivered","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":62,"data":{}}
+{"ts":"2026-11-13T04:52:26Z","event":"review.requested","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":63,"data":{"criterion":"README rendered in GitHub style is published to Sideshow and visually checked, with the preview sent to Herdra."}}
