@@ -8,13 +8,17 @@ effort: "small"
 references: ["algorant task-4", "mdca7870e"]
 relatedFiles: ["README.md", "apps/spotifast/README.md", "CHANGELOG.md", "apps/hokum/README.md"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["Additional colors restoration and final README target are handed to the separate restoration Task rather than treated as a removed/retargeted gap.", "Spotifast page says it inherits the Omarchy system theme and needs no separate theme file.", "Changelog describes current coverage and version metadata truthfully, preserving historical palette changes without advertising deleted ports.", "Full-history gitguard result is reported with findings and unverified coverage distinguished.", "Report proposes whether to tag 0.2.0; no tag or release is created.", "Hokum project line points to https://github.com/anomalyco/hokum in the same documentation commit."]
   claimedAt: "2026-11-13T04:38:12Z"
+  deliveredAt: "2026-11-13T04:42:19Z"
   constraints: ["No live configuration changes.", "Correct Hokum upstream to anomalyco/hokum; do not change omarchy-setup links.", "Use American spelling.", "Do not push; owner verifies and pushes after integration."]
-  updatedAt: "2026-11-13T04:41:27Z"
+  summary: "Documentation fixes pushed at 51dfaff; full-history scan reports no findings in 140 commits but 121 unverified media; palette-tag proposal recorded, no tag created. Restored additional colors belongs to task-9."
+  evidence: ["51dfaff on origin/main: README link, Spotifast note, changelog corrected, Hokum upstream fixed; omarchy-setup untouched.", "git diff --check passed; additional-colors notes heading/link and palette version independently checked.", "gitguard 0.5.1 scan --all-refs --history: exit 0, 140 commits, no findings; 121 media not verified (1 GIF, 62 JPG, 58 PNG), explicitly not clean.", "Proposal only: annotated palette v0.2.0 tag after task-9 approval and media coverage accounted for; no tag/release created."]
+  filesChanged: ["README.md", "CHANGELOG.md", "apps/spotifast/README.md", "apps/hokum/README.md"]
+  updatedAt: "2026-11-13T04:42:19Z"
 createdAt: "2026-11-13T04:38:01Z"
-updatedAt: "2026-11-13T04:42:18Z"
+updatedAt: "2026-11-13T04:42:19Z"
 assignee: "verdigris"
 ---
 
