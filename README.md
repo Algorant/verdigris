@@ -8,31 +8,40 @@ It is what I use on every machine, ported to the software I actually run.
 
 Six core colours carry the scheme: ashbronze metal, vellum text, fern and patina greens, aqua, ochre. Everything else in the palette is a supporting role for one app or one state, listed in [`palette/verdigris.json`](palette/verdigris.json).
 
-## what it looks like
+## gallery
 
-![omarchy](apps/omarchy/screenshot.png)
+<table>
+  <tr>
+    <td align="center"><a href="apps/omarchy/screenshot.png"><img src="docs/thumbs/omarchy.jpg" width="260"></a><br><sub>omarchy</sub></td>
+    <td align="center"><a href="apps/omarchy/screenshot-2.png"><img src="docs/thumbs/omarchy-keys.jpg" width="260"></a><br><sub>omarchy · keybindings</sub></td>
+    <td align="center"><a href="apps/ghostty/screenshot.png"><img src="docs/thumbs/ghostty.jpg" width="260"></a><br><sub>ghostty · fastfetch</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="apps/neovim/screenshot-3.png"><img src="docs/thumbs/neovim-lazy.jpg" width="260"></a><br><sub>neovim · lazy</sub></td>
+    <td align="center"><a href="apps/obsidian/screenshot.png"><img src="docs/thumbs/obsidian.jpg" width="260"></a><br><sub>obsidian</sub></td>
+    <td align="center"><a href="apps/spotifast/screenshot.png"><img src="docs/thumbs/spotifast.jpg" width="260"></a><br><sub>spotifast</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="apps/leaf/screenshot.png"><img src="docs/thumbs/leaf.jpg" width="260"></a><br><sub>leaf</sub></td>
+    <td align="center"><a href="apps/btop/screenshot.png"><img src="docs/thumbs/btop.jpg" width="260"></a><br><sub>btop</sub></td>
+    <td align="center"><a href="apps/quickshell/calendar.png"><img src="docs/thumbs/calendar.jpg" width="260"></a><br><sub>calendar widget</sub></td>
+  </tr>
+</table>
 
-The shell, menus and wallpapers on my desktop.
-
-![ghostty](apps/ghostty/screenshot.png)
-
-A floating terminal, running the omarchy fastfetch.
-
-![neovim](apps/neovim/screenshot-3.png)
-
-Neovim, with lazy open.
-
-![obsidian](apps/obsidian/screenshot.png)
-
-My vault in Obsidian.
-
-![spotifast](apps/spotifast/screenshot.png)
-
-Spotifast, my spotify client.
-
-![quickshell](apps/quickshell/calendar.png)
-
-The calendar widget, one of the quickshell panels.
+<details><summary>more screenshots</summary>
+<table>
+  <tr>
+    <td align="center"><a href="apps/yazi/screenshot.png"><img src="docs/thumbs/yazi.jpg" width="260"></a><br><sub>yazi</sub></td>
+    <td align="center"><a href="apps/neovim/screenshot.png"><img src="docs/thumbs/neovim.jpg" width="260"></a><br><sub>neovim</sub></td>
+    <td align="center"><a href="apps/quickshell/system-monitor.png"><img src="docs/thumbs/sysmon.jpg" width="260"></a><br><sub>system monitor</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="apps/atuin/screenshot.png"><img src="docs/thumbs/atuin.jpg" width="260"></a><br><sub>atuin</sub></td>
+    <td align="center"><a href="apps/tandem/screenshot-2.png"><img src="docs/thumbs/tandem.jpg" width="260"></a><br><sub>tandem</sub></td>
+    <td align="center"><a href="apps/starship/screenshot.png"><img src="docs/thumbs/starship.jpg" width="260"></a><br><sub>starship</sub></td>
+  </tr>
+</table>
+</details>
 
 ## apps
 
