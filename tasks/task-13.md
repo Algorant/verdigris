@@ -6,13 +6,16 @@ title: "Explore algOS wordmarks"
 state: "in-progress"
 effort: "small"
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["One post in a new Sideshow session titled algOS mockups shows 4–6 clearly numbered algOS wordmarks with O as Omarchy mark.", "Each option has banner and small square-icon context; weights/case/mark treatment/palette accents vary meaningfully.", "Actual rendered artifacts are inspected for clipping, spacing, readable contrast and small-icon legibility.", "All source/render files are scratch-only; project source, live settings and git remain unchanged.", "Delivery to Herdra includes session link and brief differences, explicitly a mockup, not an installed/adopted rebrand."]
   claimedAt: "2026-11-13T14:17:59Z"
+  deliveredAt: "2026-11-13T14:39:40Z"
   constraints: ["No repository source edits, commits, pushes or live settings changes.", "Scratch artifacts only under /tmp.", "No image-generation spend, dependency installs or new tools required; use existing SVG/raster tools and fonts.", "American spelling; preserve algOS's requested spelling except deliberate labeled case variants."]
-  updatedAt: "2026-11-13T14:17:59Z"
+  summary: "Six numbered algOS O-mark mockups published in one new Sideshow session (algOS mockups) for Algorant's judgement; scratch-only, no repo or live changes."
+  evidence: ["Sideshow post 'algOS wordmarks — six mockups' in session 0kP-K1iU0P0: contact sheet, six 1280x360 banners, six 256x256 square icons, and a real-size icon legibility ladder.", "Rendered PNGs inspected at 2x crops: mark baselines on the text baseline, side gaps 11-14px (~0.08em) both sides, mark tops inset 6-9px under cap height, no clipping or seams.", "git status --porcelain on /home/algorant/Projects/verdigris is empty; all SVG/PNG/scripts live under /tmp/algos-mockups-1794579494; no fonts installed, no image generation, no live app or theme changes."]
+  updatedAt: "2026-11-13T14:39:40Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T14:17:59Z"
+updatedAt: "2026-11-13T14:39:40Z"
 assignee: "pi:algos-wordmark-concepts"
 ---
 
