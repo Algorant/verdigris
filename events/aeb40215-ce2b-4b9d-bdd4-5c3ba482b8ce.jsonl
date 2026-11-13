@@ -71,3 +71,4 @@
 {"ts":"2026-11-13T04:55:15Z","event":"task.created","id":"task-11","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":71,"data":{"title":"Remove palette generators"}}
 {"ts":"2026-11-13T04:55:34Z","event":"task.updated","id":"task-11","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":72,"data":{"fields":["body"]}}
 {"ts":"2026-11-13T04:55:36Z","event":"accord.claimed","id":"task-11","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":73,"data":{}}
+{"ts":"2026-11-13T04:55:59Z","event":"task.updated","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":74,"data":{"fields":["relatedFiles","acceptance","constraints","body"]}}
