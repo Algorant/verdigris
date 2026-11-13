@@ -1,7 +1,5 @@
 # verdigris-nvim
 
-## gallery
-
 <table>
   <tr>
     <td align="center"><a href="screenshot.png"><img src="thumbs/nvim.jpg" width="260"></a><br><sub>nvim</sub></td>
@@ -13,11 +11,9 @@
   </tr>
 </table>
 
+- Colorscheme for neovim
+- [Algorant/verdigris.nvim](https://github.com/Algorant/verdigris.nvim)
+
 ## files
 
-- [Algorant/verdigris.nvim](https://github.com/Algorant/verdigris.nvim) — the colourscheme, including its plugin spec
-
-## project
-
-- Editor, with the verdigris colourscheme
-- [neovim](https://github.com/neovim/neovim) and [Algorant/verdigris.nvim](https://github.com/Algorant/verdigris.nvim)
+- none here: the colourscheme and its plugin spec live in that repository

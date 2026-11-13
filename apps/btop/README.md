@@ -6,9 +6,9 @@
   </tr>
 </table>
 
-- Terminal resource monitor for cpu, memory, disks and network
-- [link to project](https://github.com/aristocratos/btop)
+- Terminal resource monitor, wearing the theme
+- [btop](https://github.com/aristocratos/btop)
 
 ## files
 
-- [`verdigris.theme`](verdigris.theme) — the btop theme file
+- [`verdigris.theme`](verdigris.theme)
