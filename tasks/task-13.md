@@ -3,7 +3,7 @@ id: task-13
 uid: 9be5f810-8ef5-4d1b-a000-9d53575833ff
 type: task
 title: "Explore algOS wordmarks"
-state: "in-progress"
+state: "validation"
 effort: "small"
 accord:
   status: "delivered"
@@ -15,8 +15,12 @@ accord:
   evidence: ["Sideshow post 'algOS round 2 — small alg, capital OS' in session 0kP-K1iU0P0 (postId JQWbpeZmp4w): contact sheet, six banners (01A/01B/03A/03B/05A/05B), three square icons and a real-size icon ladder.", "Ratios measured from rendered pixels: 01A 79/126.5=0.62, 01B 64/126.5=0.51, 03A 0.62, 03B 0.51, 05A 80/127.5=0.63, 05B 64.5/127.5=0.51; alg type at 82% and 66% of the OS size; mark 121 px against the OS cap; side gaps 17/13.5 px; g descender 18.5-27 px below baseline, no clipping.", "Quiet Aqua keeps the blue thin outline: stroke A/B rendered at 3.0/3.8/4.6/5.5% of the mark height and set to 3.8% after inspection.", "git status --porcelain in /home/algorant/Projects/verdigris is empty; round-2 artifacts under /tmp/algos-mockups-1794579494/round2, round-1 files untouched; no installs, image generation or live changes."]
   updatedAt: "2026-11-13T16:46:35Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T16:47:14Z"
+updatedAt: "2026-11-13T16:47:16Z"
 assignee: "pi:algos-wordmark-concepts"
+validation.criterion: "New same-session post is reported to Herdra for Algorant's next taste feedback."
+validation.note: "Round 2 inspected and ready: 01A/B,03A/B,05A/B only, small lowercase alg + larger capital OS and blue thin-outline Quiet. http://desktop.tail1cefc.ts.net:8228/session/0kP-K1iU0P0, new post algOS round 2 — small alg, capital OS. Scratch-only, source clean."
+validation.requestedAt: "2026-11-13T16:47:16Z"
+validation.reviewer: "Algorant"
 ---
 
 ## Description

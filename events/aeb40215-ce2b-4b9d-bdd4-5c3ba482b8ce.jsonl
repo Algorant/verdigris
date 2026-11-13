@@ -90,3 +90,4 @@
 {"ts":"2026-11-13T16:19:54Z","event":"accord.rework","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":90,"data":{}}
 {"ts":"2026-11-13T16:46:35Z","event":"accord.delivered","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":91,"data":{}}
 {"ts":"2026-11-13T16:47:14Z","event":"task.updated","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":92,"data":{"fields":["body"]}}
+{"ts":"2026-11-13T16:47:16Z","event":"review.requested","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":93,"data":{"criterion":"New same-session post is reported to Herdra for Algorant's next taste feedback."}}
