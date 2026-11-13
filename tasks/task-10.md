@@ -3,17 +3,19 @@ id: task-10
 uid: df5d6dcb-4c07-4a88-bcac-425669a02d68
 type: task
 title: "Ship a generated Spotifast theme"
-state: todo
+state: "in-progress"
 effort: "medium"
 relatedFiles: ["apps/spotifast/", "build/generate-spotifast.py", "build/README.md"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Evidence names the actual Omarchy source/generated file and Spotifast keys/mapping used by the installed app.", "Native Spotifast theme file is generated deterministically from canonical palette; exact Omarchy values match.", "Actual Spotifast loader accepts generated file in isolated state, or inability/absence of format is demonstrated with evidence; no mocked parsing validation.", "README links file and explains use without Omarchy and equivalent Omarchy colors in one line.", "Separate committed result reports generator command, load verification and repo/live reach; no live changes."]
+  claimedAt: "2026-11-13T04:43:03Z"
   validation: ["$ python3 build/generate-spotifast.py", "$ git diff --check"]
   constraints: ["No live config changes, no launch affecting Algorant's desktop, no new colors.", "Do not run build/generate.py (unrelated outputs, task-7).", "No changes to additional colors reference branch/task-9.", "No push; owner verifies first.", "American spelling."]
-  updatedAt: "2026-11-13T04:42:48Z"
+  updatedAt: "2026-11-13T04:43:03Z"
 createdAt: "2026-11-13T04:42:48Z"
-updatedAt: "2026-11-13T04:42:48Z"
+updatedAt: "2026-11-13T04:43:03Z"
+assignee: "pi:spotifast-native-theme"
 ---
 
 ## Description
