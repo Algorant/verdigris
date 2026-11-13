@@ -3,17 +3,19 @@ id: task-9
 uid: fd141598-2ad2-4383-8b6c-54c6759d3847
 type: task
 title: "Restore additional colors reference"
-state: todo
+state: "in-progress"
 effort: "medium"
 relatedFiles: ["README.md", "additional-colors/", "build/generate-additional-colors.py", "build/README.md"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Restored additional-colors README and SVG swatch are generated from all extended and supporting JSON entries, with name, hex and exact role.", "Homepage additional colors link points to the restored page.", "Two generator runs produce identical tracked outputs and no unrelated app files.", "README rendered in GitHub style is published to Sideshow and visually checked, with the preview sent to Herdra.", "Branch is left unmerged pending Algorant's yes; old examples todo is follow-up only."]
+  claimedAt: "2026-11-13T04:41:44Z"
   validation: ["$ python3 build/generate-additional-colors.py", "$ git diff --check"]
   constraints: ["No live changes, palette edits, app-port regeneration, tags or releases.", "No merge until Algorant accepts visible result.", "American spelling."]
-  updatedAt: "2026-11-13T04:41:25Z"
+  updatedAt: "2026-11-13T04:41:44Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T04:41:25Z"
+updatedAt: "2026-11-13T04:41:44Z"
+assignee: "pi:additional-colors-reference"
 ---
 
 ## Description
