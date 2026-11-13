@@ -15,7 +15,7 @@ accord:
   evidence: ["Sideshow post 'algOS wordmarks — six mockups' in session 0kP-K1iU0P0: contact sheet, six 1280x360 banners, six 256x256 square icons, and a real-size icon legibility ladder.", "Rendered PNGs inspected at 2x crops: mark baselines on the text baseline, side gaps 11-14px (~0.08em) both sides, mark tops inset 6-9px under cap height, no clipping or seams.", "git status --porcelain on /home/algorant/Projects/verdigris is empty; all SVG/PNG/scripts live under /tmp/algos-mockups-1794579494; no fonts installed, no image generation, no live app or theme changes."]
   updatedAt: "2026-11-13T14:39:40Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T14:39:40Z"
+updatedAt: "2026-11-13T14:40:29Z"
 assignee: "pi:algos-wordmark-concepts"
 ---
 
@@ -26,3 +26,8 @@ Algorant via Herdra md2504d8c (2026-11-13), verbatim:
 
 Produce 4–6 numbered playful concept variants, not an adopted brand: wordmark algOS with O replaced by the existing Omarchy mark. Vary weight/case treatment (algOS/ALGOS/algos), filled vs outlined mark, patina/aqua/ochre or related palette accents on Verdigris base. Clean lowercase-leaning banner/swatch style, no unnecessary gradients. Show every option as a banner and small square icon; optional explicitly fictional fastfetch/bar usage.
 Scratch files only under /tmp; no repo source changes, commits, branches pushed, installed branding or live settings. Existing logo/SVG tools may be read/reused for scratch renders but no theme generators or project files are added. One new Sideshow session titled algOS mockups, all numbered variants in ONE comparison post. Read studio/sideshow skills, inspect actual renders before delivery. Report URL/artifact paths via starter to Herdra. Algorant judges taste; nothing adopted automatically.
+
+## Delivered exploration
+Six numbered variants in one post Cr-12mzQXs4, new Sideshow session 0kP-K1iU0P0 (algOS mockups). Every O uses the existing Omarchy mark silhouette: 01 Term Patina (mixed-case mono/patina), 02 Brass Badge (upper-case sans/ochre knockout tile), 03 Quiet Aqua (lowercase light mono/aqua), 04 Narrow Fern (condensed caps/fern), 05 Brass and Patina (mixed-case/two-tone), 06 Ochre Grid (caps/dot matrix).
+Sources, banners and square icons are scratch-only under /tmp/algos-mockups-1794579494. Owner inspected bounded contact-sheet halves and native small-icon ladder; wordmarks unclipped, distinct case/weight/treatment; small icons 02/04 hold up best while thin/dot treatments lose detail at tiny sizes. MagicDNS session HTTP 200; project git status clean. No source commits, pushes, installs, spend or live changes. No branding adopted; waiting for Algorant's taste feedback.
+Preview: http://desktop.tail1cefc.ts.net:8228/session/0kP-K1iU0P0 .
