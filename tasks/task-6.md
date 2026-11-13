@@ -9,13 +9,17 @@ effort: "small"
 relatedFiles: ["apps/lazygit/", "README.md"]
 tags: ["port", "app-page", "verify-with-algorant"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["apps/lazygit/config.yml holds a gui.theme block built only from palette/verdigris.json tokens, and every key it sets exists in lazygit's default theme", "apps/lazygit/README.md follows the page rules and is linked from the homepage terminal/cli list", "Algomarchy has applied the block to his live ~/.config/lazygit/config.yml; he has opened lazygit and answered", "His retaken screenshot replaces the pre-port one in the gallery, md5-checked against his file", "Pushed to main only after his OK, with the branch left local until then"]
   claimedAt: "2026-11-13T03:08:49Z"
+  deliveredAt: "2026-11-13T03:11:41Z"
   constraints: ["Commit on a local branch; no push until Algorant answers", "Red is oxblood's text tint #c66f70, never a gruvbox red", "Undo for his live file is removing the gui.theme block"]
-  updatedAt: "2026-11-13T03:08:49Z"
+  summary: "lazygit ported and published: 11-key gui.theme block from palette 0.2.0, apps/lazygit page with his retake, homepage entry; his live config verified identical by parsing both files."
+  evidence: ["main 4bc1fcf apps/lazygit/screenshot.png md5 787410b1fe2e = his retake", "live ~/.config/lazygit/config.yml gui.theme == repo block, 11 keys, no extras", "pre-push check: media only, no findings"]
+  filesChanged: ["apps/lazygit/config.yml", "apps/lazygit/README.md", "apps/lazygit/screenshot.png", "apps/lazygit/thumbs/1.jpg", "apps/lazygit/screenshot.tape", "README.md"]
+  updatedAt: "2026-11-13T03:11:41Z"
 createdAt: "2026-11-13T03:05:14Z"
-updatedAt: "2026-11-13T03:08:49Z"
+updatedAt: "2026-11-13T03:11:41Z"
 assignee: "verdigris-ceph"
 ---
 
