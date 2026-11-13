@@ -7,7 +7,7 @@
   </tr>
 </table>
 
-- Notification cards, in the theme's colours
+- Notification cards, in the theme's colors
 - [hokum](https://github.com/Algorant/hokum)
 
 ## files

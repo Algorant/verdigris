@@ -7,4 +7,4 @@
 </table>
 
 - ghostty in a floating window, bound in my hyprland config
-- [omarchy](https://github.com/omacom/omarchy), with the colours from [ghostty](../../ghostty)
+- [omarchy](https://github.com/omacom/omarchy), with the colors from [ghostty](../../ghostty)

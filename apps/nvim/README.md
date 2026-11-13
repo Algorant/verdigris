@@ -16,4 +16,4 @@
 
 ## files
 
-- none here: the colourscheme and its plugin spec live in that repository
+- none here: the colorscheme and its plugin spec live in that repository

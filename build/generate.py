@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PALETTE = ROOT / "palette" / "verdigris.json"
 
-# Terminal ANSI slots, in order, as palette colour names.
+# Terminal ANSI slots, in order, as palette color names.
 ANSI = [
     "base", "oxblood-text", "patina", "ochre", "teal", "ink-violet", "aqua", "soft-light",
     "muted", "oxblood-bright", "fern", "ochre", "aqua", "ink-violet", "aqua", "vellum",
@@ -24,11 +24,11 @@ ANSI = [
 
 def load() -> dict[str, str]:
     data = json.loads(PALETTE.read_text())
-    colours = {"base": "#1d2021", "soft-light": "#d4be9a", "muted": "#928374"}
+    colors = {"base": "#1d2021", "soft-light": "#d4be9a", "muted": "#928374"}
     for group in ("colors", "extended", "supporting"):
         for entry in data.get(group, []):
-            colours.setdefault(entry["name"], entry["hex"])
-    return colours
+            colors.setdefault(entry["name"], entry["hex"])
+    return colors
 
 
 def lighten(hexcode: str, amount: float) -> str:

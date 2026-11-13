@@ -9,7 +9,7 @@
   </tr>
 </table>
 
-- File listing, coloured
+- File listing, colored
 - [eza](https://github.com/eza-community/eza)
 
 ## files

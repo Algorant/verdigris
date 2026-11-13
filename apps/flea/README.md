@@ -16,7 +16,7 @@
 
 ## files
 
-- none here: it takes its colours from the [omarchy theme](../omarchy)
+- none here: it takes its colors from the [omarchy theme](../omarchy)
 
 ## notes
 

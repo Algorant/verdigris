@@ -72,7 +72,7 @@ Goldenrod uses `#b8863b` for warning/search roles. Deep copper uses `#b9805f` fo
 
 Machine-readable source: [`verdigris.json`](./verdigris.json)
 
-Visual swatches: each app folder shows the colours it uses in practice.
+Visual swatches: each app folder shows the colors it uses in practice.
 
 ## Trial colors
 
