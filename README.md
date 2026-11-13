@@ -52,7 +52,7 @@
 
 ## apps
 
-[herdr](apps/herdr) · [obsidian](apps/obsidian) · [spotifast](apps/spotifast) · [tandem](apps/tandem)
+[flea](apps/flea) · [herdr](apps/herdr) · [obsidian](apps/obsidian) · [spotifast](apps/spotifast) · [tandem](apps/tandem)
 
 ## how to use
 
