@@ -32,10 +32,10 @@ Set Theme {
   "brightCyan": "#83a598",
   "brightWhite": "#ebdbb2"
 }
-Type "export PS1=demo@workstation:\~/project\$\  HOME=/tmp/verdigris-shot/home ATUIN_SESSION=verdigris-fixture"
+Type "export PS1=demo@workstation:\~/project\$\  HOME=/tmp/verdigris-shot/home ATUIN_SESSION=verdigris-fixture LANG=C.UTF-8 LC_ALL=C.UTF-8"
 Enter
-Sleep 1s
-Ctrl+L
+Type "clear"
+Enter
 Type "cd /tmp/verdigris-shot/project"
 Enter
 Sleep 1s
