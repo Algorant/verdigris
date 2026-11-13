@@ -6,17 +6,16 @@ title: "Explore algOS wordmarks"
 state: "in-progress"
 effort: "small"
 accord:
-  status: "rework"
+  status: "delivered"
   acceptance: ["Only verified JetBrains Mono Regular is used in round4; prior-font continuity or switch is stated accurately.", "4×2 side-by-side grid compares all four mark colors at 33% vs40% with controlled OS cap/mark geometry; each cell includes banner and square icon.", "Blue-only small-size ladder for each ratio is rendered and inspected, without inventing differences in unchanged standalone icons.", "All rounds' artifacts are preserved, and SVG+PNG for all four colors/both sizes persist under ~/.local/share/verdigris/algos/, not only /tmp.", "New post in same Sideshow session is reported to Herdra with persistent folder path; no repo/live branding changes."]
   claimedAt: "2026-11-13T14:17:59Z"
-  deliveredAt: "2026-11-13T18:07:32Z"
+  deliveredAt: "2026-11-13T18:12:41Z"
   constraints: ["No repository source edits, commits, pushes or live settings changes.", "Preserve all existing artifacts; durable local artwork under ~/.local/share/verdigris/algos/ supersedes /tmp-only storage.", "No image-generation spend, dependency installs or new tools required; use existing SVG/raster tools and fonts.", "American spelling; keep standard original Omarchy mark geometry."]
-  summary: "Round 4: verified JetBrains Mono Nerd Font Regular, four mark-color rows × 33/40% body-to-cap columns with banner+icon cells, blue whole-wordmark ladders, and all rounds preserved in durable storage."
-  evidence: ["Sideshow post 'algOS round 4 — Mono Regular, four colors, two ratios' in existing session 0kP-K1iU0P0 (postId aEcdwJDSGIA); matrix and two blue wordmark ladders published, MagicDNS session HTTP 200.", "fontconfig resolves JetBrains Mono Regular to /usr/share/fonts/TTF/JetBrainsMonoNerdFont-Regular.ttf; fc-query reports Regular. Round-3 JetBrains Mono regular row used the same resolved face.", "Rendered cell pixels measured 33% column at 26.0/78.5=0.331 and 40% at 29.0/73.0=0.397 across all four colors. Each pair has its own SVG and PNG; each cell includes banner and square icon.", "Copied complete prior /tmp/algos-mockups-1794579494 tree to ~/.local/share/verdigris/algos/2026-11-13-algos-wordmark-concepts/; diff -qr confirms prior contents identical and original /tmp remains. round4/INVENTORY.md inventories all eight cells and comparison sheets.", "Inspected final matrix and both ladders: all labels legible, whole-wordmark ladders non-overlapping, no clipped glyphs. Project git status --porcelain remains empty; no source/live changes, installs, or spend."]
-  note: "Herdra requested a controlled-scale correction before owner handoff: share one fit scale across all eight matrix cells and paired ladder steps so OS/mark cap is identical at 33% and 40%; snapshot previous published round4 artifacts first. Also state Nerd-Font-patched regular face accurately."
-  updatedAt: "2026-11-13T18:12:14Z"
+  summary: "Round-4 comparison corrected to one shared scale: both ratios now render the OS cap at 84 px across all eight color cells and at identical paired ladder steps; previous published assets snapshotted before replacement."
+  evidence: ["Updated the same Sideshow post aEcdwJDSGIA (version 2) in session 0kP-K1iU0P0; replaced matrix with the shared-scale rendering and corrected both ladder images and captions.", "Measured final cell PNGs in all four colors: 33% body 28 px / shared OS cap 84 px = 0.333; 40% body 33.5 px / same 84 px = 0.399. Shared matrix scale 0.58647 fits the wider 40% layout; OS and O remain same size in both columns.", "Both blue ladders use a common scale per paired step. Matched OS caps read 68, 59, 49, 39 px in both; lower-case body sizes differ as intended.", "Before replacing any published round-4 files, copied the complete previous round4/ outputs and generator into ~/.local/share/verdigris/algos/2026-11-13-algos-wordmark-concepts/round4-revision-1/. Updated round4/INVENTORY.md documents the snapshot; all earlier rounds and original /tmp tree remain.", "Verified font accurately as installed JetBrainsMono Nerd Font Regular, the Nerd-Font-patched JetBrains Mono regular face; fc-match and fc-query resolve style Regular and the same face as round 3. Final images inspected; git status --porcelain empty."]
+  updatedAt: "2026-11-13T18:12:41Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T18:12:14Z"
+updatedAt: "2026-11-13T18:12:41Z"
 assignee: "pi:algos-wordmark-concepts"
 ---
 
