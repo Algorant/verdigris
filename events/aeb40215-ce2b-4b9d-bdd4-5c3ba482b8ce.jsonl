@@ -98,3 +98,4 @@
 {"ts":"2026-11-13T17:55:00Z","event":"review.requested","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":98,"data":{"criterion":"New numbered same-session Sideshow post is reported to Herdra; artifacts scratch-only and git/live unchanged."}}
 {"ts":"2026-11-13T17:59:37Z","event":"task.updated","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":99,"data":{"fields":["acceptance","constraints","body"]}}
 {"ts":"2026-11-13T17:59:39Z","event":"accord.rework","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":100,"data":{}}
+{"ts":"2026-11-13T18:07:32Z","event":"accord.delivered","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":101,"data":{}}
