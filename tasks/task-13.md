@@ -3,15 +3,17 @@ id: task-13
 uid: 9be5f810-8ef5-4d1b-a000-9d53575833ff
 type: task
 title: "Explore algOS wordmarks"
-state: todo
+state: "in-progress"
 effort: "small"
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["One post in a new Sideshow session titled algOS mockups shows 4–6 clearly numbered algOS wordmarks with O as Omarchy mark.", "Each option has banner and small square-icon context; weights/case/mark treatment/palette accents vary meaningfully.", "Actual rendered artifacts are inspected for clipping, spacing, readable contrast and small-icon legibility.", "All source/render files are scratch-only; project source, live settings and git remain unchanged.", "Delivery to Herdra includes session link and brief differences, explicitly a mockup, not an installed/adopted rebrand."]
+  claimedAt: "2026-11-13T14:17:59Z"
   constraints: ["No repository source edits, commits, pushes or live settings changes.", "Scratch artifacts only under /tmp.", "No image-generation spend, dependency installs or new tools required; use existing SVG/raster tools and fonts.", "American spelling; preserve algOS's requested spelling except deliberate labeled case variants."]
-  updatedAt: "2026-11-13T14:17:43Z"
+  updatedAt: "2026-11-13T14:17:59Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T14:17:43Z"
+updatedAt: "2026-11-13T14:17:59Z"
+assignee: "pi:algos-wordmark-concepts"
 ---
 
 ## Description

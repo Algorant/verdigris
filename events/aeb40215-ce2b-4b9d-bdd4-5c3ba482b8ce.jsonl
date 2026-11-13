@@ -82,3 +82,4 @@
 {"ts":"2026-11-13T05:01:16Z","event":"task.updated","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":82,"data":{"fields":["constraints","body"]}}
 {"ts":"2026-11-13T05:01:33Z","event":"task.completed","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":83,"data":{}}
 {"ts":"2026-11-13T14:17:43Z","event":"task.created","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":84,"data":{"title":"Explore algOS wordmarks"}}
+{"ts":"2026-11-13T14:17:59Z","event":"accord.claimed","id":"task-13","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":85,"data":{}}
