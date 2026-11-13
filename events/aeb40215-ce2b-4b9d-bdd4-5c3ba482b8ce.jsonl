@@ -75,3 +75,4 @@
 {"ts":"2026-11-13T04:58:09Z","event":"task.created","id":"task-12","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":75,"data":{"title":"Correct logo tool usage filenames"}}
 {"ts":"2026-11-13T04:58:55Z","event":"task.updated","id":"task-11","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":76,"data":{"fields":["body"]}}
 {"ts":"2026-11-13T04:58:57Z","event":"accord.delivered","id":"task-11","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":77,"data":{}}
+{"ts":"2026-11-13T04:58:59Z","event":"task.completed","id":"task-11","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":78,"data":{}}

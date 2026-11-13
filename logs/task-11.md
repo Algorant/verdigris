@@ -3,11 +3,10 @@ id: task-11
 uid: d6d11f46-54f9-4e4f-ad01-06cd58ef3c32
 type: task
 title: "Remove palette generators"
-state: "in-progress"
 effort: "small"
 relatedFiles: ["build/", "palette/README.md", "CHANGELOG.md", "apps/spotifast/README.md", "apps/ghostty/verdigris", "apps/omarchy/hyprland/verdigris.lua"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["No palette-to-theme generator remains in main; Ghostty/Spotifast and other real theme values/configuration are preserved.", "Docs describe bespoke hand-kept ports, no stale generator/run-generator claims; actual Omarchy runtime behavior remains truthful.", "Logo tools inspected: retained if image-only, with evidence in report.", "Rescope task-3 records Algorant's words and task-7 is canceled with them.", "One separate main commit pushed through gitguard; report coverage/limits and repo/live reach."]
   claimedAt: "2026-11-13T04:55:36Z"
   deliveredAt: "2026-11-13T04:58:57Z"
@@ -15,10 +14,14 @@ accord:
   summary: "432eb3a pushed: palette generators deleted, bespoke outputs/config values preserved, docs/headers cleaned; logo image tools retained."
   evidence: ["Origin/main = 432eb3a; working tree clean.", "Owner compared Ghostty and Hyprland non-comment config to base: identical; Spotifast JSON bytes identical.", "Inspected retained mask/render implementations: SVG mask and PNG logo/preview outputs only; Worker exercised them in temp state.", "Explicit gitguard commit-range scan exit 0: no findings in 1 commit; push hook checks no leaks and push exit 0.", "Algorant's quote recorded on rescope task-3; task-7 canceled with quote."]
   filesChanged: ["build/generate.py", "build/generate-spotifast.py", "build/README.md", "palette/README.md", "apps/spotifast/README.md", "apps/ghostty/verdigris", "apps/omarchy/hyprland/verdigris.lua"]
-  updatedAt: "2026-11-13T04:58:57Z"
+  updatedAt: "2026-11-13T04:58:59Z"
 createdAt: "2026-11-13T04:55:15Z"
-updatedAt: "2026-11-13T04:58:57Z"
+updatedAt: "2026-11-13T04:58:59Z"
 assignee: "verdigris"
+archivedAt: "2026-11-13T04:58:59Z"
+resolution:
+  outcome: "completed"
+  note: "Verified deletion/doc cleanup preserves all theme configuration, committed/pushed 432eb3a, explicit gitguard and hook checks pass. Logo tools are image-only and retained. No live settings changes."
 ---
 
 ## Description
