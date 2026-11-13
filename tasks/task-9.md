@@ -7,19 +7,18 @@ state: "in-progress"
 effort: "medium"
 relatedFiles: ["README.md", "additional-colors/", "build/generate-additional-colors.py", "build/README.md", "palette/verdigris.json"]
 accord:
-  status: "rework"
+  status: "delivered"
   acceptance: ["Additional-colors page contains version, six-color-only swatch and one table of the old six short roles; no tints/trials/examples/footer/essay/generator.", "Trial JSON entries ochre-alt/brown-green/dark-ochre-trial removed unless actual shipped-port usage proves retention necessary; no port modified.", "Oxblood-text and oxblood-bright remain in palette JSON but do not appear on the additional-colors page or swatch.", "Homepage link targets additional-colors/ and no generator/docs bullet remains.", "Same Sideshow post 4caGtaNYbmE updated with GitHub-style render, JSON changes reported to Herdra, no merge before approval."]
   claimedAt: "2026-11-13T04:41:44Z"
-  deliveredAt: "2026-11-13T04:52:24Z"
+  deliveredAt: "2026-11-13T04:59:54Z"
   validation: ["$ git diff --check"]
   constraints: ["No live changes, app-port changes, tags or releases.", "Only authorized palette edits are unused trial removals; oxblood text/bright tints retained.", "No palette-to-theme generators.", "No merge until Algorant accepts visible result.", "American spelling."]
-  summary: "Generated reference and 11-color swatch delivered on unmerged branch additional-colors-reference at 333d1ea; GitHub-rendered preview published for Algorant."
-  evidence: ["Owner ran generator twice: both up to date and worktree clean; exact 11 JSON name/hex/role table rows and matching SVG groups verified.", "Owner inspected bounded 1024px swatch render: all 11 names/hex/roles visible, no clipping.", "Sideshow post 4caGtaNYbmE in rescope session rsnVsfi6go4: README rendered by GitHub Markdown API, github-markdown dark styling; local and MagicDNS session URLs HTTP 200.", "Manus checked render: Obscura table overlap confirmed absent in one-shot Chromium, known renderer gap; no merge/push/live edits."]
-  filesChanged: ["README.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg", "build/generate-additional-colors.py", "build/README.md"]
-  note: "Algorant rejected verbose/ad-libbed restoration. Return to old page/SVG verbatim, remove only todo line, drop generator and its docs, keep homepage link. Same branch and preview post; needs his re-review."
-  updatedAt: "2026-11-13T04:55:59Z"
+  summary: "Six-only historical-style reference ready at 4892e48; same preview post updated, JSON retained by actual shipped-port exception, unmerged for Algorant."
+  evidence: ["Owner verified current README contains only title/version/swatch/six short-role rows; six SVG groups, no tint overlays; diff --check clean.", "JSON byte-identical: all three trial hexes have actual shipped-port uses (btop/Leaf/Obsidian/Starship), so explicit exception applies. Oxblood tints retained in JSON only.", "Same Sideshow post 4caGtaNYbmE: GitHub Markdown render, HTTP 200 session; no app configuration changes or merge/push."]
+  filesChanged: ["README.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg"]
+  updatedAt: "2026-11-13T04:59:54Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T04:59:52Z"
+updatedAt: "2026-11-13T04:59:54Z"
 assignee: "pi:additional-colors-reference"
 ---
 
