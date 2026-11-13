@@ -1,13 +1,22 @@
-# verdigris for btop
+# btop
 
-TUI resource monitor. CPU, memory, disks and network at a glance.
+## gallery
 
-## install
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/btop.jpg" width="260"></a><br><sub>btop</sub></td>
+  </tr>
+</table>
 
-Copy `verdigris.theme` into `~/.config/btop/themes/`, then set `color_theme = "verdigris"` in `btop.conf`.
+## files
+
+- [`verdigris.theme`](verdigris.theme) — the btop theme file
+
+## project
+
+- Terminal resource monitor for cpu, memory, disks and network
+- [aristocratos/btop](https://github.com/aristocratos/btop)
 
 ## notes
 
-Gradients run from patina through ochre into oxblood; oxblood is a fill colour, so it is used here without its text tint.
-
-The frame carries real system totals (CPU model, memory, disk); hostname, clock and uptime are switched off.
+Copy the file into `~/.config/btop/themes/` and set `color_theme = "verdigris"`. Gradients run from patina through ochre into oxblood, without oxblood's text tint because it is a fill here.

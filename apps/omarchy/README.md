@@ -21,12 +21,8 @@
 
 ## parts
 
-- [widgets](widgets) — calendar, flux, system monitor and the rest of the bar
-- [hyprland](hyprland) — window borders and the share picker
-- [floating terminal](floating-terminal) — ghostty as a floating window
-- [omari](omari) — the overview and alt-tab keybinds
-- [hokum](../hokum) — notification cards
+- [widgets](widgets) · [hyprland](hyprland) · [floating terminal](floating-terminal) · [omari](omari) · [hokum](../hokum)
 
 ## notes
 
-`omarchy theme install https://github.com/Algorant/omarchy-verdigris-theme` installs it as `verdigris`. Omarchy generates the ghostty, foot, hyprland, chromium and shell files from these colours; apps worth their own page have one.
+`omarchy theme install https://github.com/Algorant/omarchy-verdigris-theme` installs it as `verdigris`.
