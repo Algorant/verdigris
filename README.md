@@ -1,12 +1,10 @@
 ![verdigris](docs/banner.png)
 
-verdigris is a dark mode colorscheme built around oxidized copper: weathered bronze, warm vellum, patina green, cool aqua, brass ochre. 
-
-It is what I use on every machine, ported to the software I actually run.
+a dark mode colorscheme built around oxidized copper: somewhere between gruvbox dark and everforest.
 
 ![verdigris core palette](docs/palette-swatch.svg)
 
-Six core colours carry the scheme: ashbronze metal, vellum text, fern and patina greens, aqua, ochre. Everything else in the palette is a supporting role for one app or one state, listed in [`palette/verdigris.json`](palette/verdigris.json).
+Six core colors carry the scheme, and some additional colors in the [additional colors] section.
 
 ## gallery
 
