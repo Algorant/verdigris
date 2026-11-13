@@ -19,7 +19,7 @@ accord:
   note: "Algorant rejected verbose/ad-libbed restoration. Return to old page/SVG verbatim, remove only todo line, drop generator and its docs, keep homepage link. Same branch and preview post; needs his re-review."
   updatedAt: "2026-11-13T04:55:59Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T04:55:59Z"
+updatedAt: "2026-11-13T04:59:52Z"
 assignee: "pi:additional-colors-reference"
 ---
 
@@ -39,3 +39,7 @@ Restore additional-colors/README.md and SVG verbatim from 09a7639^, removing ONL
 ## Six additional colors only (Algorant via Herdra m31f095b8) — supersedes literal restoration
 Algorant: "I only want the additoinal 6 colors, none of the other nonsense"
 Page: version line, swatch displaying ONLY moss/teal/oxblood/goldenrod/deep-copper/ink-violet, one table with old short roles. At most one-line description, no tints/intro essay/trials/examples/footer/generator. Keep homepage link. Edit palette/verdigris.json to remove ochre-alt, brown-green, dark-ochre-trial unless a shipped port actually uses the name or hex; retain used entries and report evidence without changing port. Keep oxblood-text/oxblood-bright in JSON (ports use them), absent from this page. Same branch/post, review gate unchanged. Palette edits now expressly authorized.
+## Six-only revision ready for Algorant
+Branch additional-colors-reference at 4892e48, unpushed/unmerged. Page now only title, palette version, six-only swatch, one six-row table with historical short roles. No prose/tints/trials/examples/footer/generator. Net diff from 51dfaff is three files only: homepage link and reference README/SVG.
+JSON is byte-identical, per explicit shipped-port exception: #d8a65c (ochre-alt) in Leaf inline_code_fg/search_match_bg, Obsidian --v-ochre-deep, Starship color_ochre_alt; #604b29 (brown-green) in btop available_start/used_start/upload_start and Starship color_brown_green; #8b6021 (dark-ochre-trial) in btop used_mid and Starship color_dark_ochre. No port changed; oxblood text/bright tints retained in JSON and absent from page/swatch.
+Same Sideshow post 4caGtaNYbmE revised using GitHub Markdown API. Owner verified six table rows, six SVG color groups, all non-page supporting names absent, JSON unchanged; inspected bounded six-only swatch. Manus verified real rendered page has only H1, version paragraph, image and six-row table. Session http://desktop.tail1cefc.ts.net:8228/session/rsnVsfi6go4 returns HTTP 200. Waiting on Algorant.
