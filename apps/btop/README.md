@@ -1,4 +1,6 @@
 # btop
+- Terminal resource monitor for cpu, memory, disks and network
+- [github](https://github.com/aristocratos/btop)
 
 ## gallery
 
@@ -14,7 +16,7 @@
 
 ## project
 
-- Terminal resource monitor for cpu, memory, disks and network | [github](https://github.com/aristocratos/btop)
+
 
 ## notes
 
