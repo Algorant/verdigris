@@ -3,11 +3,10 @@ id: task-10
 uid: df5d6dcb-4c07-4a88-bcac-425669a02d68
 type: task
 title: "Ship a generated Spotifast theme"
-state: "in-progress"
 effort: "medium"
 relatedFiles: ["apps/spotifast/", "build/generate-spotifast.py", "build/README.md"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["Evidence names the actual Omarchy source/generated file and Spotifast keys/mapping used by the installed app.", "Native Spotifast theme file is generated deterministically from canonical palette; exact Omarchy values match.", "Actual Spotifast loader accepts generated file in isolated state, or inability/absence of format is demonstrated with evidence; no mocked parsing validation.", "README links file and explains use without Omarchy and equivalent Omarchy colors in one line.", "Separate committed result reports generator command, load verification and repo/live reach; no live changes."]
   claimedAt: "2026-11-13T04:43:03Z"
   deliveredAt: "2026-11-13T04:52:53Z"
@@ -16,10 +15,14 @@ accord:
   summary: "Native Spotifast theme generated from palette and Omarchy template, actual palette parser accepts; live-cache equality verified. GUI unverified, repo-only."
   evidence: ["ebcebe8: apps/spotifast/verdigris.json, build/generate-spotifast.py, README use instructions, build documentation.", "Real fastframe_theme::parse_palette with Spotifast's original Palette source accepts file and yields 18 cache-identical fields; negative unknown-key control rejected. Not a GUI load.", "Owner verified 14 explicit RGBA fields + dark mode against actual system_theme_cache.palette.", "Owner ran generator twice, unchanged SHA256 73755afa47129e29841a2d40bd97b2fdc682360254707fc7bbd73deeb52b7bfa; clean tree and diff --check. No live edits."]
   filesChanged: ["apps/spotifast/verdigris.json", "apps/spotifast/README.md", "build/generate-spotifast.py", "build/README.md"]
-  updatedAt: "2026-11-13T04:52:53Z"
+  updatedAt: "2026-11-13T04:52:56Z"
 createdAt: "2026-11-13T04:42:48Z"
-updatedAt: "2026-11-13T04:52:53Z"
+updatedAt: "2026-11-13T04:52:56Z"
 assignee: "pi:spotifast-native-theme"
+archivedAt: "2026-11-13T04:52:56Z"
+resolution:
+  outcome: "completed"
+  note: "Merged by worker_finish: spotifast-native-theme → main at ebcebe885d2fc4052014543901d4245bb7317516."
 ---
 
 ## Description
