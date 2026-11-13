@@ -1,17 +1,22 @@
-# verdigris for neovim
+# verdigris-nvim
 
-TUI editor. My editor on every machine.
+## files
 
-## install
+- the colourscheme lives in its own repository: [Algorant/verdigris.nvim](https://github.com/Algorant/verdigris.nvim)
 
-The colourscheme is its own plugin: [Algorant/verdigris.nvim](https://github.com/Algorant/verdigris.nvim). Install it with your plugin manager and set `colorscheme verdigris`.
+## gallery
 
-```lua
-{ "Algorant/verdigris.nvim", lazy = false, priority = 1000, config = function() vim.cmd.colorscheme("verdigris") end }
-```
+<table>
+  <tr>
+    <td align="center"><a href="screenshot.png"><img src="thumbs/neovim.jpg" width="260"></a><br><sub>neovim</sub></td>
+    <td align="center"><a href="screenshot-2.png"><img src="thumbs/file-picker.jpg" width="260"></a><br><sub>file picker</sub></td>
+    <td align="center"><a href="screenshot-3.png"><img src="thumbs/lazy.jpg" width="260"></a><br><sub>lazy</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="screenshot-4.png"><img src="thumbs/mason.jpg" width="260"></a><br><sub>mason</sub></td>
+  </tr>
+</table>
 
 ## notes
 
-Dark only. The plugin owns the highlight groups; this folder is the catalogue entry and the palette it follows.
-
-Four pictures: the editor plain, the file picker, lazy and mason.
+Dark only. The plugin owns the highlight groups; its own README can be brought to this shape later.
