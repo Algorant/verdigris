@@ -17,4 +17,4 @@
 
 Fern marks the active panel, ashbronze the idle ones, and the lighter background sits under the selected line. Staged and unstaged changes use oxblood's text tint, which is the only red in the palette that stays readable on `#1d2021`.
 
-Two accents are set but not in frame: cherry-picked commits (teal) and the search prompt's border (goldenrod), which need a marked commit and an open search.
+Two accents are set but not in frame: cherry-picked commits (teal) and the search prompt's border (goldenrod). Neither can be shot on 0.66.2 as the keys suggest: cherry-pick is bound to an uppercase `C` no automated terminal delivers, and an open search keeps the panel's active border rather than showing goldenrod.
