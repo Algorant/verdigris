@@ -3,18 +3,20 @@ id: task-6
 uid: 1535b669-8b69-419b-8fc0-68ca13485f8b
 type: task
 title: "Port verdigris to lazygit and add its page"
-state: todo
+state: "in-progress"
 priority: "medium"
 effort: "small"
 relatedFiles: ["apps/lazygit/", "README.md"]
 tags: ["port", "app-page", "verify-with-algorant"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["apps/lazygit/config.yml holds a gui.theme block built only from palette/verdigris.json tokens, and every key it sets exists in lazygit's default theme", "apps/lazygit/README.md follows the page rules and is linked from the homepage terminal/cli list", "Algomarchy has applied the block to his live ~/.config/lazygit/config.yml; he has opened lazygit and answered", "His retaken screenshot replaces the pre-port one in the gallery, md5-checked against his file", "Pushed to main only after his OK, with the branch left local until then"]
+  claimedAt: "2026-11-13T03:08:49Z"
   constraints: ["Commit on a local branch; no push until Algorant answers", "Red is oxblood's text tint #c66f70, never a gruvbox red", "Undo for his live file is removing the gui.theme block"]
-  updatedAt: "2026-11-13T03:05:14Z"
+  updatedAt: "2026-11-13T03:08:49Z"
 createdAt: "2026-11-13T03:05:14Z"
-updatedAt: "2026-11-13T03:05:14Z"
+updatedAt: "2026-11-13T03:08:49Z"
+assignee: "verdigris-ceph"
 ---
 
 ## Description
