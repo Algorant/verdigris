@@ -1,9 +1,5 @@
 # btop
 
-## files
-
-- [`verdigris.theme`](verdigris.theme) — the btop theme file
-
 ## gallery
 
 <table>
@@ -12,6 +8,15 @@
   </tr>
 </table>
 
+## files
+
+- [`verdigris.theme`](verdigris.theme) — the btop theme file
+
+## project
+
+- Terminal resource monitor for cpu, memory, disks and network
+- [aristocratos/btop](https://github.com/aristocratos/btop)
+
 ## notes
 
-Gradients run from patina through ochre into oxblood. Oxblood is a fill colour here, so it is used without its text tint.
+Copy the file into `~/.config/btop/themes/` and set `color_theme = "verdigris"`. Gradients run from patina through ochre into oxblood, without oxblood's text tint because it is a fill here.

@@ -1,9 +1,5 @@
 # verdigris-nvim
 
-## files
-
-- the colourscheme lives in its own repository: [Algorant/verdigris.nvim](https://github.com/Algorant/verdigris.nvim)
-
 ## gallery
 
 <table>
@@ -17,6 +13,11 @@
   </tr>
 </table>
 
-## notes
+## files
 
-Dark only. The plugin owns the highlight groups; its own README can be brought to this shape later.
+- [Algorant/verdigris.nvim](https://github.com/Algorant/verdigris.nvim) — the colourscheme, including its plugin spec
+
+## project
+
+- Colorscheme for neovim, following this palette
+- [Algorant/verdigris.nvim](https://github.com/Algorant/verdigris.nvim), for [neovim](https://github.com/neovim/neovim)
