@@ -3,7 +3,7 @@ id: task-13
 uid: 9be5f810-8ef5-4d1b-a000-9d53575833ff
 type: task
 title: "Explore algOS wordmarks"
-state: "in-progress"
+state: "validation"
 effort: "small"
 accord:
   status: "delivered"
@@ -15,8 +15,12 @@ accord:
   evidence: ["Sideshow post 'algOS wordmarks — six mockups' in session 0kP-K1iU0P0: contact sheet, six 1280x360 banners, six 256x256 square icons, and a real-size icon legibility ladder.", "Rendered PNGs inspected at 2x crops: mark baselines on the text baseline, side gaps 11-14px (~0.08em) both sides, mark tops inset 6-9px under cap height, no clipping or seams.", "git status --porcelain on /home/algorant/Projects/verdigris is empty; all SVG/PNG/scripts live under /tmp/algos-mockups-1794579494; no fonts installed, no image generation, no live app or theme changes."]
   updatedAt: "2026-11-13T14:39:40Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T14:40:29Z"
+updatedAt: "2026-11-13T14:40:31Z"
 assignee: "pi:algos-wordmark-concepts"
+validation.criterion: "Delivery to Herdra includes session link and brief differences, explicitly a mockup, not an installed/adopted rebrand."
+validation.note: "Scratch exploration delivered for Algorant's look: six numbered variants, banners/icons together in one post. Owner inspected actual renders. http://desktop.tail1cefc.ts.net:8228/session/0kP-K1iU0P0 . Nothing adopted or installed; repository source remains clean."
+validation.requestedAt: "2026-11-13T14:40:31Z"
+validation.reviewer: "Algorant"
 ---
 
 ## Description
