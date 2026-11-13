@@ -3,17 +3,19 @@ id: task-8
 uid: 02511162-db49-4940-b401-da413d3b7d4b
 type: task
 title: "Close portfolio documentation gaps"
-state: todo
+state: "in-progress"
 effort: "small"
 references: ["algorant task-4", "mdca7870e"]
 relatedFiles: ["README.md", "apps/spotifast/README.md", "CHANGELOG.md"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["README additional colors reference resolves to existing palette documentation.", "Spotifast page says it inherits the Omarchy system theme and needs no separate theme file.", "Changelog describes current coverage and version metadata truthfully, preserving historical palette changes without advertising deleted ports.", "Full-history gitguard result is reported with findings and unverified coverage distinguished.", "Report proposes whether to tag 0.2.0; no tag or release is created."]
+  claimedAt: "2026-11-13T04:38:12Z"
   constraints: ["No live configuration changes.", "Do not change Hokum or omarchy-setup links.", "Use American spelling.", "Do not push; owner verifies and pushes after integration."]
-  updatedAt: "2026-11-13T04:38:01Z"
+  updatedAt: "2026-11-13T04:38:12Z"
 createdAt: "2026-11-13T04:38:01Z"
-updatedAt: "2026-11-13T04:38:01Z"
+updatedAt: "2026-11-13T04:38:12Z"
+assignee: "verdigris"
 ---
 
 ## Description
