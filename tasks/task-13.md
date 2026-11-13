@@ -3,7 +3,7 @@ id: task-13
 uid: 9be5f810-8ef5-4d1b-a000-9d53575833ff
 type: task
 title: "Explore algOS wordmarks"
-state: "in-progress"
+state: "validation"
 effort: "small"
 accord:
   status: "delivered"
@@ -15,8 +15,12 @@ accord:
   evidence: ["New final post dNzGN5MDwXs in session 0kP-K1iU0P0; banner and icon contact sheets show all four colors, dark/light contexts and actual-size favicon ladder; MagicDNS session HTTP 200.", "Final folder has 81 plain files: 8 SVG masters, 72 PNGs and one README, zero scripts. Includes 1280×360 and 2560×720 banners per color/context; icons at 1024/512/256/64/48/32/16 per color/context.", "Actual 1280 banner raster measurement: alg body 57 px against OS cap 143–144 px (0.396–0.399 across contexts, approximately 40%). Common 142-unit SVG design cap and alignment across colors.", "Original mark verified against apps/fastfetch/logos/omarchy-mark.svg: all 51 rects match; two-tone coverage remains exactly the same 95 cells. Font is installed JetBrainsMono Nerd Font Regular (Nerd-Font-patched JetBrains Mono regular face), documented as SVG text dependency; PNGs are rasterized.", "Rounds 1–4 and round4-revision-1 snapshots remain in ~/.local/share/verdigris/algos/2026-11-13-algos-wordmark-concepts/; final set is separate. Project git status --porcelain is empty; no source/live cutover, installs or spend."]
   updatedAt: "2026-11-13T18:19:01Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T18:20:19Z"
+updatedAt: "2026-11-13T18:20:21Z"
 assignee: "pi:algos-wordmark-concepts"
+validation.criterion: "Final set is visually inspected and published to same algOS mockups Sideshow session; exact folder/link reported to Herdra and Algomarchy."
+validation.note: "Selected40% final set ready, plain persistent SVG/PNG files. Owner inspected contexts/icons and independently verified mask/export inventory. Same session0kP-K1iU0P0 final post dNzGN5MDwXs; folder ~/.local/share/verdigris/algos/final/. Editable SVG text font dependency documented, PNGs portable; pale ochre light-context caveat. No cutover."
+validation.requestedAt: "2026-11-13T18:20:21Z"
+validation.reviewer: "Algorant"
 ---
 
 ## Description
