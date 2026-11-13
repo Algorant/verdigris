@@ -13,11 +13,3 @@
 ## files
 
 - [`verdigris.theme`](verdigris.theme) — the btop theme file
-
-## project
-
-
-
-## notes
-
-Copy the file into `~/.config/btop/themes/` and set `color_theme = "verdigris"`. Gradients run from patina through ochre into oxblood, without oxblood's text tint because it is a fill here.
