@@ -57,9 +57,7 @@ Six core colours carry the scheme: ashbronze metal, vellum text, fern and patina
 
 ## how to use
 
-Don't clone this into your config. Copy the file for the app you want from its folder, or point your agent at the palette and have it build the rest.
-
-Some files are generated from the palette in [`build/generate.py`](build/generate.py); the rest are hand-written and checked against it.
+Don't try to install anything. Point your agent at whatever you like that looks nice, and have it make you a version of it.
 
 ## License
 
