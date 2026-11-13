@@ -4,16 +4,18 @@ uid: 768c8823-0c22-48db-a14a-c9138d765fcc
 type: task
 kind: "papercut"
 title: "Atuin's red is not verdigris oxblood"
-state: todo
+state: "in-progress"
 priority: "low"
 effort: "small"
 relatedFiles: ["apps/atuin/verdigris.toml", "apps/atuin/screenshot.png"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["The atuin port's red matches verdigris oxblood roles: fills use oxblood #74363d and red text uses oxblood-text #c66f70, with no leftover Gruvbox red in apps/atuin/verdigris.toml.", "A fresh atuin screenshot built from the corrected theme replaces the placeholder in apps/atuin/."]
-  updatedAt: "2026-11-12T22:33:25Z"
+  claimedAt: "2026-11-13T02:48:14Z"
+  updatedAt: "2026-11-13T02:48:14Z"
 createdAt: "2026-11-12T22:33:25Z"
-updatedAt: "2026-11-12T22:33:25Z"
+updatedAt: "2026-11-13T02:48:14Z"
+assignee: "pi:verdigris"
 ---
 
 ## Description

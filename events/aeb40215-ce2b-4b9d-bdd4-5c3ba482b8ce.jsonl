@@ -40,3 +40,4 @@
 {"ts":"2026-11-13T02:27:16Z","event":"task.updated","id":"task-5","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":40,"data":{"fields":["body"]}}
 {"ts":"2026-11-13T02:35:55Z","event":"task.updated","id":"task-5","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":41,"data":{"fields":["body"]}}
 {"ts":"2026-11-13T02:41:39Z","event":"task.updated","id":"task-5","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":42,"data":{"fields":["body"]}}
+{"ts":"2026-11-13T02:48:14Z","event":"accord.claimed","id":"task-4","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":43,"data":{}}
