@@ -3,7 +3,7 @@ id: task-13
 uid: 9be5f810-8ef5-4d1b-a000-9d53575833ff
 type: task
 title: "Explore algOS wordmarks"
-state: "in-progress"
+state: "validation"
 effort: "small"
 accord:
   status: "delivered"
@@ -15,8 +15,12 @@ accord:
   evidence: ["Sideshow post 'algOS round 3 — one mark, type by color' (postId GIYDGn8cNq4, v2) in session 0kP-K1iU0P0: matrix, size sweep, shortlist, icon check.", "Geometry check: the repo file and this board's mark rendered at 1200px (80x the 15-cell grid) compare at AE=0, pixel-identical; at 121px the 828 differing pixels are edge antialiasing only. Two-tone cells use the same 95 cells with zero overlap.", "Matrix fixed layout at 33%: alg body 25.7px vs 78px OS cap, mark 76px; sweep measured 75/60/50/42/38px against a 150px cap = 0.50/0.40/0.33/0.28/0.25. Edge strips of all four sheets contain zero ink (no clipping); g descenders 9-14px inside their rows.", "git status --porcelain empty; artifacts under /tmp/algos-mockups-1794579494/round3; no installs, generation spend or live changes."]
   updatedAt: "2026-11-13T17:54:18Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T17:54:58Z"
+updatedAt: "2026-11-13T17:55:00Z"
 assignee: "pi:algos-wordmark-concepts"
+validation.criterion: "New numbered same-session Sideshow post is reported to Herdra; artifacts scratch-only and git/live unchanged."
+validation.note: "Round-3 controlled matrix and stronger ratio sweep ready for Algorant. Standard mark only, 33% fixed matrix, separate 50→25% sweep, three-cell icon check. Owner inspected renders; same session 0kP-K1iU0P0, new post GIYDGn8cNq4. Proposal only, scratch-only."
+validation.requestedAt: "2026-11-13T17:55:00Z"
+validation.reviewer: "Algorant"
 ---
 
 ## Description
