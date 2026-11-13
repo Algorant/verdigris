@@ -9,12 +9,12 @@ references: ["algorant task-4", "mdca7870e"]
 relatedFiles: ["README.md", "apps/spotifast/README.md", "CHANGELOG.md", "apps/hokum/README.md"]
 accord:
   status: "claimed"
-  acceptance: ["README additional colors reference resolves to existing palette documentation.", "Spotifast page says it inherits the Omarchy system theme and needs no separate theme file.", "Changelog describes current coverage and version metadata truthfully, preserving historical palette changes without advertising deleted ports.", "Full-history gitguard result is reported with findings and unverified coverage distinguished.", "Report proposes whether to tag 0.2.0; no tag or release is created.", "Hokum project line points to https://github.com/anomalyco/hokum in the same documentation commit."]
+  acceptance: ["Additional colors restoration and final README target are handed to the separate restoration Task rather than treated as a removed/retargeted gap.", "Spotifast page says it inherits the Omarchy system theme and needs no separate theme file.", "Changelog describes current coverage and version metadata truthfully, preserving historical palette changes without advertising deleted ports.", "Full-history gitguard result is reported with findings and unverified coverage distinguished.", "Report proposes whether to tag 0.2.0; no tag or release is created.", "Hokum project line points to https://github.com/anomalyco/hokum in the same documentation commit."]
   claimedAt: "2026-11-13T04:38:12Z"
   constraints: ["No live configuration changes.", "Correct Hokum upstream to anomalyco/hokum; do not change omarchy-setup links.", "Use American spelling.", "Do not push; owner verifies and pushes after integration."]
-  updatedAt: "2026-11-13T04:39:34Z"
+  updatedAt: "2026-11-13T04:41:27Z"
 createdAt: "2026-11-13T04:38:01Z"
-updatedAt: "2026-11-13T04:39:34Z"
+updatedAt: "2026-11-13T04:41:27Z"
 assignee: "verdigris"
 ---
 
@@ -31,3 +31,5 @@ Owner performs final full-history scan and version recommendation after document
 
 ## Scope correction from Algorant via Herdra (m65c58576)
 Algorant: "hokum is an opencode project with its own github. I only have a specific colorscheme for it". The actual upstream is https://github.com/anomalyco/hokum, not Algorant/hokum. Supersedes the earlier prohibition on editing that link: correct apps/hokum/README.md in the same documentation commit. omarchy-setup stays unchanged.
+## Additional colors scope correction (m01044254)
+Algorant says the homepage placeholder is for the deleted additional-colors reference, not a link to remove or substitute. Restoration is a separate Task; that Task owns the final README target and visible swatch. task-8's already-integrated palette-notes link is interim and superseded by the restored page. Continue other documentation gaps, version proposal and scan without treating the interim link as fulfilling restoration.
