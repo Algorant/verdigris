@@ -3,24 +3,21 @@ id: task-13
 uid: 9be5f810-8ef5-4d1b-a000-9d53575833ff
 type: task
 title: "Explore algOS wordmarks"
-state: "validation"
+state: "in-progress"
 effort: "small"
 accord:
-  status: "delivered"
+  status: "rework"
   acceptance: ["Only verified JetBrains Mono Regular is used in round4; prior-font continuity or switch is stated accurately.", "4×2 side-by-side grid compares all four mark colors at 33% vs40% with controlled OS cap/mark geometry; each cell includes banner and square icon.", "Blue-only small-size ladder for each ratio is rendered and inspected, without inventing differences in unchanged standalone icons.", "All rounds' artifacts are preserved, and SVG+PNG for all four colors/both sizes persist under ~/.local/share/verdigris/algos/, not only /tmp.", "New post in same Sideshow session is reported to Herdra with persistent folder path; no repo/live branding changes."]
   claimedAt: "2026-11-13T14:17:59Z"
   deliveredAt: "2026-11-13T17:54:18Z"
   constraints: ["No repository source edits, commits, pushes or live settings changes.", "Preserve all existing artifacts; durable local artwork under ~/.local/share/verdigris/algos/ supersedes /tmp-only storage.", "No image-generation spend, dependency installs or new tools required; use existing SVG/raster tools and fonts.", "American spelling; keep standard original Omarchy mark geometry."]
   summary: "Round 3: unmodified Omarchy mark geometry (verified pixel-identical at 80x), 3x4 type/color matrix at a fixed 33% ratio, 50-25% size sweep, shortlist and 3-cell small-size check; new post in the same Sideshow session."
   evidence: ["Sideshow post 'algOS round 3 — one mark, type by color' (postId GIYDGn8cNq4, v2) in session 0kP-K1iU0P0: matrix, size sweep, shortlist, icon check.", "Geometry check: the repo file and this board's mark rendered at 1200px (80x the 15-cell grid) compare at AE=0, pixel-identical; at 121px the 828 differing pixels are edge antialiasing only. Two-tone cells use the same 95 cells with zero overlap.", "Matrix fixed layout at 33%: alg body 25.7px vs 78px OS cap, mark 76px; sweep measured 75/60/50/42/38px against a 150px cap = 0.50/0.40/0.33/0.28/0.25. Edge strips of all four sheets contain zero ink (no clipping); g descenders 9-14px inside their rows.", "git status --porcelain empty; artifacts under /tmp/algos-mockups-1794579494/round3; no installs, generation spend or live changes."]
-  updatedAt: "2026-11-13T17:59:37Z"
+  note: "Round4: JetBrains Mono Regular, all four colors ×33/40% pairs, persistent SVG/PNG artifacts and previous-round preservation; new same-session post."
+  updatedAt: "2026-11-13T17:59:39Z"
 createdAt: "2026-11-13T14:17:43Z"
-updatedAt: "2026-11-13T17:59:37Z"
+updatedAt: "2026-11-13T17:59:39Z"
 assignee: "pi:algos-wordmark-concepts"
-validation.criterion: "New numbered same-session Sideshow post is reported to Herdra; artifacts scratch-only and git/live unchanged."
-validation.note: "Round-3 controlled matrix and stronger ratio sweep ready for Algorant. Standard mark only, 33% fixed matrix, separate 50→25% sweep, three-cell icon check. Owner inspected renders; same session 0kP-K1iU0P0, new post GIYDGn8cNq4. Proposal only, scratch-only."
-validation.requestedAt: "2026-11-13T17:55:00Z"
-validation.reviewer: "Algorant"
 ---
 
 ## Description
