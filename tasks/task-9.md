@@ -3,7 +3,7 @@ id: task-9
 uid: fd141598-2ad2-4383-8b6c-54c6759d3847
 type: task
 title: "Restore additional colors reference"
-state: "in-progress"
+state: "validation"
 effort: "medium"
 relatedFiles: ["README.md", "additional-colors/", "build/generate-additional-colors.py", "build/README.md", "palette/verdigris.json"]
 accord:
@@ -18,8 +18,12 @@ accord:
   filesChanged: ["README.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg"]
   updatedAt: "2026-11-13T04:59:54Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T04:59:54Z"
+updatedAt: "2026-11-13T04:59:56Z"
 assignee: "pi:additional-colors-reference"
+validation.criterion: "Same Sideshow post 4caGtaNYbmE updated with GitHub-style render, JSON changes reported to Herdra, no merge before approval."
+validation.note: "Six-only revision 4892e48 ready for Algorant: no prose, tints, trials or examples. JSON unchanged only because all three trial values have documented actual shipped-port use. Same session/post; unmerged/unpushed pending yes."
+validation.requestedAt: "2026-11-13T04:59:56Z"
+validation.reviewer: "Algorant"
 ---
 
 ## Description
