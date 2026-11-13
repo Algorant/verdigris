@@ -9,4 +9,5 @@
 </table>
 
 - Spotify client
-- Follows the Omarchy system theme, so it needs no separate Verdigris theme file.
+- Follows the Omarchy system theme, so on an Omarchy desktop it needs no separate Verdigris theme file.
+- Without Omarchy, copy [`verdigris.json`](verdigris.json) into `~/.config/spotifast/themes/` and pick `verdigris` under Appearance; it holds the exact colors Omarchy's Spotifast template renders from the palette.
