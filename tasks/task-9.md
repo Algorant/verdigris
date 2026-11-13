@@ -3,11 +3,11 @@ id: task-9
 uid: fd141598-2ad2-4383-8b6c-54c6759d3847
 type: task
 title: "Restore additional colors reference"
-state: "validation"
+state: "in-progress"
 effort: "medium"
 relatedFiles: ["README.md", "additional-colors/", "build/generate-additional-colors.py", "build/README.md"]
 accord:
-  status: "delivered"
+  status: "rework"
   acceptance: ["additional-colors/README.md equals 09a7639^:additional-colors/README.md except deletion of the ##todo examples line.", "additional-colors/verdigris-additional-colors-swatch.svg equals the historical SVG byte for byte.", "No build/generate-additional-colors.py, generator documentation bullet, trials, added sections or footer remain on branch.", "Homepage additional colors link still targets additional-colors/.", "Same Sideshow post 4caGtaNYbmE updated with GitHub-style rendered revision, sent to Herdra with exact historical diff; no merge before acceptance."]
   claimedAt: "2026-11-13T04:41:44Z"
   deliveredAt: "2026-11-13T04:52:24Z"
@@ -16,14 +16,11 @@ accord:
   summary: "Generated reference and 11-color swatch delivered on unmerged branch additional-colors-reference at 333d1ea; GitHub-rendered preview published for Algorant."
   evidence: ["Owner ran generator twice: both up to date and worktree clean; exact 11 JSON name/hex/role table rows and matching SVG groups verified.", "Owner inspected bounded 1024px swatch render: all 11 names/hex/roles visible, no clipping.", "Sideshow post 4caGtaNYbmE in rescope session rsnVsfi6go4: README rendered by GitHub Markdown API, github-markdown dark styling; local and MagicDNS session URLs HTTP 200.", "Manus checked render: Obscura table overlap confirmed absent in one-shot Chromium, known renderer gap; no merge/push/live edits."]
   filesChanged: ["README.md", "additional-colors/README.md", "additional-colors/verdigris-additional-colors-swatch.svg", "build/generate-additional-colors.py", "build/README.md"]
-  updatedAt: "2026-11-13T04:54:05Z"
+  note: "Algorant rejected verbose/ad-libbed restoration. Return to old page/SVG verbatim, remove only todo line, drop generator and its docs, keep homepage link. Same branch and preview post; needs his re-review."
+  updatedAt: "2026-11-13T04:54:07Z"
 createdAt: "2026-11-13T04:41:25Z"
-updatedAt: "2026-11-13T04:54:05Z"
+updatedAt: "2026-11-13T04:54:07Z"
 assignee: "pi:additional-colors-reference"
-validation.criterion: "README rendered in GitHub style is published to Sideshow and visually checked, with the preview sent to Herdra."
-validation.note: "Awaiting Algorant's approval of the rendered restored reference. Preview http://desktop.tail1cefc.ts.net:8228/session/rsnVsfi6go4, post additional colors reference: restored page. Branch additional-colors-reference at 333d1ea remains unmerged and unpushed; review only, no live settings changed."
-validation.requestedAt: "2026-11-13T04:52:26Z"
-validation.reviewer: "Algorant"
 ---
 
 ## Description

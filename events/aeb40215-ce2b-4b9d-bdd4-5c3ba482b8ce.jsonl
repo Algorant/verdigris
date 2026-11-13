@@ -65,3 +65,4 @@
 {"ts":"2026-11-13T04:52:53Z","event":"accord.delivered","id":"task-10","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":65,"data":{}}
 {"ts":"2026-11-13T04:52:56Z","event":"task.completed","id":"task-10","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":66,"data":{}}
 {"ts":"2026-11-13T04:54:05Z","event":"task.updated","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":67,"data":{"fields":["acceptance","constraints","validation","body"]}}
+{"ts":"2026-11-13T04:54:07Z","event":"accord.rework","id":"task-9","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":68,"data":{}}
