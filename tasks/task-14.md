@@ -3,16 +3,18 @@ id: task-14
 uid: f7efe7e0-8f0b-47f1-be7b-c10bb4e7e3e7
 type: task
 title: "Prepare algOS reference cutover"
-state: todo
+state: "in-progress"
 effort: "small"
 relatedFiles: ["apps/omarchy/README.md", "apps/atuin/screenshot.tape", "apps/lazygit/screenshot.tape", "apps/tandem/screenshot-2.tape", "apps/btop/screenshot.tape", "apps/tandem/screenshot.tape", "apps/eza/screenshot.tape", "apps/starship/screenshot.tape", "apps/fastfetch/screenshot.tape", "apps/yazi/screenshot.tape"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Full census recorded and naming-only patch prepared with confirmed tape path target.", "Palette and theme identity unchanged; no commit or landing until Herdra signals after folder move."]
+  claimedAt: "2026-11-14T22:39:00Z"
   constraints: ["Do not commit until Herdra's explicit signal.", "No live configuration, screenshots, theme or palette changes."]
-  updatedAt: "2026-11-14T22:38:53Z"
+  updatedAt: "2026-11-14T22:39:00Z"
 createdAt: "2026-11-14T22:38:53Z"
-updatedAt: "2026-11-14T22:38:53Z"
+updatedAt: "2026-11-14T22:39:00Z"
+assignee: "pi:verdigris"
 ---
 
 ## Description
