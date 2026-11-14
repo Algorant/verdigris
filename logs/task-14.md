@@ -3,11 +3,10 @@ id: task-14
 uid: f7efe7e0-8f0b-47f1-be7b-c10bb4e7e3e7
 type: task
 title: "Prepare algOS reference cutover"
-state: "in-progress"
 effort: "small"
 relatedFiles: ["apps/omarchy/README.md", "apps/atuin/screenshot.tape", "apps/lazygit/screenshot.tape", "apps/tandem/screenshot-2.tape", "apps/btop/screenshot.tape", "apps/tandem/screenshot.tape", "apps/eza/screenshot.tape", "apps/starship/screenshot.tape", "apps/fastfetch/screenshot.tape", "apps/yazi/screenshot.tape"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["Full census recorded and naming-only patch prepared with confirmed tape path target.", "Palette and theme identity unchanged; no commit or landing until Herdra signals after folder move."]
   claimedAt: "2026-11-14T22:39:00Z"
   deliveredAt: "2026-11-14T23:23:02Z"
@@ -15,10 +14,16 @@ accord:
   summary: "Approved algOS naming patch committed and pushed at 514491e after Herdra landing signal me6cb3b36."
   evidence: ["Confirmed ~/.algOS and ~/.local/state/algOS exist before landing.", "Reviewed diff: exactly 10 naming-only replacements across 10 files; palette/theme unchanged. git diff --check passed.", "git push succeeded with commit-range leak scans passing; working tree clean and main matches origin/main."]
   filesChanged: ["apps/omarchy/README.md", "apps/atuin/screenshot.tape", "apps/btop/screenshot.tape", "apps/eza/screenshot.tape", "apps/fastfetch/screenshot.tape", "apps/lazygit/screenshot.tape", "apps/starship/screenshot.tape", "apps/tandem/screenshot.tape", "apps/tandem/screenshot-2.tape", "apps/yazi/screenshot.tape"]
-  updatedAt: "2026-11-14T23:23:02Z"
+  reviewer: "Algorant"
+  updatedAt: "2026-11-14T23:23:06Z"
 createdAt: "2026-11-14T22:38:53Z"
-updatedAt: "2026-11-14T23:23:02Z"
+updatedAt: "2026-11-14T23:23:06Z"
 assignee: "pi:verdigris"
+archivedAt: "2026-11-14T23:23:06Z"
+resolution:
+  outcome: "completed"
+  note: "Completed on Herdra's explicit commit/push/complete signal me6cb3b36, following approved wording/path targets m67ac8469. Pushed 514491e; clean main = origin/main. No live configuration changes."
+  reviewer: "Algorant"
 ---
 Herdra relayed Algorant's 2026-11-14 full algOS cutover (m8c9d9658). Private repo Algorant/.algOS at ~/.algOS; future public showroom Algorant/algOS. Prepare only; do not commit or land until Herdra signals after folder move. Keep palette/theme identity unchanged.
 Own census confirmed 10 lines / 10 files: one backlink and nine tape Screenshot output paths.
