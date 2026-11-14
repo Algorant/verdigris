@@ -9,7 +9,7 @@
 
 - Desktop theme for omarchy: bar, menus, borders and wallpapers
 - [omarchy-verdigris-theme](https://github.com/Algorant/omarchy-verdigris-theme)
-- [Algomarchy](https://github.com/Algorant/omarchy-setup) — my omarchy setup, where this theme is used
+- [algOS](https://github.com/Algorant/algOS) — a tailored Omarchy/Arch setup, where this theme is used
 
 ## files
 

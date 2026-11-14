@@ -42,4 +42,4 @@ Sleep 1s
 Type "./shot"
 Enter
 Sleep 3s
-Screenshot "/home/algorant/.local/state/algomarchy/verdigris-shots/starship/screenshot.png"
+Screenshot "/home/algorant/.local/state/algOS/verdigris-shots/starship/screenshot.png"

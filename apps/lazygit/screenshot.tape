@@ -44,4 +44,4 @@ Enter
 Sleep 3s
 Enter
 Sleep 2s
-Screenshot "/home/algorant/.local/state/algomarchy/verdigris-shots/lazygit/screenshot.png"
+Screenshot "/home/algorant/.local/state/algOS/verdigris-shots/lazygit/screenshot.png"

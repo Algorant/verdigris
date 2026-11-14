@@ -41,4 +41,4 @@ Enter
 Type "./shot"
 Enter
 Sleep 3s
-Screenshot "/home/algorant/.local/state/algomarchy/verdigris-shots/yazi/screenshot.png"
+Screenshot "/home/algorant/.local/state/algOS/verdigris-shots/yazi/screenshot.png"
