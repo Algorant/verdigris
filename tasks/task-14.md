@@ -13,11 +13,10 @@ accord:
   constraints: ["Do not commit until Herdra's explicit signal.", "No live configuration, screenshots, theme or palette changes."]
   updatedAt: "2026-11-14T22:39:00Z"
 createdAt: "2026-11-14T22:38:53Z"
-updatedAt: "2026-11-14T22:39:00Z"
+updatedAt: "2026-11-14T22:39:19Z"
 assignee: "pi:verdigris"
 ---
-
-## Description
-
-Herdra relayed Algorant's 2026-11-14 decision (m8c9d9658): full cutover from algomarchy to algOS, capitalized; private Algorant/.algOS at ~/.algOS; future public Algorant/algOS, described as "a tailored Omarchy/Arch setup". Request: "Confirm your own full census, then prepare the naming patch: backlink text/URL to the new names, and tape paths to ~/.algOS. Keep palette and theme identity unchanged. Don't commit until I signal, after the folder move. A link to the public Algorant/algOS can't resolve until it goes public, so word it the way your current link to the private showroom is handled."
-Census: 10 lines in 10 files: one backlink, nine tape Screenshot paths. Tape paths are actually ~/.local/state/algomarchy/verdigris-shots/... rather than checkout paths. Clarify target before preparing patch. No source commit or live change authorized yet.
+Herdra relayed Algorant's 2026-11-14 full algOS cutover (m8c9d9658). Private repo Algorant/.algOS at ~/.algOS; future public showroom Algorant/algOS. Prepare only; do not commit or land until Herdra signals after folder move. Keep palette/theme identity unchanged.
+Own census confirmed 10 lines / 10 files: one backlink and nine tape Screenshot output paths.
+Herdra clarified/approved exact targets in m67ac8469 (reply to m7793287a): use /home/algorant/.local/state/algOS/verdigris-shots/... to preserve generated-state separation. Algomarchy owns state namespace move. Backlink approved verbatim: [algOS](https://github.com/Algorant/algOS) — a tailored Omarchy/Arch setup, where this theme is used.
+Direct Ceph preparation retained because this is a tightly coupled uncommitted hold for coordinated cutover, not a Worker-ready committed delivery. Await explicit landing signal.

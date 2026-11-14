@@ -111,3 +111,4 @@
 {"ts":"2026-11-13T20:31:36Z","event":"task.completed","id":"task-6","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":111,"data":{}}
 {"ts":"2026-11-14T22:38:53Z","event":"task.created","id":"task-14","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":112,"data":{"title":"Prepare algOS reference cutover"}}
 {"ts":"2026-11-14T22:39:00Z","event":"accord.claimed","id":"task-14","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":113,"data":{}}
+{"ts":"2026-11-14T22:39:19Z","event":"task.updated","id":"task-14","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":114,"data":{"fields":["body"]}}
