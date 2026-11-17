@@ -8,14 +8,14 @@ priority: "low"
 effort: "medium"
 references: ["task-18"]
 accord:
-  status: "ready"
+  status: "blocked"
   acceptance: ["A smaller Showcase selection is approved by Algorant and uses one uniform image size.", "Shots needing retakes are recreated with headless neutral content, maintaining privacy exclusions.", "No work starts until Algorant asks."]
   claimedAt: "2026-11-17T21:41:15Z"
   constraints: ["Deferred until Algorant asks.", "No live-screen captures without an approved plan."]
-  note: "discarded: Algorant requires scoping before work (Herdra m443f2ee2); stop/park task-20, no publication. Delivered mock reference preserved in Sideshow qxN2UYwiMro and verified git bundle /home/algorant/.local/share/verdigris/parked-polish/showcase-image-polish.bundle (8267277). Restart only after Algorant scopes it."
-  updatedAt: "2026-11-17T21:50:40Z"
+  note: "Parked pending Algorant's explicit scoping per m443f2ee2. Both manus closed; no public changes."
+  updatedAt: "2026-11-17T21:50:59Z"
 createdAt: "2026-11-17T19:46:43Z"
-updatedAt: "2026-11-17T21:50:58Z"
+updatedAt: "2026-11-17T21:50:59Z"
 ---
 
 ## Description
