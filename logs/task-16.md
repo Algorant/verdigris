@@ -4,21 +4,24 @@ uid: 2c18ac0c-1d08-4f0a-80f7-dd19242c2af2
 type: task
 kind: "research"
 title: "Review omarchy-verdigris-theme README style"
-state: "in-progress"
 effort: "small"
 relatedFiles: ["/home/algorant/Projects/omarchy-verdigris-theme/README.md"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["One Sideshow post shows current and proposed README rendered in GitHub dark, plus a one-line-per-change rationale list.", "Proposed README follows the referenced house style and ends with exactly ## License / [MIT](LICENSE).", "No repository, live theme or published GitHub change is made before Algorant picks."]
   claimedAt: "2026-11-17T15:35:22Z"
   deliveredAt: "2026-11-17T19:44:29Z"
   constraints: ["Suggestions only until Algorant picks.", "Do not change palette, theme identity, wallpapers or live theme installation."]
   summary: "Published approved Showcase variant to omarchy-verdigris-theme at 0017ad1 after Algorant approval relayed in m0aeb1f71."
   evidence: ["Signed-out GitHub page HTTP 200; public README bytes match approved Showcase draft, exact License footer, and all four public image files match local bytes.", "git diff --check passed; commit/push succeeded and main equals origin/main. Only README and approved preview media changed; no theme/live configuration changes.", "Push scan: no findings in one commit, but two PNGs not content-scanned (not a whole-push clean claim). Both are approved existing public images, not new captures."]
-  updatedAt: "2026-11-17T19:44:29Z"
+  updatedAt: "2026-11-17T19:44:37Z"
 createdAt: "2026-11-17T15:35:12Z"
-updatedAt: "2026-11-17T19:44:29Z"
+updatedAt: "2026-11-17T19:44:37Z"
 assignee: "pi:theme-readme-review"
+archivedAt: "2026-11-17T19:44:37Z"
+resolution:
+  outcome: "completed"
+  note: "Merged by worker_finish: main → main at 514491e83581f528a9138e96c9447bcd56107b5d."
 ---
 
 ## Description
