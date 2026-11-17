@@ -3,17 +3,17 @@ id: task-19
 uid: 588a741c-fc6e-4539-ba0c-4a3081a046d9
 type: task
 title: "Align theme Showcase draft order"
-state: "in-progress"
+state: "todo"
 effort: "small"
 accord:
-  status: "claimed"
+  status: "ready"
   acceptance: ["Draft source and existing supporting preview show banner → brief intro → ## Showcase → existing four-image row.", "Existing supporting post YOHyPr16XYM updated in place to one matching Showcase preview, no new media/captures or public changes."]
   claimedAt: "2026-11-17T19:45:25Z"
   constraints: ["Draft-only; no public changes.", "Do not mutate archived task-16."]
-  updatedAt: "2026-11-17T19:45:25Z"
+  note: "No work performed: theme accepted as published; released claim without changes."
+  updatedAt: "2026-11-17T19:45:34Z"
 createdAt: "2026-11-17T19:45:15Z"
-updatedAt: "2026-11-17T19:45:25Z"
-assignee: "pi:theme-showcase-order"
+updatedAt: "2026-11-17T19:45:34Z"
 ---
 
 ## Description
