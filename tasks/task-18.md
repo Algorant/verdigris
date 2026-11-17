@@ -7,7 +7,7 @@ state: "in-progress"
 effort: "small"
 relatedFiles: ["README.md", "docs/thumbs/", "apps/spotifast/", "apps/leaf/", "apps/flea/", "apps/herdr/"]
 accord:
-  status: "delivered"
+  status: "rework"
   acceptance: ["README.md has a 2-column ## Screenshots table with small captions, containing the same images and links as the current gallery, placed immediately before ## License.", "Everything else in README.md is unchanged and the License footer stays exactly ## License / [MIT](LICENSE).", "Nothing reaches main or origin/main until Algorant picks from a GitHub-dark rendered preview."]
   claimedAt: "2026-11-17T15:41:01Z"
   deliveredAt: "2026-11-17T15:41:24Z"
@@ -16,9 +16,10 @@ accord:
   summary: "Replaced the 3-column gallery with a 2-column \"## Screenshots\" table (440px thumbs, small captions) placed after \"how to use\" and right before \"## License\", committed on the worktree branch only (no push)."
   evidence: ["2-column ## Screenshots table, same images/links, immediately before ## License: All 15 images and links kept; width=440 because every thumb is 480x300 (no upscaling, fits GitHub's ~888px column); order after 'how to use', then License. I kept the visible/collapsed split: 10 visible (5 rows) plus 5 in 'more screenshots' (yazi moved into the visible set to make an even count; last collapsed row has one empty cell because 15 is odd).", "Everything else unchanged; License footer exact: Diff only removes the old gallery block and adds the new section; banner, swatch, bullets, os/terminal/cli/apps and how-to-use untouched; '## License / [MIT](LICENSE)' intact.", "Nothing reaches main/origin until Algorant picks from a GitHub-dark preview: Committed on the worktree branch only, not pushed. I did not render a GitHub-dark preview; the parent must produce it for Algorant's pick. git diff --check clean; changed file list is README.md only."]
   filesChanged: ["README.md"]
-  updatedAt: "2026-11-17T15:41:24Z"
+  note: "Scope addition, still unpushed and still needsAlgorant (task-18 body updated, read it). Herdra decided to apply algOS's privacy exclusions to verdigris. These files are byte-identical to captures algOS dropped for showing private material (omarchy-setup commit 82568b4): apps/spotifast/screenshot.png, apps/leaf/screenshot.png (\"my tooling notes\") and apps/flea/screenshot.png (\"my projects directory\"). Also drop the old herdr TUI shot."
+  updatedAt: "2026-11-17T15:53:40Z"
 createdAt: "2026-11-17T15:40:56Z"
-updatedAt: "2026-11-17T15:53:29Z"
+updatedAt: "2026-11-17T15:53:40Z"
 assignee: "verdigris-screenshots-table"
 ---
 
