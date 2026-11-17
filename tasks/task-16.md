@@ -14,7 +14,7 @@ accord:
   constraints: ["Suggestions only until Algorant picks.", "Do not change palette, theme identity, wallpapers or live theme installation."]
   updatedAt: "2026-11-17T15:35:22Z"
 createdAt: "2026-11-17T15:35:12Z"
-updatedAt: "2026-11-17T15:35:22Z"
+updatedAt: "2026-11-17T15:40:05Z"
 assignee: "pi:theme-readme-review"
 ---
 
@@ -25,3 +25,6 @@ Algorant (2026-11-17), relayed by Herdra m63d03e75: "omarchy-verdigris-theme cou
 Reference style: his recently approved READMEs — algOS (about 35 lines, banner, plain bullets, collapsed galleries), dotfiles (how it works, one diagram, what it tracks), herdra draft 2, and verdigris itself. Short plain words, lowercase names, no kitchen sink, and the standard final footer: ## License / [MIT](LICENSE).
 
 Deliverable: one Sideshow post with current README and proposed README, both rendered GitHub dark, side by side or sequential, plus a short one-line-each list of what changed and why. Suggestions only: change nothing in the omarchy-verdigris-theme repo until Algorant picks.
+
+
+Scope addition, Algorant (2026-11-17) relayed by Herdra mf49a5179: "the demo sells it first. algOS and some other repos should also follow this pattern". Standard is Algorant board task-25: stills go in a 2-column "## Screenshots" table with small captions, near the end, before License. Colour schemes need no demo clip. Fold into this mock; push only after he picks.
