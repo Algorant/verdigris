@@ -7,19 +7,18 @@ state: "in-progress"
 effort: "small"
 relatedFiles: ["README.md", "docs/thumbs/", "apps/spotifast/", "apps/leaf/", "apps/flea/", "apps/herdr/"]
 accord:
-  status: "rework"
+  status: "delivered"
   acceptance: ["README.md has a 2-column ## Screenshots table with small captions, containing the same images and links as the current gallery, placed immediately before ## License.", "Everything else in README.md is unchanged and the License footer stays exactly ## License / [MIT](LICENSE).", "Nothing reaches main or origin/main until Algorant picks from a GitHub-dark rendered preview."]
   claimedAt: "2026-11-17T15:41:01Z"
-  deliveredAt: "2026-11-17T16:03:56Z"
+  deliveredAt: "2026-11-17T19:46:47Z"
   validation: ["$ git diff --check main...HEAD", "$ git diff --name-only main...HEAD"]
   constraints: ["README-only change.", "Mock on a branch; no push to main until Algorant picks."]
-  summary: "Removed both obsidian captures (screenshot-2 isn't neutral either: its tabs show \"Movies TBW\" and \"Shows TBW\"), rebalanced the table to 10 visible + 4 collapsed, committed on the branch only, not pushed."
-  evidence: ["Remove obsidian.png from table and apps/obsidian; rebalance to even rows: Deleted screenshot.png, thumbs/2.jpg, docs/thumbs/obsidian.jpg (only the table used it), and removed the page's image table; nothing else references them (git grep clean). Table is now 14 entries in 7 even rows: 10 visible (omarchy, omarchy keybindings, ghostty, neovim lazy, workstation, leaf, btop, calendar widget, yazi, neovim) plus 4 collapsed (system monitor, atuin, tandem, starship); I moved neovim up from the collapsed block, so no empty cell remains.", "Keep screenshot-2.png only if neutral apart from the sidebar: Not kept, so apps/obsidian now has no image. Main note 'Theme Testing' is neutral, but the tab bar shows 'Home', 'Movies TBW', 'Shows TBW' (the same watch lists), and the sidebar shows vault 'MasterVault' with folders Agentic, Dashboards, Knowledge Base, Mediafetch, Misc, New Notes, Projects, Publishing, Task Management, Work, plus journal-by-day.png and journal-by-project.png. Restoring it is `git checkout main -- apps/obsidian/screenshot-2.png apps/obsidian/thumbs/1.jpg` plus the page table, if Algorant accepts the tab and sidebar names.", "Branch only, no push: Committed on the worktree branch; git diff --check main...HEAD clean; not pushed. No other screenshots changed."]
-  filesChanged: ["README.md", "apps/obsidian/README.md", "apps/obsidian/screenshot.png", "apps/obsidian/screenshot-2.png", "apps/obsidian/thumbs/1.jpg", "apps/obsidian/thumbs/2.jpg", "docs/thumbs/obsidian.jpg"]
-  note: "Algorant approved publishing task-18 (Herdra m79c384e8): \"verdigris order is better, but too many images and they are not of a uniform size. need to retake some. with that said, add an add on task to fix this once live, and push the changes for now so we can get moving\". Before I finish/merge, apply ONLY the latest approved README layout: replace your branch README.md with /tmp/verdigris-shot-draft/README.md (already rendered/approved: ## Showcase above ## os/terminal/apps). Keep all privacy edits/media unc"
-  updatedAt: "2026-11-17T19:46:35Z"
+  summary: "Replaced README.md with the approved draft (## Showcase above ## os/terminal/cli/apps), committed on the branch only; no media changed."
+  evidence: ["Apply approved layout only: README.md copied byte-for-byte from /tmp/verdigris-shot-draft/README.md; the commit touches README.md only, so the privacy media edits are untouched.", "Checks: git diff --check main...HEAD clean; every img src and screenshot link in README.md exists in the tree; ## License / [MIT](LICENSE) still last; working tree clean, not pushed."]
+  filesChanged: ["README.md"]
+  updatedAt: "2026-11-17T19:46:47Z"
 createdAt: "2026-11-17T15:40:56Z"
-updatedAt: "2026-11-17T19:46:35Z"
+updatedAt: "2026-11-17T19:46:47Z"
 assignee: "verdigris-screenshots-table"
 ---
 
