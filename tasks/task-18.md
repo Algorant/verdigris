@@ -18,7 +18,7 @@ accord:
   filesChanged: ["README.md", "apps/obsidian/README.md", "apps/obsidian/screenshot.png", "apps/obsidian/screenshot-2.png", "apps/obsidian/thumbs/1.jpg", "apps/obsidian/thumbs/2.jpg", "docs/thumbs/obsidian.jpg"]
   updatedAt: "2026-11-17T16:03:56Z"
 createdAt: "2026-11-17T15:40:56Z"
-updatedAt: "2026-11-17T16:03:56Z"
+updatedAt: "2026-11-17T19:33:44Z"
 assignee: "verdigris-screenshots-table"
 ---
 
@@ -33,3 +33,5 @@ Scope addition (2026-11-17), Herdra decided (mb00b5e47), reversible by Algorant:
 1. Screenshots table: replace spotifast and leaf with clean shots (reuse clean public algOS images or headless captures with neutral content).
 2. App pages apps/spotifast, apps/leaf, apps/flea, apps/herdr: clean replacement captures, headless and neutral; herdr = the current Herdr app or no image. Where a neutral capture is infeasible without his accounts or private data, propose no image instead.
 All of it ships only with Algorant's task-18 pick, re-rendered in Sideshow session rsnVsfi6go4. Nothing pushed before.
+
+Latest layout correction, Algorant via Herdra mec940825: "for verdigris itself: the 'showcase' part should be above the os/terminal/app sections. why is this not cohesive/standardized? for every single other repo we put the images and showcase at the top. 'open with the convincing visual'". Supersedes near-end gallery placement: move current ## Showcase block after intro, before ## os; preserve media/privacy bundle. Principle: lead with convincing visuals; flexibility concerns heading/format, not burying images after the catalog. One bounded preview in existing post sFH7OQheWq4; sole hub iMTCezlsbAo, no publishing before review.
