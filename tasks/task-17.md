@@ -7,13 +7,16 @@ state: "in-progress"
 effort: "medium"
 references: ["task-16"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["3-5 same-size headless VHS shots show Verdigris Neovim with README-listed supported plugins/views, using scratch config and demo files with no personal paths or names in frame.", "One Sideshow post shows the shots plus current and proposed README rendered in GitHub dark, with a one-line-per-change rationale.", "Proposed README follows the referenced house style and ends with exactly ## License / [MIT](LICENSE).", "Nothing is committed or pushed to verdigris.nvim and no live Neovim config changes before Algorant picks."]
   claimedAt: "2026-11-17T15:36:08Z"
+  deliveredAt: "2026-11-17T15:56:14Z"
   constraints: ["Mock only until Algorant picks.", "Headless VHS only; no live screen captures.", "Only plugins/views the README already lists as supported; no palette changes."]
-  updatedAt: "2026-11-17T15:36:08Z"
+  summary: "Mock ready for Algorant: 5 same-size headless VHS shots of verdigris.nvim (editor/treesitter+gitsigns+LSP diagnostics+notify+lualine, telescope, blink.cmp, mini.files, which-key) and a proposed README (151→64 lines, ends ## License / [MIT](LICENSE)), published as one Sideshow post with current/proposed GitHub-dark renders and a per-change list. Nothing committed or pushed to verdigris.nvim."
+  evidence: ["Sideshow session http://localhost:8228/session/zEYoUgewCLE (post nGfS7SuRY4M); HTTP 200 on localhost and desktop.tail1cefc.ts.net:8228", "Shots /tmp/vnvim/shots/*.png all 1600x1000 (identify); tapes /tmp/vnvim/tapes; draft /tmp/vnvim/draft/README.md", "Obscura render of both README surfaces: all images loaded (draft 6 imgs naturalWidth>0)", "Incident: 10:37 a scratch Lazy! sync hit the live nvim config (XDG_* exported); reported to t41 (mcafe6493); live lockfile and plugins now match checkpoint 520 again (restored at 10:40 by someone other than this manus)"]
+  updatedAt: "2026-11-17T15:56:14Z"
 createdAt: "2026-11-17T15:35:56Z"
-updatedAt: "2026-11-17T15:45:44Z"
+updatedAt: "2026-11-17T15:56:14Z"
 assignee: "pi:nvim-readme-and-shots"
 ---
 

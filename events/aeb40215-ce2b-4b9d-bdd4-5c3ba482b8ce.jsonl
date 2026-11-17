@@ -134,3 +134,4 @@
 {"ts":"2026-11-17T15:49:58Z","event":"task.updated","id":"task-16","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":134,"data":{"fields":["body"]}}
 {"ts":"2026-11-17T15:53:29Z","event":"task.updated","id":"task-18","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":135,"data":{"fields":["relatedFiles","body"]}}
 {"ts":"2026-11-17T15:53:40Z","event":"accord.rework","id":"task-18","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":136,"data":{}}
+{"ts":"2026-11-17T15:56:14Z","event":"accord.delivered","id":"task-17","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":137,"data":{}}
