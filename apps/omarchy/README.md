@@ -4,6 +4,7 @@
   <tr>
     <td align="center"><a href="screenshot.png"><img src="thumbs/omarchy.jpg" width="260"></a><br><sub>omarchy</sub></td>
     <td align="center"><a href="screenshot-2.png"><img src="thumbs/omarchy-keys.jpg" width="260"></a><br><sub>keybindings</sub></td>
+    <td align="center"><a href="screenshot-3.png"><img src="thumbs/workstation.jpg" width="260"></a><br><sub>workstation</sub></td>
   </tr>
 </table>
 
