@@ -13,7 +13,7 @@ accord:
   constraints: ["Mock only until Algorant picks.", "Headless VHS only; no live screen captures.", "Only plugins/views the README already lists as supported; no palette changes."]
   updatedAt: "2026-11-17T15:36:08Z"
 createdAt: "2026-11-17T15:35:56Z"
-updatedAt: "2026-11-17T15:40:38Z"
+updatedAt: "2026-11-17T15:45:44Z"
 assignee: "pi:nvim-readme-and-shots"
 ---
 
@@ -32,3 +32,5 @@ Scope addition, Algorant (2026-11-17) relayed by Herdra mf49a5179: "the demo sel
 
 Incident (2026-11-17 10:37 EST): scratch `HOME=/tmp/vnvim/home nvim --headless "+Lazy! sync" +qa` loaded Algorant's live ~/.config/nvim and ~/.local/share/nvim because the session exports XDG_CONFIG_HOME/XDG_DATA_HOME/XDG_STATE_HOME/XDG_CACHE_HOME; overriding HOME alone does not isolate Neovim. It moved 9 live plugins (7 mini.*, nvim-treesitter, verdigris) to upstream main and rewrote lazy-lock.json. Herdra decided restore (m8917b9d0): verdigris Ceph ran `mise dot rollback --to 520 ~/.config/nvim/lazy-lock.json` (recorded as checkpoint 522; 521 holds the pre-rollback state) and live `Lazy! restore`; all 9 plugin HEADs match the lock, mise dot shows checkpoint 520 vs 522 and working tree no differences, `:checkhealth lazy` all OK.
 Rule for every scratch Neovim run: set HOME and every XDG_* (CONFIG_HOME, DATA_HOME, STATE_HOME, CACHE_HOME) under /tmp (or NVIM_APPNAME with all XDG_* in /tmp), and confirm `:echo stdpath('config')` and stdpath('data') are under /tmp before any Lazy install/sync.
+
+Planned-extras removal (2026-11-17), Algorant via Herdra mc5958a94: "verdigris has a 'planned support' section? don't ever remember making that or discussing it. remove if hasn't already been". The list (## Extras: Planned extras for other tools and terminals: Delta, Fish, Ghostty, WezTerm, Alacritty, Kitty) was in verdigris.nvim's README, not omarchy-verdigris-theme. git log -S'Planned extras' shows it came in with 6ab5e6b "initial commit, bootstrap" (2026-05-28), the bootstrap scaffold, never discussed. Removed and pushed in verdigris.nvim 027c510. Never reintroduce planned / coming soon / roadmap lists in any proposed README. Remaining for Algorant to decide: README line 9 has an HTML comment "<!-- TODO: Add screenshot once the palette settles. -->" (invisible on GitHub); this task's screenshots would replace it.
