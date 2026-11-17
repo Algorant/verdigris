@@ -15,7 +15,7 @@ accord:
   note: "discarded: Algorant requires scoping before work (Herdra m443f2ee2); stop/park task-20, no publication. Delivered mock reference preserved in Sideshow qxN2UYwiMro and verified git bundle /home/algorant/.local/share/verdigris/parked-polish/showcase-image-polish.bundle (8267277). Restart only after Algorant scopes it."
   updatedAt: "2026-11-17T21:50:40Z"
 createdAt: "2026-11-17T19:46:43Z"
-updatedAt: "2026-11-17T21:50:40Z"
+updatedAt: "2026-11-17T21:50:58Z"
 ---
 
 ## Description
@@ -28,3 +28,5 @@ Follow-up after task-18 is live: fewer Showcase images, all one uniform size; re
 Activated today by Algorant via Herdra m9e7a6725 (2026-11-17): "I have an ai meetup to go to and I want all my repos in decent shape before I go so I need to do all tehse polish tasks." Supersedes deferral. One bounded mock pass, aim within the hour, GitHub dark Sideshow post, no publishing until Algorant picks. Cut Showcase to approximately six strongest clean images, uniform size/aspect; reuse existing shots, headless rerender only where needed, no live captures.
 
 Algorant restriction via Herdra m6e3eca5e: "stop any vhs captures at the moment. I don't want these automated". No automated VHS/headless captures. Task-20 existing images only, retakes parked; task-21 text-only, images unchanged. Stop any in-flight captures; do not restart.
+
+PARKED by Algorant via Herdra m443f2ee2: "who ordered all this stuff to be done? all these polish tasks seem to require at least some sort of scoping by me before you even start". Previous activation was Herdra's direction, not Algorant-approved scope. Child stopped/closed through worker_discard; nothing published. Restart only after Algorant scopes it. Preserved reference: Sideshow qxN2UYwiMro; /home/algorant/.local/share/verdigris/parked-polish/showcase-image-polish.bundle (8267277).
