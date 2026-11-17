@@ -4,22 +4,22 @@ uid: 87153281-4823-4127-9c05-6222ff261f95
 type: task
 kind: "papercut"
 title: "Review Neovim README nitpicks"
-state: "in-progress"
+state: "todo"
 priority: "low"
 effort: "small"
 references: ["task-17"]
 accord:
-  status: "delivered"
+  status: "ready"
   acceptance: ["When Algorant asks, complete a bounded README/media nitpick review and address the specific issues he accepts."]
   claimedAt: "2026-11-17T21:41:19Z"
   deliveredAt: "2026-11-17T21:48:08Z"
   constraints: ["Deferred until Algorant asks.", "No live config changes or new captures without approval."]
   summary: "Bounded README nitpick pass with before/after Sideshow post; six small wording/consistency fixes proposed, nothing published"
   evidence: ["Sideshow post http://localhost:8228/p/wLBtz3Qz4Io (session zEYoUgewCLE)", "Proposed commit 2a48ecf in temp clone /tmp/vnvim/polish (11 insertions, 12 deletions); patch /tmp/vnvim/polish-post/readme.diff", "Links verified 200 (13 URLs); headless nvim 0.12.6 load check: colors_name=verdigris, lualine table, setup transparent=false bg=#1d2021"]
-  updatedAt: "2026-11-17T21:48:08Z"
+  note: "discarded: Algorant requires scoping before work (Herdra m443f2ee2); stop/park task-21, no publication. Drafts in /tmp/vnvim/polish and verified bundle /home/algorant/.local/share/verdigris/parked-polish/nvim-readme-polish.bundle preserve work; shared checkout retained. Restart only after Algorant scopes it."
+  updatedAt: "2026-11-17T21:50:46Z"
 createdAt: "2026-11-17T19:47:39Z"
-updatedAt: "2026-11-17T21:49:56Z"
-assignee: "pi:nvim-readme-polish"
+updatedAt: "2026-11-17T21:50:46Z"
 ---
 
 ## Description
