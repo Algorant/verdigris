@@ -11,13 +11,13 @@ accord:
   status: "delivered"
   acceptance: ["One Sideshow post shows current and proposed README rendered in GitHub dark, plus a one-line-per-change rationale list.", "Proposed README follows the referenced house style and ends with exactly ## License / [MIT](LICENSE).", "No repository, live theme or published GitHub change is made before Algorant picks."]
   claimedAt: "2026-11-17T15:35:22Z"
-  deliveredAt: "2026-11-17T15:40:32Z"
+  deliveredAt: "2026-11-17T19:44:29Z"
   constraints: ["Suggestions only until Algorant picks.", "Do not change palette, theme identity, wallpapers or live theme installation."]
-  summary: "Proposed README drafted (99→71 lines, 753→311 words); one Sideshow post with GitHub-dark renders of today, proposed (collapsed and open), one-line change list and source. Awaiting Algorant's pick; nothing changed in the theme repo."
-  evidence: ["Sideshow session http://localhost:8228/session/h4KL3kZBrNI (also http://desktop.tail1cefc.ts.net:8228/session/h4KL3kZBrNI, both HTTP 200), post F6Qs6-XPqYU", "Draft: /tmp/theme-readme-review/proposed/README.md; ends with ## License / [MIT](LICENSE)", "Theme repo git status clean at c9a8c33 (origin/main same); no edit, commit or push", "Facts checked against repo: 28 backgrounds (2 triptychs + 26), 5 previews, colors.toml slots; verdigris/apps lacks lsd, bat, ncspot, Claude Code; stock omarchy has no Super+B wallpaper binding"]
-  updatedAt: "2026-11-17T15:40:32Z"
+  summary: "Published approved Showcase variant to omarchy-verdigris-theme at 0017ad1 after Algorant approval relayed in m0aeb1f71."
+  evidence: ["Signed-out GitHub page HTTP 200; public README bytes match approved Showcase draft, exact License footer, and all four public image files match local bytes.", "git diff --check passed; commit/push succeeded and main equals origin/main. Only README and approved preview media changed; no theme/live configuration changes.", "Push scan: no findings in one commit, but two PNGs not content-scanned (not a whole-push clean claim). Both are approved existing public images, not new captures."]
+  updatedAt: "2026-11-17T19:44:29Z"
 createdAt: "2026-11-17T15:35:12Z"
-updatedAt: "2026-11-17T19:43:53Z"
+updatedAt: "2026-11-17T19:44:29Z"
 assignee: "pi:theme-readme-review"
 ---
 
