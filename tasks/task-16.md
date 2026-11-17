@@ -8,13 +8,16 @@ state: "in-progress"
 effort: "small"
 relatedFiles: ["/home/algorant/Projects/omarchy-verdigris-theme/README.md"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["One Sideshow post shows current and proposed README rendered in GitHub dark, plus a one-line-per-change rationale list.", "Proposed README follows the referenced house style and ends with exactly ## License / [MIT](LICENSE).", "No repository, live theme or published GitHub change is made before Algorant picks."]
   claimedAt: "2026-11-17T15:35:22Z"
+  deliveredAt: "2026-11-17T15:40:32Z"
   constraints: ["Suggestions only until Algorant picks.", "Do not change palette, theme identity, wallpapers or live theme installation."]
-  updatedAt: "2026-11-17T15:35:22Z"
+  summary: "Proposed README drafted (99→71 lines, 753→311 words); one Sideshow post with GitHub-dark renders of today, proposed (collapsed and open), one-line change list and source. Awaiting Algorant's pick; nothing changed in the theme repo."
+  evidence: ["Sideshow session http://localhost:8228/session/h4KL3kZBrNI (also http://desktop.tail1cefc.ts.net:8228/session/h4KL3kZBrNI, both HTTP 200), post F6Qs6-XPqYU", "Draft: /tmp/theme-readme-review/proposed/README.md; ends with ## License / [MIT](LICENSE)", "Theme repo git status clean at c9a8c33 (origin/main same); no edit, commit or push", "Facts checked against repo: 28 backgrounds (2 triptychs + 26), 5 previews, colors.toml slots; verdigris/apps lacks lsd, bat, ncspot, Claude Code; stock omarchy has no Super+B wallpaper binding"]
+  updatedAt: "2026-11-17T15:40:32Z"
 createdAt: "2026-11-17T15:35:12Z"
-updatedAt: "2026-11-17T15:40:05Z"
+updatedAt: "2026-11-17T15:40:32Z"
 assignee: "pi:theme-readme-review"
 ---
 
