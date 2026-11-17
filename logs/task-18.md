@@ -3,11 +3,10 @@ id: task-18
 uid: 3da8e025-91b4-4604-ad72-5ad7fa53eb3a
 type: task
 title: "Move verdigris gallery to Screenshots table"
-state: "in-progress"
 effort: "small"
 relatedFiles: ["README.md", "docs/thumbs/", "apps/spotifast/", "apps/leaf/", "apps/flea/", "apps/herdr/"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["README.md has a 2-column ## Screenshots table with small captions, containing the same images and links as the current gallery, placed immediately before ## License.", "Everything else in README.md is unchanged and the License footer stays exactly ## License / [MIT](LICENSE).", "Nothing reaches main or origin/main until Algorant picks from a GitHub-dark rendered preview."]
   claimedAt: "2026-11-17T15:41:01Z"
   deliveredAt: "2026-11-17T19:46:47Z"
@@ -16,10 +15,14 @@ accord:
   summary: "Replaced README.md with the approved draft (## Showcase above ## os/terminal/cli/apps), committed on the branch only; no media changed."
   evidence: ["Apply approved layout only: README.md copied byte-for-byte from /tmp/verdigris-shot-draft/README.md; the commit touches README.md only, so the privacy media edits are untouched.", "Checks: git diff --check main...HEAD clean; every img src and screenshot link in README.md exists in the tree; ## License / [MIT](LICENSE) still last; working tree clean, not pushed."]
   filesChanged: ["README.md"]
-  updatedAt: "2026-11-17T19:46:47Z"
+  updatedAt: "2026-11-17T19:47:04Z"
 createdAt: "2026-11-17T15:40:56Z"
-updatedAt: "2026-11-17T19:46:47Z"
+updatedAt: "2026-11-17T19:47:04Z"
 assignee: "verdigris-screenshots-table"
+archivedAt: "2026-11-17T19:47:04Z"
+resolution:
+  outcome: "completed"
+  note: "Merged by worker_finish: verdigris-screenshots-table → main at 2704e697838f7a0dea382ac28cd1faecb4359c86."
 ---
 
 ## Description
