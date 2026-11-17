@@ -18,7 +18,7 @@ accord:
   evidence: ["Sideshow post http://localhost:8228/p/wLBtz3Qz4Io (session zEYoUgewCLE)", "Proposed commit 2a48ecf in temp clone /tmp/vnvim/polish (11 insertions, 12 deletions); patch /tmp/vnvim/polish-post/readme.diff", "Links verified 200 (13 URLs); headless nvim 0.12.6 load check: colors_name=verdigris, lualine table, setup transparent=false bg=#1d2021"]
   updatedAt: "2026-11-17T21:48:08Z"
 createdAt: "2026-11-17T19:47:39Z"
-updatedAt: "2026-11-17T21:48:08Z"
+updatedAt: "2026-11-17T21:49:56Z"
 assignee: "pi:nvim-readme-polish"
 ---
 
@@ -29,3 +29,5 @@ Follow-up after publishing the approved verdigris.nvim Showcase draft and five s
 
 
 Activated today by Algorant via Herdra m9e7a6725 (2026-11-17): "I have an ai meetup to go to and I want all my repos in decent shape before I go so I need to do all tehse polish tasks." Supersedes deferral. One bounded mock pass, aim within the hour, GitHub dark Sideshow post, no publishing until Algorant picks. Read published verdigris.nvim README as a stranger; fix wording, consistency, links and image grid nitpicks in one before/after. No new scope or live config changes.
+
+Algorant restriction via Herdra m6e3eca5e: "stop any vhs captures at the moment. I don't want these automated". No automated VHS/headless captures. Task-20 existing images only, retakes parked; task-21 text-only, images unchanged. Stop any in-flight captures; do not restart.
