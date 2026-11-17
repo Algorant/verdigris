@@ -13,7 +13,7 @@ accord:
   constraints: ["Deferred until Algorant asks.", "No live-screen captures without an approved plan."]
   updatedAt: "2026-11-17T19:46:43Z"
 createdAt: "2026-11-17T19:46:43Z"
-updatedAt: "2026-11-17T19:46:43Z"
+updatedAt: "2026-11-17T21:40:58Z"
 ---
 
 ## Description
@@ -21,3 +21,6 @@ updatedAt: "2026-11-17T19:46:43Z"
 Algorant (2026-11-17), relayed by Herdra m79c384e8 and m6e8c3794: "verdigris order is better, but too many images and they are not of a uniform size. need to retake some. with that said, add an add on task to fix this once live, and push the changes for now so we can get moving"
 
 Follow-up after task-18 is live: fewer Showcase images, all one uniform size; retake the ones that need it. Preserve privacy exclusions; headless neutral content only, no live-screen captures without a plan. Deferred: do not start until Algorant asks. Exact reduced selection and retakes must be proposed for his visual judgment, not silently inferred.
+
+
+Activated today by Algorant via Herdra m9e7a6725 (2026-11-17): "I have an ai meetup to go to and I want all my repos in decent shape before I go so I need to do all tehse polish tasks." Supersedes deferral. One bounded mock pass, aim within the hour, GitHub dark Sideshow post, no publishing until Algorant picks. Cut Showcase to approximately six strongest clean images, uniform size/aspect; reuse existing shots, headless rerender only where needed, no live captures.
