@@ -4,17 +4,19 @@ uid: 87153281-4823-4127-9c05-6222ff261f95
 type: task
 kind: "papercut"
 title: "Review Neovim README nitpicks"
-state: todo
+state: "in-progress"
 priority: "low"
 effort: "small"
 references: ["task-17"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["When Algorant asks, complete a bounded README/media nitpick review and address the specific issues he accepts."]
+  claimedAt: "2026-11-17T21:41:19Z"
   constraints: ["Deferred until Algorant asks.", "No live config changes or new captures without approval."]
-  updatedAt: "2026-11-17T19:47:39Z"
+  updatedAt: "2026-11-17T21:41:19Z"
 createdAt: "2026-11-17T19:47:39Z"
-updatedAt: "2026-11-17T21:41:00Z"
+updatedAt: "2026-11-17T21:41:19Z"
+assignee: "pi:nvim-readme-polish"
 ---
 
 ## Description
