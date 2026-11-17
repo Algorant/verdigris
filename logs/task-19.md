@@ -3,7 +3,6 @@ id: task-19
 uid: 588a741c-fc6e-4539-ba0c-4a3081a046d9
 type: task
 title: "Align theme Showcase draft order"
-state: "todo"
 effort: "small"
 accord:
   status: "ready"
@@ -13,7 +12,11 @@ accord:
   note: "No work performed: theme accepted as published; released claim without changes."
   updatedAt: "2026-11-17T19:45:34Z"
 createdAt: "2026-11-17T19:45:15Z"
-updatedAt: "2026-11-17T19:45:34Z"
+updatedAt: "2026-11-17T19:45:40Z"
+archivedAt: "2026-11-17T19:45:40Z"
+resolution:
+  outcome: "canceled"
+  note: "Redundant follow-up caused by generic ordering instruction; hub owner m8c4bce2a and m482fda93 confirmed theme's explicitly approved published layout is the accepted exception. Keep 0017ad1 live; no reorder needed. Child told to stop."
 ---
 
 ## Description
