@@ -17,7 +17,7 @@ accord:
   evidence: ["Sideshow session http://localhost:8228/session/h4KL3kZBrNI (also http://desktop.tail1cefc.ts.net:8228/session/h4KL3kZBrNI, both HTTP 200), post F6Qs6-XPqYU", "Draft: /tmp/theme-readme-review/proposed/README.md; ends with ## License / [MIT](LICENSE)", "Theme repo git status clean at c9a8c33 (origin/main same); no edit, commit or push", "Facts checked against repo: 28 backgrounds (2 triptychs + 26), 5 previews, colors.toml slots; verdigris/apps lacks lsd, bat, ncspot, Claude Code; stock omarchy has no Super+B wallpaper binding"]
   updatedAt: "2026-11-17T15:40:32Z"
 createdAt: "2026-11-17T15:35:12Z"
-updatedAt: "2026-11-17T15:49:58Z"
+updatedAt: "2026-11-17T19:32:57Z"
 assignee: "pi:theme-readme-review"
 ---
 
@@ -36,3 +36,5 @@ Planned-extras check (2026-11-17, Herdra mc5958a94): the "Planned extras" list A
 
 Revision, Algorant (2026-11-17) via Herdra mcbefc713 — revise, not take: "for omarchy-verdigris-theme, it should borrow more from what we've done with algOS and borrow or use similar images. a lot of these were made or done before we created those repos. additionally, the herdr one is just completely outdated now using the old tui style herdr thing and its small and ugly and not meaningful. that one should just be dropped, and the new gallery should have maybe 4-5 images total for how this colorscheme would actually look in day to day omarchy use, not dedicated apps only. again, lost of overlap with what veridgris/algos etc show"
 Herdra's brief: model structure/tone on the public Algorant/algOS README (banner, short intro, plain bullets, Screenshots table, License). Gallery 4-5 images of everyday Omarchy in Verdigris (desktop with bar, terminal+editor tiled, launcher/menus, browser or notes window, lock screen), not single-app showcases; reuse/adapt clean public algOS shots, dark only, never the 5 privacy-flagged ones or the pulled clips. Drop the old herdr shot (task-18 verdigris table has no herdr shot). Keep the fixes: false ports list, Super+B, palette link. Re-render before/after GitHub dark in Sideshow session h4KL3kZBrNI.
+
+Heading comparison requested, Algorant via Herdra m0ffe9d9b: "ok for omarchy-verdigris theme. show it to me with 'Gallery' or 'Showcase' as a header vs the current one as well. I want to see it side by side". Revised layout approved in principle only. One bounded render comparison of identical layout/text/media: no heading vs ## Gallery vs ## Showcase immediately before four-shot row, same width/scale/crop, existing supporting post YOHyPr16XYM updated in place. Sole decision via consolidated hub iMTCezlsbAo; no publishing until heading choice.
