@@ -14,7 +14,7 @@ accord:
   constraints: ["Deferred until Algorant asks.", "No live-screen captures without an approved plan."]
   updatedAt: "2026-11-17T21:41:15Z"
 createdAt: "2026-11-17T19:46:43Z"
-updatedAt: "2026-11-17T21:41:15Z"
+updatedAt: "2026-11-17T21:49:54Z"
 assignee: "pi:showcase-image-polish"
 ---
 
@@ -26,3 +26,5 @@ Follow-up after task-18 is live: fewer Showcase images, all one uniform size; re
 
 
 Activated today by Algorant via Herdra m9e7a6725 (2026-11-17): "I have an ai meetup to go to and I want all my repos in decent shape before I go so I need to do all tehse polish tasks." Supersedes deferral. One bounded mock pass, aim within the hour, GitHub dark Sideshow post, no publishing until Algorant picks. Cut Showcase to approximately six strongest clean images, uniform size/aspect; reuse existing shots, headless rerender only where needed, no live captures.
+
+Algorant restriction via Herdra m6e3eca5e: "stop any vhs captures at the moment. I don't want these automated". No automated VHS/headless captures. Task-20 existing images only, retakes parked; task-21 text-only, images unchanged. Stop any in-flight captures; do not restart.
