@@ -19,7 +19,7 @@ accord:
   note: "discarded: Algorant requires scoping before work (Herdra m443f2ee2); stop/park task-21, no publication. Drafts in /tmp/vnvim/polish and verified bundle /home/algorant/.local/share/verdigris/parked-polish/nvim-readme-polish.bundle preserve work; shared checkout retained. Restart only after Algorant scopes it."
   updatedAt: "2026-11-17T21:50:46Z"
 createdAt: "2026-11-17T19:47:39Z"
-updatedAt: "2026-11-17T21:50:46Z"
+updatedAt: "2026-11-17T21:51:01Z"
 ---
 
 ## Description
@@ -31,3 +31,5 @@ Follow-up after publishing the approved verdigris.nvim Showcase draft and five s
 Activated today by Algorant via Herdra m9e7a6725 (2026-11-17): "I have an ai meetup to go to and I want all my repos in decent shape before I go so I need to do all tehse polish tasks." Supersedes deferral. One bounded mock pass, aim within the hour, GitHub dark Sideshow post, no publishing until Algorant picks. Read published verdigris.nvim README as a stranger; fix wording, consistency, links and image grid nitpicks in one before/after. No new scope or live config changes.
 
 Algorant restriction via Herdra m6e3eca5e: "stop any vhs captures at the moment. I don't want these automated". No automated VHS/headless captures. Task-20 existing images only, retakes parked; task-21 text-only, images unchanged. Stop any in-flight captures; do not restart.
+
+PARKED by Algorant via Herdra m443f2ee2: "who ordered all this stuff to be done? all these polish tasks seem to require at least some sort of scoping by me before you even start". Previous activation was Herdra's direction, not Algorant-approved scope. Child stopped/closed through worker_discard; nothing published. Restart only after Algorant scopes it. Preserved reference: Sideshow wLBtz3Qz4Io v2; /tmp/vnvim/polish-post/readme.diff; /home/algorant/.local/share/verdigris/parked-polish/nvim-readme-polish.bundle (f6eb438).
