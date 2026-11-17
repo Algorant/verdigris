@@ -3,17 +3,19 @@ id: task-20
 uid: d62ae89e-202e-4c5b-b55c-ccc0a5af2bab
 type: task
 title: "Simplify and standardize Showcase images"
-state: todo
+state: "in-progress"
 priority: "low"
 effort: "medium"
 references: ["task-18"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["A smaller Showcase selection is approved by Algorant and uses one uniform image size.", "Shots needing retakes are recreated with headless neutral content, maintaining privacy exclusions.", "No work starts until Algorant asks."]
+  claimedAt: "2026-11-17T21:41:15Z"
   constraints: ["Deferred until Algorant asks.", "No live-screen captures without an approved plan."]
-  updatedAt: "2026-11-17T19:46:43Z"
+  updatedAt: "2026-11-17T21:41:15Z"
 createdAt: "2026-11-17T19:46:43Z"
-updatedAt: "2026-11-17T21:40:58Z"
+updatedAt: "2026-11-17T21:41:15Z"
+assignee: "pi:showcase-image-polish"
 ---
 
 ## Description
