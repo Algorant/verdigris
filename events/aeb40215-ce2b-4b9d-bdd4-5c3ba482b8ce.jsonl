@@ -153,3 +153,4 @@
 {"ts":"2026-11-17T19:47:04Z","event":"task.completed","id":"task-18","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":153,"data":{}}
 {"ts":"2026-11-17T19:47:39Z","event":"task.created","id":"task-21","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":154,"data":{"title":"Review Neovim README nitpicks"}}
 {"ts":"2026-11-17T19:48:01Z","event":"accord.delivered","id":"task-17","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":155,"data":{}}
+{"ts":"2026-11-17T19:48:06Z","event":"task.completed","id":"task-17","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":156,"data":{}}
