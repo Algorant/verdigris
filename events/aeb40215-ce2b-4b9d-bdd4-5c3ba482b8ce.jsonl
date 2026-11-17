@@ -126,3 +126,4 @@
 {"ts":"2026-11-17T15:40:06Z","event":"task.updated","id":"task-17","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":126,"data":{"fields":["body"]}}
 {"ts":"2026-11-17T15:40:32Z","event":"accord.delivered","id":"task-16","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":127,"data":{}}
 {"ts":"2026-11-17T15:40:38Z","event":"task.updated","id":"task-17","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":128,"data":{"fields":["body"]}}
+{"ts":"2026-11-17T15:40:56Z","event":"task.created","id":"task-18","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":129,"data":{"title":"Move verdigris gallery to Screenshots table"}}
