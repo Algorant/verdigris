@@ -17,7 +17,7 @@ accord:
   evidence: ["Sideshow session http://localhost:8228/session/h4KL3kZBrNI (also http://desktop.tail1cefc.ts.net:8228/session/h4KL3kZBrNI, both HTTP 200), post F6Qs6-XPqYU", "Draft: /tmp/theme-readme-review/proposed/README.md; ends with ## License / [MIT](LICENSE)", "Theme repo git status clean at c9a8c33 (origin/main same); no edit, commit or push", "Facts checked against repo: 28 backgrounds (2 triptychs + 26), 5 previews, colors.toml slots; verdigris/apps lacks lsd, bat, ncspot, Claude Code; stock omarchy has no Super+B wallpaper binding"]
   updatedAt: "2026-11-17T15:40:32Z"
 createdAt: "2026-11-17T15:35:12Z"
-updatedAt: "2026-11-17T15:40:32Z"
+updatedAt: "2026-11-17T15:45:46Z"
 assignee: "pi:theme-readme-review"
 ---
 
@@ -31,3 +31,5 @@ Deliverable: one Sideshow post with current README and proposed README, both ren
 
 
 Scope addition, Algorant (2026-11-17) relayed by Herdra mf49a5179: "the demo sells it first. algOS and some other repos should also follow this pattern". Standard is Algorant board task-25: stills go in a 2-column "## Screenshots" table with small captions, near the end, before License. Colour schemes need no demo clip. Fold into this mock; push only after he picks.
+
+Planned-extras check (2026-11-17, Herdra mc5958a94): the "Planned extras" list Algorant asked to remove was in verdigris.nvim (added by its bootstrap commit 6ab5e6b, removed in 027c510; see task-17), not in omarchy-verdigris-theme. Neither the current theme README nor this task's proposed draft has any planned / coming soon / roadmap list; keep it that way.
