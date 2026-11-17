@@ -151,3 +151,4 @@
 {"ts":"2026-11-17T19:46:43Z","event":"task.created","id":"task-20","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":151,"data":{"title":"Simplify and standardize Showcase images"}}
 {"ts":"2026-11-17T19:46:47Z","event":"accord.delivered","id":"task-18","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":152,"data":{}}
 {"ts":"2026-11-17T19:47:04Z","event":"task.completed","id":"task-18","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":153,"data":{}}
+{"ts":"2026-11-17T19:47:39Z","event":"task.created","id":"task-21","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":154,"data":{"title":"Review Neovim README nitpicks"}}
