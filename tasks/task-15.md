@@ -3,15 +3,17 @@ id: task-15
 uid: 93119901-6852-4801-8c37-e0a5cef83a04
 type: task
 title: "Standardize Verdigris repo license footers"
-state: todo
+state: "in-progress"
 effort: "small"
 references: ["Algorant board task-23"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Both repository READMEs end with exactly the standard License section and are pushed with checks passing."]
-  updatedAt: "2026-11-17T15:29:30Z"
+  claimedAt: "2026-11-17T15:29:34Z"
+  updatedAt: "2026-11-17T15:29:34Z"
 createdAt: "2026-11-17T15:29:30Z"
-updatedAt: "2026-11-17T15:29:30Z"
+updatedAt: "2026-11-17T15:29:34Z"
+assignee: "pi:verdigris"
 ---
 
 ## Description
