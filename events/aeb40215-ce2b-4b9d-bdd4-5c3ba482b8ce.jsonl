@@ -116,3 +116,5 @@
 {"ts":"2026-11-14T23:23:06Z","event":"task.completed","id":"task-14","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":116,"data":{}}
 {"ts":"2026-11-17T15:29:30Z","event":"task.created","id":"task-15","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":117,"data":{"title":"Standardize Verdigris repo license footers"}}
 {"ts":"2026-11-17T15:29:34Z","event":"accord.claimed","id":"task-15","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":118,"data":{}}
+{"ts":"2026-11-17T15:30:01Z","event":"accord.delivered","id":"task-15","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":119,"data":{}}
+{"ts":"2026-11-17T15:30:01Z","event":"task.completed","id":"task-15","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":120,"data":{}}
