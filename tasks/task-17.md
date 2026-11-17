@@ -13,7 +13,7 @@ accord:
   constraints: ["Mock only until Algorant picks.", "Headless VHS only; no live screen captures.", "Only plugins/views the README already lists as supported; no palette changes."]
   updatedAt: "2026-11-17T15:36:08Z"
 createdAt: "2026-11-17T15:35:56Z"
-updatedAt: "2026-11-17T15:36:08Z"
+updatedAt: "2026-11-17T15:40:06Z"
 assignee: "pi:nvim-readme-and-shots"
 ---
 
@@ -26,3 +26,6 @@ Herdra's brief: run as a second manus, parallel with the omarchy-verdigris-theme
 2. README: before/after brevity pass in the same house style as the theme review (algOS, dotfiles, herdra draft 2, verdigris): short, lowercase, a small gallery, standard final ## License / [MIT](LICENSE) footer.
 
 Deliver one Sideshow post: the shots plus current and proposed README renders, GitHub dark. Mock first: nothing committed or pushed to verdigris.nvim until Algorant picks.
+
+
+Scope addition, Algorant (2026-11-17) relayed by Herdra mf49a5179: "the demo sells it first. algOS and some other repos should also follow this pattern". Standard is Algorant board task-25: stills go in a 2-column "## Screenshots" table with small captions, near the end, before License. Colour schemes need no demo clip. Fold into this mock; push only after he picks.
