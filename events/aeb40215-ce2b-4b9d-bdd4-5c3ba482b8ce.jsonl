@@ -175,3 +175,4 @@
 {"ts":"2026-11-18T14:45:15Z","event":"task.created","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":175,"data":{"title":"Complete per-app screenshot coverage"}}
 {"ts":"2026-11-18T14:45:19Z","event":"task.canceled","id":"task-20","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":176,"data":{"reason":"Superseded by Complete per-app screenshot coverage (task-22), explicitly rescoped by Algorant via Herdra m50fdc4e8. Full per-port high-res coverage and manual retakes come first; homepage Showcase selection later. Existing mock/bundle remain reference only."}}
 {"ts":"2026-11-18T14:45:44Z","event":"accord.claimed","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":177,"data":{}}
+{"ts":"2026-11-18T15:01:04Z","event":"task.updated","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":178,"data":{"fields":["body"]}}
