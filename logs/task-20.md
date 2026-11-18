@@ -3,7 +3,6 @@ id: task-20
 uid: d62ae89e-202e-4c5b-b55c-ccc0a5af2bab
 type: task
 title: "Simplify and standardize Showcase images"
-state: "todo"
 priority: "low"
 effort: "medium"
 references: ["task-18"]
@@ -15,7 +14,11 @@ accord:
   note: "Parked pending Algorant's explicit scoping per m443f2ee2. Both manus closed; no public changes."
   updatedAt: "2026-11-17T21:50:59Z"
 createdAt: "2026-11-17T19:46:43Z"
-updatedAt: "2026-11-17T21:50:59Z"
+updatedAt: "2026-11-18T14:45:19Z"
+archivedAt: "2026-11-18T14:45:19Z"
+resolution:
+  outcome: "canceled"
+  note: "Superseded by Complete per-app screenshot coverage (task-22), explicitly rescoped by Algorant via Herdra m50fdc4e8. Full per-port high-res coverage and manual retakes come first; homepage Showcase selection later. Existing mock/bundle remain reference only."
 ---
 
 ## Description
