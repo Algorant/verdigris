@@ -1,13 +1,13 @@
-# lazygit
+# verdigris for lazygit
 
 <table>
   <tr>
-    <td align="center"><a href="screenshot.png"><img src="thumbs/1.jpg" width="260"></a><br><sub>a staged change, an untracked one, and the log</sub></td>
+    <td align="center"><a href="screenshot-2026-11-18_10-13-05-ghostty.png"><img src="screenshot-2026-11-18_10-13-05-ghostty.png" width="260"></a><br><sub>a staged change, an untracked one, and the log</sub></td>
+    <td align="center"><a href="screenshot-2026-11-18_10-13-20-ghostty.png"><img src="screenshot-2026-11-18_10-13-20-ghostty.png" width="260"></a><br><sub>a second view</sub></td>
   </tr>
 </table>
 
-- A terminal UI for git
-- [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
+A terminal UI for git. [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 
 ## files
 

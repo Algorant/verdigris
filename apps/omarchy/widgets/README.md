@@ -13,5 +13,9 @@
   </tr>
 </table>
 
-- The panels on my bar: calendar, flux, ethernet, system monitor, ai coding plans and audio
-- [quickshell](https://quickshell.org), driven by [omarchy](https://github.com/omacom/omarchy)
+The panels on my bar: calendar, flux, ethernet, system monitor, ai coding plans and audio.
+[quickshell](https://quickshell.org), driven by [omarchy](https://github.com/omacom/omarchy)
+
+## pages
+
+- [calendar](calendar/) · [flux](flux/) · [ethernet](ethernet/) · [system monitor](system-monitor/) · [ai coding plans](ai-coding-plans/) · [audio](audio/)

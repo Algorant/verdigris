@@ -1,13 +1,12 @@
-# btop
+# verdigris for btop
 
 <table>
   <tr>
-    <td align="center"><a href="screenshot.png"><img src="thumbs/btop.jpg" width="260"></a><br><sub>btop</sub></td>
+    <td align="center"><a href="screenshot.png"><img src="screenshot.png" width="260"></a><br><sub>btop</sub></td>
   </tr>
 </table>
 
-- Terminal resource monitor, wearing the theme
-- [btop](https://github.com/aristocratos/btop)
+Terminal resource monitor, wearing the theme. [btop](https://github.com/aristocratos/btop)
 
 ## files
 

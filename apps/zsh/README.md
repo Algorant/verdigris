@@ -1,13 +1,12 @@
-# zsh
+# verdigris for zsh
 
 <table>
   <tr>
-    <td align="center"><a href="screenshot.png"><img src="thumbs/zsh.jpg" width="260"></a><br><sub>a file preview from my nv alias</sub></td>
+    <td align="center"><a href="screenshot.png"><img src="screenshot.png" width="260"></a><br><sub>a file preview from my nv alias</sub></td>
   </tr>
 </table>
 
-- My shell, with [zsh-patina](patina) doing the highlighting
-- [zsh](https://github.com/zsh-users/zsh)
+My shell, with [zsh-patina](patina) doing the highlighting. [zsh](https://github.com/zsh-users/zsh)
 
 ## files
 
