@@ -9,13 +9,16 @@ priority: "low"
 effort: "small"
 references: ["task-17"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["When Algorant asks, complete a bounded README/media nitpick review and address the specific issues he accepts."]
   claimedAt: "2026-11-18T14:23:45Z"
+  deliveredAt: "2026-11-18T14:37:40Z"
   constraints: ["Deferred until Algorant asks.", "No live config changes or new captures without approval."]
-  updatedAt: "2026-11-18T14:23:45Z"
+  summary: "Published exact approved v5 scoped Neovim README at e60ccb2 under Algorant approval mb20ad8d2."
+  evidence: ["Signed-out GitHub returns HTTP 200, README bytes match /tmp/vnvim/scoped-polish/README.md; five existing screenshot URLs return 200.", "Only README changed; git diff --check passed, push succeeded, clean main equals origin/main.", "One-sentence intro, full-width editor + captioned 2x2, separate diagnostics line and consistent headings verified; no media/code/live configuration changes."]
+  updatedAt: "2026-11-18T14:37:40Z"
 createdAt: "2026-11-17T19:47:39Z"
-updatedAt: "2026-11-18T14:23:45Z"
+updatedAt: "2026-11-18T14:37:40Z"
 assignee: "pi:scoped-neovim-polish"
 ---
 
