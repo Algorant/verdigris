@@ -9,17 +9,16 @@ priority: "low"
 effort: "small"
 references: ["task-17"]
 accord:
-  status: "blocked"
+  status: "claimed"
   acceptance: ["When Algorant asks, complete a bounded README/media nitpick review and address the specific issues he accepts."]
   claimedAt: "2026-11-17T21:41:19Z"
   deliveredAt: "2026-11-17T21:48:08Z"
   constraints: ["Deferred until Algorant asks.", "No live config changes or new captures without approval."]
   summary: "Bounded README nitpick pass with before/after Sideshow post; six small wording/consistency fixes proposed, nothing published"
   evidence: ["Sideshow post http://localhost:8228/p/wLBtz3Qz4Io (session zEYoUgewCLE)", "Proposed commit 2a48ecf in temp clone /tmp/vnvim/polish (11 insertions, 12 deletions); patch /tmp/vnvim/polish-post/readme.diff", "Links verified 200 (13 URLs); headless nvim 0.12.6 load check: colors_name=verdigris, lualine table, setup transparent=false bg=#1d2021"]
-  note: "Parked pending Algorant's explicit scoping per m443f2ee2. Both manus closed; no public changes."
-  updatedAt: "2026-11-17T21:51:03Z"
+  updatedAt: "2026-11-18T14:22:57Z"
 createdAt: "2026-11-17T19:47:39Z"
-updatedAt: "2026-11-18T14:22:55Z"
+updatedAt: "2026-11-18T14:22:57Z"
 ---
 
 ## Description
