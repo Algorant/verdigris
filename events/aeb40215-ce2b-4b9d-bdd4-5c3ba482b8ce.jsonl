@@ -169,3 +169,4 @@
 {"ts":"2026-11-17T21:51:03Z","event":"accord.blocked","id":"task-21","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":169,"data":{}}
 {"ts":"2026-11-18T14:22:55Z","event":"task.updated","id":"task-21","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":170,"data":{"fields":["body"]}}
 {"ts":"2026-11-18T14:22:57Z","event":"accord.resumed","id":"task-21","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":171,"data":{}}
+{"ts":"2026-11-18T14:23:45Z","event":"accord.claimed","id":"task-21","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":172,"data":{}}
