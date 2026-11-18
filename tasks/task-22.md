@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T16:05:44Z"
+updatedAt: "2026-11-18T16:44:28Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -48,3 +48,16 @@ LANDED milestone: 7936c90 merged via Worktrunk and pushed to origin/main. 26 app
 
 Clip editing scope approved by Algorant via Herdra mffe6bf35: "they are too crappy quality. these should be high res renders of what the recording showed, high as possible, within github limits. second. for scrolling: the important part to show is the 'transition' between terminals or different windows going left to right. if the video is sped up too much, it doesn't really highlight those well. for omari: the important parts are the alt+tab and the super+tab sections. those can be slowed down and emphasized. re-do them with this in mind."
 Use ORIGINAL source recordings from ~/Videos (resolve via algOS/omarchy-setup history), NOT low-res recovered WebPs in ~/Videos/recovered-demos (from b81aab9). Scrolling near-real-time transitions, dead time trimmed; omari alt+tab/super+tab focused and slightly slowed. Full source resolution/high quality, recommend animated WebP <=10MB or MP4 <=100MB if necessary. Old clips were pulled for privacy (Slack/address/private repos/herdra source): remove unsafe sections, report exact cuts. No new captures; show both playing in ONE Sideshow post for approval before commits/publication.
+
+## Clip source findings and privacy blocker (agent, 2026-11-18)
+
+Original recordings (full-resolution sources; local copies of the x1nano files):
+- scrolling: `/home/algorant/Pictures/algOS-showroom/x1-videos-20261115/2026-11-15_22.53_screen.mp4` — 28.13 s, 2160x1350, 120 fps.
+- omari: `/home/algorant/Pictures/algOS-showroom/x1-videos-20261115/2026-11-15_22.55_zen.mp4` — 26.13 s, 2124x1278, 120 fps.
+- Excluded after content check: `2026-11-15_22.47_screen.mp4` (static desktop, one window), `2026-11-15_22.52_screen.mp4` (editor only), `2026-11-15_23.48_screen.mp4` and `2026-11-15_23.47_hex.mp4` (Hex dictation).
+
+Privacy scan (bounded; timestamps only, sensitive strings omitted):
+- omari: private windows are visible throughout, and the overview/alt-tab actions show them as thumbnails, so the important alt+tab and super+tab cannot be shown without exposure. Approximate exposed spans: 0.0-1.5, 4.0-4.5, 5.0-7.0, 7.5-9.5, 9.5-10.5, 11.0-12.5, 13.0-14.0, 15.0-16.5, 18.0-19.5, 20.0-22.5, 23.0-23.5 s; the overview frames between them expose the same windows.
+- scrolling: private project-name listings at 5.0-10.0, 16.0-19.5 and 25.5-28.0 s; private source code in the editor at 10.5-12.5 and 23.5-25.5 s. The left-to-right transitions land on those windows around 16.5-17.0, 22.7-23.3 and 25.0-25.7 s. Clean spans are desktop/plain-terminal only: 0.0-4.8, 12.6-15.9 and 19.6-21.5 s.
+
+Status: no capture, encode, post or repo change made. Blocker escalated for direction: neutral re-records, or an explicit allowance for scrolling directory names only, with private source and omari exposure still cut. Do not treat any private material above as approved.
