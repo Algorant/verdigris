@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T15:33:59Z"
+updatedAt: "2026-11-18T15:58:52Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -39,3 +39,5 @@ Media-type exception, Algorant via Herdra m2432f3ea while reviewing: "things lik
 AUTHORITATIVE CORRECTION from Algorant via Herdra m0ae33465: "I never said 1600x1000 was the approved standard, you just picked that. the other format is how I take screenshots on my computer. I don't need that to be changed or anchored to anything else. if I approved one with the previous resolution then that is ok."
 No fixed resolution requirement. Algorant's own capture sizes (mostly 2560×1440) are normal; approved shots at any prior sizes stand as-is. Remove resolution/spec gating from review page; actual dimensions can remain informational only. No crop/resize/transformation. Prior proposed size and any recorded spec checkbox are superseded, not authority for size restrictions.
 Proceed with standardized per-app README DRAFTS for the 24 currently approved sets using exact selected original media. Show drafts to Herdra before publication. Leftovers: hyprland/omari clips, floating terminal, approve clicks on ai-coding-plans/yazi. No new captures/encoding or public changes.
+
+Publication approved by Algorant via Herdra m5c8d781c (2026-11-18): "high res screenshots approved make the changes and merge". Apply reviewed drafts at 929a614: 24 sets, 43 exact originals, no transforms; existing parent widgets content and pending ai-coding-plans preserved, top-level navigation intact. Only app READMEs/media ship; local review tool/runtime is not published. Task stays OPEN for hyprland/omari clips, floating-terminal, ai-coding-plans/yazi approvals. Owner verifies signed-out GitHub after merge/push.
