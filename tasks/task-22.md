@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T16:44:28Z"
+updatedAt: "2026-11-18T19:45:37Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -61,3 +61,6 @@ Privacy scan (bounded; timestamps only, sensitive strings omitted):
 - scrolling: private project-name listings at 5.0-10.0, 16.0-19.5 and 25.5-28.0 s; private source code in the editor at 10.5-12.5 and 23.5-25.5 s. The left-to-right transitions land on those windows around 16.5-17.0, 22.7-23.3 and 25.0-25.7 s. Clean spans are desktop/plain-terminal only: 0.0-4.8, 12.6-15.9 and 19.6-21.5 s.
 
 Status: no capture, encode, post or repo change made. Blocker escalated for direction: neutral re-records, or an explicit allowance for scrolling directory names only, with private source and omari exposure still cut. Do not treat any private material above as approved.
+
+
+Scrolling-specific privacy exception, Algorant via Herdra m57170612: "I will allow folder names in the clip. I need to see the clips though. are they recreated?" Encode scrolling only from original x1 22.53_screen recording; Projects/Yazi folder names permitted, near-real-speed left/right transitions, full source resolution, high quality ≤10MB WebP or report MP4 need. Cut all Herdra-source frames around 10.5–12.5s and 23.5–25.5s with safe boundaries. One PLAYING Sideshow preview + cut note, no commits. Omari remains blocked pending neutral human re-record. No new captures.
