@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T16:04:13Z"
+updatedAt: "2026-11-18T16:05:44Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -45,3 +45,6 @@ Publication approved by Algorant via Herdra m5c8d781c (2026-11-18): "high res sc
 Additional explicit media/publication approval, Algorant via Herdra mb9c1a698: "oh, then yes approved I don't need to click on it I'm telling you they are approved". yazi and ai-coding-plans selected images approved verbally; no page click needed. Include both with same README template in current publication: 26 sets / 49 originals (43 + 3 + 3), no transforms. Leftovers now ONLY hyprland/omari clips and floating terminal. Preserve source selection evidence; no need to fabricate page interaction.
 
 LANDED milestone: 7936c90 merged via Worktrunk and pushed to origin/main. 26 approved sets / 49 original files hash-verified byte-for-byte by owner; all publication changes under apps/, local review tool/runtime excluded. Signed-out GitHub index + leaf/tandem/yazi/widget parent/ai-coding-plans pages return 200 and raw README bytes match, their images load; review/index.html returns 404 upstream. Push scan: no text findings, 32 PNG files unverified by content scanner (not fully clean). Publication worktree removed after integration; review worktree/server/selections/uploads preserved. Task remains OPEN only for hyprland/omari clips and floating terminal. No new captures/transforms/live config changes.
+
+Clip editing scope approved by Algorant via Herdra mffe6bf35: "they are too crappy quality. these should be high res renders of what the recording showed, high as possible, within github limits. second. for scrolling: the important part to show is the 'transition' between terminals or different windows going left to right. if the video is sped up too much, it doesn't really highlight those well. for omari: the important parts are the alt+tab and the super+tab sections. those can be slowed down and emphasized. re-do them with this in mind."
+Use ORIGINAL source recordings from ~/Videos (resolve via algOS/omarchy-setup history), NOT low-res recovered WebPs in ~/Videos/recovered-demos (from b81aab9). Scrolling near-real-time transitions, dead time trimmed; omari alt+tab/super+tab focused and slightly slowed. Full source resolution/high quality, recommend animated WebP <=10MB or MP4 <=100MB if necessary. Old clips were pulled for privacy (Slack/address/private repos/herdra source): remove unsafe sections, report exact cuts. No new captures; show both playing in ONE Sideshow post for approval before commits/publication.
