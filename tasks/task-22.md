@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T15:58:52Z"
+updatedAt: "2026-11-18T16:00:31Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -41,3 +41,5 @@ No fixed resolution requirement. Algorant's own capture sizes (mostly 2560×1440
 Proceed with standardized per-app README DRAFTS for the 24 currently approved sets using exact selected original media. Show drafts to Herdra before publication. Leftovers: hyprland/omari clips, floating terminal, approve clicks on ai-coding-plans/yazi. No new captures/encoding or public changes.
 
 Publication approved by Algorant via Herdra m5c8d781c (2026-11-18): "high res screenshots approved make the changes and merge". Apply reviewed drafts at 929a614: 24 sets, 43 exact originals, no transforms; existing parent widgets content and pending ai-coding-plans preserved, top-level navigation intact. Only app READMEs/media ship; local review tool/runtime is not published. Task stays OPEN for hyprland/omari clips, floating-terminal, ai-coding-plans/yazi approvals. Owner verifies signed-out GitHub after merge/push.
+
+Additional explicit media/publication approval, Algorant via Herdra mb9c1a698: "oh, then yes approved I don't need to click on it I'm telling you they are approved". yazi and ai-coding-plans selected images approved verbally; no page click needed. Include both with same README template in current publication: 26 sets / 49 originals (43 + 3 + 3), no transforms. Leftovers now ONLY hyprland/omari clips and floating terminal. Preserve source selection evidence; no need to fabricate page interaction.
