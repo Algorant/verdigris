@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T14:45:44Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T15:01:04Z"
+updatedAt: "2026-11-18T15:23:39Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -33,3 +33,5 @@ Algorant takes retakes himself; agents make NO captures. Report review page path
 
 Review UX revision approved by Algorant via Herdra mecd7291c: "the screenshot review tool is not that useful for me. I want to be able to look at one card at a time and then hit a button to go to the next one. while on a card, I want the ability to pick and choose which images to use, if there are multiple, and add new ones to pick from. if that is not easily achievable in a simple html file, then we do a pass of the approved ones and then a second pass of the ones that need new images, one at a time, and I capture them."
 Use existing serve.py: one port per screen; Prev/Next plus arrow keys; spec status per image; use/skip toggle per image; Add image button/drop zone saves uploads into review/<app>/; persist selections. Keep one small page. If not simple, stop and report for two-pass alternative. Algorant views desktop; loopback sufficient. No captures by agents, no publication, README drafts still held.
+
+Media-type exception, Algorant via Herdra m2432f3ea while reviewing: "things like hyprland and omari will have to be videos we turn into webp's. not useful to show screenshots vs a quick video or gif." Mark hyprland and omari cards video: Algorant records; agents later encode short sped-up looping animated WebP, approximately 2–3 MB, displayed full width. No capture or encoding now; review in progress and more directions may follow. This overrides PNG/still spec only for these two ports.
