@@ -3,17 +3,19 @@ id: task-22
 uid: cace500e-e1bd-40f7-8b68-1255dcdebd65
 type: task
 title: "Complete per-app screenshot coverage"
-state: todo
+state: "in-progress"
 effort: "medium"
 references: ["task-20"]
 relatedFiles: ["apps/", "README.md", "review/"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Complete inventory lists every supported discrete app/config port, including nested app/config folders when appropriate; count reported to Herdra.", "Local review/index.html shows one card per inventoried port with existing images, size/spec status, approvals persisted to a small file, and replacement files picked up from review/<app>/ on refresh.", "Proposed 1600x1000 dark single-window PNG spec is clearly awaiting Algorant confirmation.", "Per-app README drafts use one short screenshot-first template and top-level README links to them.", "No captures by agents and no public changes before Algorant approval."]
+  claimedAt: "2026-11-18T14:45:44Z"
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
-  updatedAt: "2026-11-18T14:45:15Z"
+  updatedAt: "2026-11-18T14:45:44Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T14:45:15Z"
+updatedAt: "2026-11-18T14:45:44Z"
+assignee: "pi:per-app-screenshot-review"
 ---
 
 ## Description
