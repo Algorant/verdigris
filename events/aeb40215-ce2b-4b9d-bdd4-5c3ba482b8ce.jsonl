@@ -177,3 +177,4 @@
 {"ts":"2026-11-18T14:45:44Z","event":"accord.claimed","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":177,"data":{}}
 {"ts":"2026-11-18T15:01:04Z","event":"task.updated","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":178,"data":{"fields":["body"]}}
 {"ts":"2026-11-18T15:23:39Z","event":"task.updated","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":179,"data":{"fields":["body"]}}
+{"ts":"2026-11-18T15:33:59Z","event":"task.updated","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":180,"data":{"fields":["acceptance","body"]}}

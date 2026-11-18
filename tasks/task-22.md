@@ -9,12 +9,12 @@ references: ["task-20"]
 relatedFiles: ["apps/", "README.md", "review/"]
 accord:
   status: "claimed"
-  acceptance: ["Complete inventory lists every supported discrete app/config port, including nested app/config folders when appropriate; count reported to Herdra.", "Local review/index.html shows one card per inventoried port with existing images, size/spec status, approvals persisted to a small file, and replacement files picked up from review/<app>/ on refresh.", "Proposed 1600x1000 dark single-window PNG spec is clearly awaiting Algorant confirmation.", "Per-app README drafts use one short screenshot-first template and top-level README links to them.", "No captures by agents and no public changes before Algorant approval."]
+  acceptance: ["Complete inventory lists every supported discrete app/config port, including nested ones; count reported to Herdra.", "Local review/index.html shows one card per port, persisted per-image selections/approvals, and add-image workflow; dimensions informational only, no fixed-size gating.", "Algorant's selected approved media retained byte-for-byte, no crop/resize or captures by agents.", "Per-app README drafts for the 24 approved sets use one short screenshot-first template; top-level README links to them; drafts shown before publishing.", "Unapproved/missing ports remain explicit: hyprland/omari clips, floating terminal, ai-coding-plans and yazi approvals."]
   claimedAt: "2026-11-18T14:45:44Z"
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
-  updatedAt: "2026-11-18T14:45:44Z"
+  updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T15:23:39Z"
+updatedAt: "2026-11-18T15:33:59Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -27,7 +27,7 @@ Supersedes parked task-20; Showcase selection happens only after full coverage.
 1. Inventory every supported app/colorscheme config (each port/app folder) and list it.
 2. Standardized per-app README in each app folder: same short template, screenshots at top; top-level README links to them.
 3. Local review page review/index.html in the repo, NOT published: one card per app, current image(s), size/spec check, Approve, Replace. Replace means Algorant saves a file into review/<app>/ and the card shows it on refresh. Approvals saved to a small file; implement a minimal local persistence path as needed, no external services or new network infrastructure.
-4. Spec proposed on page for Algorant to confirm: 1600x1000 (16:10), dark Verdigris, single window, no desktop clutter, PNG.
+4. Spec proposed on page for Algorant to confirm: [superseded agent-proposed size] (16:10), dark Verdigris, single window, no desktop clutter, PNG.
 Algorant takes retakes himself; agents make NO captures. Report review page path/URL and inventory count first. No publication of the page, pending images or README changes until approval.
 
 
@@ -35,3 +35,7 @@ Review UX revision approved by Algorant via Herdra mecd7291c: "the screenshot re
 Use existing serve.py: one port per screen; Prev/Next plus arrow keys; spec status per image; use/skip toggle per image; Add image button/drop zone saves uploads into review/<app>/; persist selections. Keep one small page. If not simple, stop and report for two-pass alternative. Algorant views desktop; loopback sufficient. No captures by agents, no publication, README drafts still held.
 
 Media-type exception, Algorant via Herdra m2432f3ea while reviewing: "things like hyprland and omari will have to be videos we turn into webp's. not useful to show screenshots vs a quick video or gif." Mark hyprland and omari cards video: Algorant records; agents later encode short sped-up looping animated WebP, approximately 2–3 MB, displayed full width. No capture or encoding now; review in progress and more directions may follow. This overrides PNG/still spec only for these two ports.
+
+AUTHORITATIVE CORRECTION from Algorant via Herdra m0ae33465: "I never said 1600x1000 was the approved standard, you just picked that. the other format is how I take screenshots on my computer. I don't need that to be changed or anchored to anything else. if I approved one with the previous resolution then that is ok."
+No fixed resolution requirement. Algorant's own capture sizes (mostly 2560×1440) are normal; approved shots at any prior sizes stand as-is. Remove resolution/spec gating from review page; actual dimensions can remain informational only. No crop/resize/transformation. Prior proposed size and any recorded spec checkbox are superseded, not authority for size restrictions.
+Proceed with standardized per-app README DRAFTS for the 24 currently approved sets using exact selected original media. Show drafts to Herdra before publication. Leftovers: hyprland/omari clips, floating terminal, approve clicks on ai-coding-plans/yazi. No new captures/encoding or public changes.
