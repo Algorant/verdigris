@@ -15,9 +15,8 @@
 
 <table>
   <tr>
-    <td align="center"><a href="apps/omarchy/screenshot.png"><img src="docs/thumbs/omarchy.jpg" width="440"></a><br><sub>omarchy</sub></td>
+    <td align="center"><a href="apps/omarchy/screenshot.png"><img src="docs/thumbs/omarchy.jpg" width="440"></a><br><sub>omarchy</sub><br><video src="https://github.com/user-attachments/assets/01aaa311-7b1a-4a56-9fdc-c0c985d56a97" controls width="440"></video><br><sub>omari · window switchers</sub></td>
     <td align="center"><a href="apps/omarchy/screenshot-2.png"><img src="docs/thumbs/omarchy-keys.jpg" width="440"></a><br><sub>omarchy · keybindings</sub></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/01aaa311-7b1a-4a56-9fdc-c0c985d56a97" controls width="440"></video><br><sub>omari · window switchers</sub></td>
   </tr>
   <tr>
     <td align="center"><a href="apps/ghostty/screenshot.png"><img src="docs/thumbs/ghostty.jpg" width="440"></a><br><sub>ghostty · fastfetch</sub></td>
