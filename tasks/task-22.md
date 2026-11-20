@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T14:56:34Z"
+updatedAt: "2026-11-20T15:05:11Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -84,3 +84,11 @@ Showcase clip review, Algorant via Herdra mbac58037 (2026-11-20): "for verdigris
 - Omari rework blocked by source clarity in 2026-11-20_09.16_screen.mp4: the Super+Tab overview appears only as three empty window outlines, with no window content/thumbnails captured, so a keycap + "overview of all windows" caption would overclaim what the recording shows. The Alt+Tab portion does show a populated switcher and a landing window (19.0-22.0 s), but the press itself is not recorded (no keycast).
 - Proposed exact re-record sequence instead of forcing the overlay: (1) start on a full browser window, press Super+Tab once, hold until the overview shows visible window thumbnails, pause 1 s, select OBS Studio, release, hold the landed OBS window 1 s. (2) beat on the landed window 1 s. (3) press Alt+Tab once, cycle one step to the browser, release, hold the landed browser 1 s. Full 2560x1440/120 fps, no menus or app launcher in frame; ~9-11 s raw.
 - No forced Omari update published; post vdSAK32VdQk keeps the approved scrolling clip and the existing Omari draft until a clear re-record exists. No commit.
+
+
+Omari re-record delivered, Algorant via Herdra md3894027 (2026-11-20): "Ok I re-recorded something you can definitely clip out some simple things from for omari. please help me just finish this. it should show 5-10 seconds of the basic functionality. its ok if sometimes they are empty when selected or previews are broken, thats fine."
+
+- New source: /home/algorant/Videos/2026-11-20_10.00_screen.mp4 (77.2 s, 2560x1440/120 fps).
+- Finished Omari basics clip: 7.0 s, 2560x1440, 60 fps, H.264 CRF 18, 2,596,363 bytes. Spans 58.0-62.5 s (Super+Tab overview, empty placeholders expected) + 0.3 s beat + 32.4-34.6 s (Alt+Tab cycling recent windows), all 1x.
+- Keycap + one-line caption per action: "Super + Tab — overview of all windows" at 0.2-4.4 s; "Alt + Tab — cycle recent windows" at 4.9-6.9 s.
+- Replaced in post vdSAK32VdQk; scrolling clip stays approved and unchanged. No commit or public upload.
