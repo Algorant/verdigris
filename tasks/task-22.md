@@ -18,7 +18,7 @@ accord:
   filesChanged: ["README.md", "docs/showcase-clips.md"]
   updatedAt: "2026-11-20T20:11:15Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T20:12:28Z"
+updatedAt: "2026-11-20T21:37:22Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -116,3 +116,5 @@ Showcase videos live at 38c0cc5 (integration 0676e60), attached via native gh on
 Public README freeze after 58fd3a5, Algorant via Herdra med7a0dad: "remember that I don't want a live fix, I want a proposal first. I think if you are already in the middle of fixing it live, lets give it one more attempt. but if this one doesn't work, it means we are jumping the gun and going too quickly and not actually assessing the situation properly". 58fd3a5 was the one live attempt. No further public README changes until Algorant has seen and approved a proposal. If it still looks wrong or fails to play, the next step is a written assessment plus a rendered preview of the proposed section for his approval, not another public patch. The separate docs-only recipe commit 71e019a did not change README.md.
 
 Standing README preview workflow, Algorant via Herdra mccc01acf: "we can upload it as a merge request and preview it from the branch, right?" For future README proposals, push a proposal branch, open a pull request, and give Algorant the rendered branch page https://github.com/Algorant/verdigris/tree/<branch>. Merge only after he has seen and approved the proposal. Applies to any further Showcase change, including a follow-up if 58fd3a5 fails his check. No branch, PR, merge or public README change now.
+
+Omari correction via Herdra m209d89c9: current published 14.2 s edit teaches the reversed mapping. Super+Tab = zoomed-out spatial overview with panes on different levels; Alt+Tab = selection moving across one horizontal preview strip on dimmed desktop. Recut from existing recording by actual UI transitions, not just swapping titles; show shortcut cue before matching visual result, hold for readability and clear before the next mode. Verify each labeled shot, no claim of seeing keystrokes. Preview only for Herdra; page placement separately approved, no new capture/upload to GitHub or live replacement.
