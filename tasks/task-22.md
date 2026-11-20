@@ -18,7 +18,7 @@ accord:
   filesChanged: ["README.md", "docs/showcase-clips.md"]
   updatedAt: "2026-11-20T20:11:15Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T22:25:04Z"
+updatedAt: "2026-11-20T22:35:21Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -120,3 +120,5 @@ Standing README preview workflow, Algorant via Herdra mccc01acf: "we can upload 
 Omari correction via Herdra m209d89c9: current published 14.2 s edit teaches the reversed mapping. Super+Tab = zoomed-out spatial overview with panes on different levels; Alt+Tab = selection moving across one horizontal preview strip on dimmed desktop. Recut from existing recording by actual UI transitions, not just swapping titles; show shortcut cue before matching visual result, hold for readability and clear before the next mode. Verify each labeled shot, no claim of seeing keystrokes. Preview only for Herdra; page placement separately approved, no new capture/upload to GitHub or live replacement.
 
 Private Omari pacing revision, Algorant via Herdra m5cbeda9d: “super+tab section is way too short. don't anchor on some fixed length. show as much as needed to get the point across. variable length”. Let the original spatial overview and real interaction set pacing; enough time to orient and follow the panes across levels. No fixed runtime, equal chapters or artificial padding. Preserve the correct Alt+Tab single-row example without shortening. If the original cannot show more, report exactly what it lacks. Private preview to Herdra; no upload or live replacement.
+
+Omari pacing/edit review complete: Algorant approved v19 for now via Herdra mb91c9962. Keep private master /home/algorant/Videos/review-omari-v19/omari-v19-master.mp4 (SHA-256 71d40aa1ef1ad8410eba6582eb003a097584f8b9fc128eb7a7df680faee49ba0). No further revisions, uploads or public replacement requested. This closes the edit review only, not the broader coverage Task.
