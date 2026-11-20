@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T19:45:32Z"
+updatedAt: "2026-11-20T19:54:33Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -103,3 +103,6 @@ Showcase playback diagnosis and Omari recut (2026-11-20, agent):
 
 
 Omari v15 revision per Herdra m15f652be (2026-11-20): 14.2 s, 2560x1440/60 fps. Added full-width function titles at each cut, large filled rounded Super/Tab and Alt/Tab keycaps with visible patina borders on a solid dark panel, one cue line each ("watch the overview open, then land"; "watch the active window change as it cycles" - no claim of an Alt+Tab overlay). Overview idle sped 2x, landing at 1x, 1 s landed beat before Alt+Tab. Master 8,281,786 bytes; preview 4,799,197 bytes for the Sideshow cap. Post vdSAK32VdQk version 17; scrolling asset unchanged. 800px legibility and full-cut contact sheet checked. Playback limit: supported browser (Obscura) unavailable this round, so the revised asset was not re-proven in-browser; no alternate browser used.
+
+
+Publication approval via Herdra m3abcd7a3: Algorant: "who these are a million times better. finally approved omari. I would also like to use them for their coutnerparts in my actual algOS showcase as well. propose what I mean there while approving verdigris readme for adding these in the appropriate place. both delegated". Publish approved unchanged scrolling and full-quality 8.28 MB Omari v17 master. Scrolling opens Showcase; Omari goes second beside the Omarchy entry; no unrelated moves. GitHub attachment upload approved via existing gh login; if unavailable via gh, stop at the browser-only upload step and relay it rather than working around it. Verify both actual players signed out. Commit a short reusable reproduction recipe from commands actually run. algOS proposal only, no algOS changes.
