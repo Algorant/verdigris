@@ -197,3 +197,4 @@
 {"ts":"2026-11-20T20:11:45Z","event":"task.updated","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":197,"data":{"fields":["body"]}}
 {"ts":"2026-11-20T20:12:28Z","event":"task.updated","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":198,"data":{"fields":["body"]}}
 {"ts":"2026-11-20T20:16:58Z","event":"task.created","id":"task-23","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":199,"data":{"title":"Sharpen Showcase gallery proposal"}}
+{"ts":"2026-11-20T20:17:21Z","event":"accord.claimed","id":"task-23","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":200,"data":{}}

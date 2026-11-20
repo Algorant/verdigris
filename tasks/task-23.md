@@ -3,16 +3,18 @@ id: task-23
 uid: e78f0a74-e80e-4ce1-8396-69bce6725cee
 type: task
 title: "Sharpen Showcase gallery proposal"
-state: todo
+state: "in-progress"
 effort: "medium"
 relatedFiles: ["README.md", "docs/", "apps/"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Evidence-backed thumbnail proposal with measured widths, DPR targets, format/proxy support, weight and repeatable generation.", "New PR and rendered branch-page link showing both changes; no merge until Algorant's explicit OK.", "One Sideshow post with decision, before/after, options and undo, routed to Herdra only."]
+  claimedAt: "2026-11-20T20:17:21Z"
   constraints: ["Do not change main or publish an approval request directly to Algorant.", "No new captures, original edits, video uploads, or changes to algOS."]
-  updatedAt: "2026-11-20T20:16:58Z"
+  updatedAt: "2026-11-20T20:17:21Z"
 createdAt: "2026-11-20T20:16:58Z"
-updatedAt: "2026-11-20T20:16:58Z"
+updatedAt: "2026-11-20T20:17:21Z"
+assignee: "pi:sharp-showcase-proposal"
 ---
 
 ## Description
