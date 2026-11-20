@@ -9,6 +9,8 @@
 
 ## Showcase
 
+[Watch the approved clips](docs/showcase-clips.md).
+
 <table>
   <tr>
     <td align="center"><a href="apps/omarchy/screenshot.png"><img src="docs/thumbs/omarchy.jpg" width="440"></a><br><sub>omarchy</sub></td>
