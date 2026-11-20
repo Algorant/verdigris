@@ -17,7 +17,7 @@ accord:
   filesChanged: ["build/thumbs.sh", "README.md", "docs/showcase-clips.md", "build/README.md"]
   updatedAt: "2026-11-20T20:29:32Z"
 createdAt: "2026-11-20T20:16:58Z"
-updatedAt: "2026-11-20T20:29:32Z"
+updatedAt: "2026-11-20T21:33:27Z"
 assignee: "pi:sharp-showcase-proposal"
 ---
 
@@ -25,3 +25,6 @@ assignee: "pi:sharp-showcase-proposal"
 
 Algorant via Herdra md1dfcb26: “this repo is supposedto show off colorschemes, so just showing some omari functionality makes sense for my .algOS repo showcase, but not for a colorscheme repo. so I'd like to remove omari completely from this showcase area. show me the proposal from your understanding of what I am asking for. this can be a completely new pull request. Additionally, I noticed that the 'thumbnails' for lack of better word in the gallery view are kind of low res. look, and I mean exhaustively look, into how to make those high quality so they don't look blurry when someone visits the site. its just ugly to have that happen. take these into accoutn and show me the conclusion of the proposal/plan.”
 Propose removal of Omari clip and caption only, preserve its attachment for algOS. Recommend keeping scrolling as an example of the palette across apps; note no video at all as alternative. Investigate actual GitHub desktop/mobile cell widths; DPR 1/2/3 requirements; Camo processing, cache, limits; supported PNG/JPEG/WebP/AVIF and screenshot text quality; separate thumbs vs rendering originals; aspect/crop, page weight and current generation tooling. Include homepage visible and collapsed images; census per-app sharing, avoid rewriting separate app galleries. Originals unchanged; no captures. Proposal only: push isolated branch and open new PR, inspect rendered branch page, one Sideshow post in rsnVsfi6go4 with decide box, Omari before/after, two same-crop real-display-size comparisons, rejected options, page weights and undo. Herdra reviews first.
+
+
+Revision via Herdra m26a41635: remove scrolling highlight too; Verdigris Showcase is stills only. Algorant asks how many photos and wants four across by two rows, high quality. Current branch: 10 visible (five rows of two), 4 collapsed (two rows of two), 14 generated thumbnails. Propose retaining all 14 in their existing order: first eight visible in a 4×2 grid; move the next two into the existing “more screenshots” group (six there). Make this grouping explicit in the comparison; no images dropped. Preserve originals/full-resolution links and both off-Showcase attachment URLs for algOS. Verify actual intended display-scale sharpness, clearly separate GitHub HTML checks from browser inspection. Same PR only; no merge or uploads.

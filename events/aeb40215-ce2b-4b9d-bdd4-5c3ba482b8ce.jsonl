@@ -203,3 +203,4 @@
 {"ts":"2026-11-20T20:32:20Z","event":"accord.claimed","id":"task-24","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":203,"data":{}}
 {"ts":"2026-11-20T20:32:57Z","event":"accord.delivered","id":"task-24","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":204,"data":{}}
 {"ts":"2026-11-20T20:32:59Z","event":"task.completed","id":"task-24","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":205,"data":{}}
+{"ts":"2026-11-20T21:33:27Z","event":"task.updated","id":"task-23","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":206,"data":{"fields":["body"]}}
