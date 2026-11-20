@@ -1,6 +1,8 @@
 # Showcase clips
 
-The Showcase opens with scrolling, followed by Omari, above the screenshot gallery.
+The Showcase opens with scrolling above the screenshot gallery. The Omari clip
+is kept here, unembedded, for the algOS showcase: it shows Omari features rather
+than the palette, so it is not part of this repository's Showcase.
 
 These are the Omari v17 edit and encode commands run on 2026-11-20, recovered
 from the editor's resumed context and surviving artifacts. Paths are generalized
@@ -16,6 +18,8 @@ https://github.com/user-attachments/assets/e7608000-ce65-4e86-b62c-4cca13f0be3a
 Approved 6.2-second, 2560 × 1440, 60 fps MP4 (2,213,658 bytes). SHA-256: `93598ddd46ee3b6153f8bba489b191d66ab0389c43e068fa71912ec61eca631c`.
 
 ### Omari
+
+Not shown in the README Showcase; kept for the algOS showcase.
 
 https://github.com/user-attachments/assets/01aaa311-7b1a-4a56-9fdc-c0c985d56a97
 

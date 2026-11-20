@@ -13,10 +13,6 @@ Scrolling between windows in Hyprland.
 
 https://github.com/user-attachments/assets/e7608000-ce65-4e86-b62c-4cca13f0be3a
 
-Omari’s Super+Tab overview and Alt+Tab window switching.
-
-https://github.com/user-attachments/assets/01aaa311-7b1a-4a56-9fdc-c0c985d56a97
-
 <table>
   <tr>
     <td align="center"><a href="apps/omarchy/screenshot.png"><img src="docs/thumbs/omarchy.jpg" width="440"></a><br><sub>omarchy</sub></td>
