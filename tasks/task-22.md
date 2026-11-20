@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T19:37:39Z"
+updatedAt: "2026-11-20T19:45:32Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -100,3 +100,6 @@ Showcase playback diagnosis and Omari recut (2026-11-20, agent):
 - Omari recut, 11.9 s at 2560x1440/60 fps: 56.5-63.0 s (before -> Super+Tab overview -> landed NEOVIM), 0.4 s beat, 31.0-36.0 s (Alt+Tab cycling between browser and adjacent editor). Separate Super/Tab and Alt/Tab keycaps plus captions "overview of all windows" and "cycle recent windows".
 - Master quality 7,656,500 bytes; in-post preview 4,311,344 bytes to fit the 5 MiB Sideshow asset cap. Scrolling stays the approved 2,213,658-byte clip, unchanged.
 - What the footage cannot show: the Alt+Tab switcher overlay itself is not captured; only the focus/landing changes are visible, so the caption describes what happens rather than claiming a visible list. Empty overview placeholders are shown as recorded.
+
+
+Omari v15 revision per Herdra m15f652be (2026-11-20): 14.2 s, 2560x1440/60 fps. Added full-width function titles at each cut, large filled rounded Super/Tab and Alt/Tab keycaps with visible patina borders on a solid dark panel, one cue line each ("watch the overview open, then land"; "watch the active window change as it cycles" - no claim of an Alt+Tab overlay). Overview idle sped 2x, landing at 1x, 1 s landed beat before Alt+Tab. Master 8,281,786 bytes; preview 4,799,197 bytes for the Sideshow cap. Post vdSAK32VdQk version 17; scrolling asset unchanged. 800px legibility and full-cut contact sheet checked. Playback limit: supported browser (Obscura) unavailable this round, so the revised asset was not re-proven in-browser; no alternate browser used.
