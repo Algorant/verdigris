@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T19:54:33Z"
+updatedAt: "2026-11-20T20:04:10Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -106,3 +106,5 @@ Omari v15 revision per Herdra m15f652be (2026-11-20): 14.2 s, 2560x1440/60 fps. 
 
 
 Publication approval via Herdra m3abcd7a3: Algorant: "who these are a million times better. finally approved omari. I would also like to use them for their coutnerparts in my actual algOS showcase as well. propose what I mean there while approving verdigris readme for adding these in the appropriate place. both delegated". Publish approved unchanged scrolling and full-quality 8.28 MB Omari v17 master. Scrolling opens Showcase; Omari goes second beside the Omarchy entry; no unrelated moves. GitHub attachment upload approved via existing gh login; if unavailable via gh, stop at the browser-only upload step and relay it rather than working around it. Verify both actual players signed out. Commit a short reusable reproduction recipe from commands actually run. algOS proposal only, no algOS changes.
+
+Showcase videos live at 38c0cc5 (integration 0676e60), attached via native gh on PR #5. Anonymous GitHub homepage renders two video controls; fetched both actual rendered sources signed out as video/mp4 and verified approved SHA-256 (2,213,658 and 8,281,786 bytes). Existing image order, two-column gallery and catalog unchanged. Actual in-browser playback remains unverified: paired Chromium offline. docs/showcase-clips.md records provenance and hashes, but exact executed v17 recipe not recovered from available artifacts and is not claimed complete. Review checkout retained, no algOS changes. Task remains open.
