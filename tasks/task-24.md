@@ -3,17 +3,19 @@ id: task-24
 uid: cbc93cc9-508f-42c0-868b-746a9578f88e
 type: task
 title: "Add Pi recap teal"
-state: todo
+state: "in-progress"
 effort: "small"
 relatedFiles: ["apps/pi/verdigris.json"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Only vars.recapTeal is added with exact value #5c9fa1; all existing roles, theme values and palette files stay unchanged.", "Source commit reported without editing live configuration."]
+  claimedAt: "2026-11-20T20:32:20Z"
   validation: ["$ git diff --check main...HEAD"]
   constraints: ["No live reload or config edits; no push requested."]
-  updatedAt: "2026-11-20T20:32:13Z"
+  updatedAt: "2026-11-20T20:32:20Z"
 createdAt: "2026-11-20T20:32:13Z"
-updatedAt: "2026-11-20T20:32:13Z"
+updatedAt: "2026-11-20T20:32:20Z"
+assignee: "pi-recap-teal-variable"
 ---
 
 ## Description
