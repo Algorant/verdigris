@@ -7,18 +7,19 @@
 # never changes. Screenshots are never edited: each source is hashed before and
 # after, and the run fails if a byte changed.
 #
-# Thumbnails are 880x550, one frame for the whole gallery: 880 is 2x the 440 CSS
-# px gallery cell, so a 2x display gets one image pixel per device pixel instead
-# of an upscaled 480 px image, and the frame is the same 16:10 shape the gallery
-# has always had, so both columns keep even rows. Each screenshot is fitted
-# whole and centred (no crop, no stretch); the leftover bars are filled with the
-# palette's background colour, matching the screenshots' own surround.
+# Thumbnails are 880x550, one frame for the whole gallery, four across in the
+# README: each cell asks for 200 CSS px, so the file carries 4.4x the pixels of
+# its nominal box and stays sharp at any display density. The frame is the same
+# 16:10 shape the gallery has always had, so the four-column rows keep even
+# heights. Each screenshot is fitted whole and centred (no crop, no stretch);
+# the leftover bars are filled with the palette's background colour, matching the
+# screenshots' own surround.
 #
 # Needs ImageMagick 7 (`magick`). Writes images only; no theme files.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-WIDTH=880      # 2x the 440 CSS px gallery cell in README.md
+WIDTH=880      # 4.4x the 200 CSS px gallery cell in README.md
 HEIGHT=550     # 16:10, the gallery's original frame
 MATTE='#1d2021'  # verdigris background, matches the screenshots
 QUALITY=85
