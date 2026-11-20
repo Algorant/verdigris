@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T14:51:10Z"
+updatedAt: "2026-11-20T14:56:34Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -76,3 +76,11 @@ Applied in the same Sideshow post (vdSAK32VdQk):
 - Scrolling preview trimmed to 6.2 s: one continuous 14.4-20.6 s span from 2026-11-20_09.14_screen.mp4, 1x; five clean browser/terminal/OBS switches; waits removed by trimming.
 - Omari preview trimmed to 8.5 s: 0.0-2.5 s overview, 19.0-22.0 s switcher, 41.0-44.0 s overview from 2026-11-20_09.16_screen.mp4, 1x; Super + Tab labels, Alt + Tab still a draft label.
 Both full 2560x1440, 60 fps, H.264 CRF 18; 2,213,658 and 746,121 bytes. No commit or public upload.
+
+
+Showcase clip review, Algorant via Herdra mbac58037 (2026-11-20): "for verdigris: first one is approved, for just scrolling view. second one, omari, needs work. doesn't clearly show how alt+tab and super+tab work in an easy to digest way for a human."
+
+- Scrolling clip APPROVED as-is (6.2 s, 2560x1440, 60 fps, current post version). Keep unchanged.
+- Omari rework blocked by source clarity in 2026-11-20_09.16_screen.mp4: the Super+Tab overview appears only as three empty window outlines, with no window content/thumbnails captured, so a keycap + "overview of all windows" caption would overclaim what the recording shows. The Alt+Tab portion does show a populated switcher and a landing window (19.0-22.0 s), but the press itself is not recorded (no keycast).
+- Proposed exact re-record sequence instead of forcing the overlay: (1) start on a full browser window, press Super+Tab once, hold until the overview shows visible window thumbnails, pause 1 s, select OBS Studio, release, hold the landed OBS window 1 s. (2) beat on the landed window 1 s. (3) press Alt+Tab once, cycle one step to the browser, release, hold the landed browser 1 s. Full 2560x1440/120 fps, no menus or app launcher in frame; ~9-11 s raw.
+- No forced Omari update published; post vdSAK32VdQk keeps the approved scrolling clip and the existing Omari draft until a clear re-record exists. No commit.
