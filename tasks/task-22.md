@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T14:26:41Z"
+updatedAt: "2026-11-20T14:26:55Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -67,3 +67,5 @@ Scrolling-specific privacy exception, Algorant via Herdra m57170612: "I will all
 
 New demo scope supersedes the old clip drafts for Showcase, Algorant via Herdra mbf6960e7 (2026-11-20): "I recorded two new clips. I don't want any 'personal' information guard blocking anything. that should be informational only (for this specific use case). First clip should show the clean, high quality transition between windows of terminal, browser, OBS studio. omari will be teh same, except highlight the super+tab and alt+tab functions so that its clear what is going on. quality is of highest importance. it needs to be clear what is going one, regardless of end format/size. I want this to be the demo we put on github, right 'start with the obvious' or whatever the wording was"
 Identify ~/Videos/2026-11-20_09.14_screen.mp4 and 09.16_screen.mp4 by content. Full source 2560×1440 frame, no crop/downscale. Quality and clarity first, no WebP cap. Verify shortcut timing for Verdigris-styled labels on Omari only. Privacy observations informational for these two clips only. Plan and one playable draft of each in existing Sideshow session, with recommended GitHub format/placement. No commit or public upload before review.
+
+Quality priority clarified by Algorant via Herdra mf8d98a8f: "focus on what my end goal is, to have a clip that shows very clearly in high quality what I want to show, and not some arbitrary size or format constraint". Judge editing, fps, encoding, overlays and delivery by viewer clarity. If a host or upload cap would cost clarity, use a suitable approved preview route or recommend another publication route; no degradation to fit a cap. Keep public changes gated.
