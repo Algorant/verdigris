@@ -17,7 +17,7 @@ accord:
   filesChanged: ["build/thumbs.sh", "README.md", "docs/showcase-clips.md", "build/README.md"]
   updatedAt: "2026-11-20T20:29:32Z"
 createdAt: "2026-11-20T20:16:58Z"
-updatedAt: "2026-11-20T21:33:27Z"
+updatedAt: "2026-11-20T21:34:18Z"
 assignee: "pi:sharp-showcase-proposal"
 ---
 
@@ -28,3 +28,5 @@ Propose removal of Omari clip and caption only, preserve its attachment for algO
 
 
 Revision via Herdra m26a41635: remove scrolling highlight too; Verdigris Showcase is stills only. Algorant asks how many photos and wants four across by two rows, high quality. Current branch: 10 visible (five rows of two), 4 collapsed (two rows of two), 14 generated thumbnails. Propose retaining all 14 in their existing order: first eight visible in a 4×2 grid; move the next two into the existing “more screenshots” group (six there). Make this grouping explicit in the comparison; no images dropped. Preserve originals/full-resolution links and both off-Showcase attachment URLs for algOS. Verify actual intended display-scale sharpness, clearly separate GitHub HTML checks from browser inspection. Same PR only; no merge or uploads.
+
+GitHub-rendered quality comparison requested by Algorant via Herdra m76dc21c3: one page only on existing PR #6 branch; identical screenshot set, order, captions, composition and four-column layout for A (existing 880×550 JPEG), B (higher-quality JPEG) and C (original lossless PNG inline). Preserve original bytes/full-res links; match framing by padding only, no crop/stretch. Label exact dimensions, encoding/quality and actual byte totals. Do not change gallery default or merge before pick; no attachment uploads. Verify rendered GitHub markup and asset data, report browser limits honestly, Herdra reviews first.
