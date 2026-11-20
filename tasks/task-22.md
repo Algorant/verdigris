@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T14:26:55Z"
+updatedAt: "2026-11-20T14:51:10Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -69,3 +69,10 @@ New demo scope supersedes the old clip drafts for Showcase, Algorant via Herdra 
 Identify ~/Videos/2026-11-20_09.14_screen.mp4 and 09.16_screen.mp4 by content. Full source 2560×1440 frame, no crop/downscale. Quality and clarity first, no WebP cap. Verify shortcut timing for Verdigris-styled labels on Omari only. Privacy observations informational for these two clips only. Plan and one playable draft of each in existing Sideshow session, with recommended GitHub format/placement. No commit or public upload before review.
 
 Quality priority clarified by Algorant via Herdra mf8d98a8f: "focus on what my end goal is, to have a clip that shows very clearly in high quality what I want to show, and not some arbitrary size or format constraint". Judge editing, fps, encoding, overlays and delivery by viewer clarity. If a host or upload cap would cost clarity, use a suitable approved preview route or recommend another publication route; no degradation to fit a cap. Keep public changes gated.
+
+Trim and speed direction from Algorant via Herdra mbd92eedd (2026-11-20): "good start but here are some nits 1)they are too long and don't show the basic function in a simple way. they can be trimmed down and sped up. likely being no longer than 10 seconds each. this is not rocket surgery. I just need to show switching between windows and what happens when someone wants to use omari style switchers. thats it"
+
+Applied in the same Sideshow post (vdSAK32VdQk):
+- Scrolling preview trimmed to 6.2 s: one continuous 14.4-20.6 s span from 2026-11-20_09.14_screen.mp4, 1x; five clean browser/terminal/OBS switches; waits removed by trimming.
+- Omari preview trimmed to 8.5 s: 0.0-2.5 s overview, 19.0-22.0 s switcher, 41.0-44.0 s overview from 2026-11-20_09.16_screen.mp4, 1x; Super + Tab labels, Alt + Tab still a draft label.
+Both full 2560x1440, 60 fps, H.264 CRF 18; 2,213,658 and 746,121 bytes. No commit or public upload.
