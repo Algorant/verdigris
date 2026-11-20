@@ -3,11 +3,10 @@ id: task-23
 uid: e78f0a74-e80e-4ce1-8396-69bce6725cee
 type: task
 title: "Sharpen Showcase gallery proposal"
-state: "in-progress"
 effort: "medium"
 relatedFiles: ["README.md", "docs/", "apps/"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["Evidence-backed thumbnail proposal with measured widths, DPR targets, format/proxy support, weight and repeatable generation.", "New PR and rendered branch-page link showing both changes; no merge until Algorant's explicit OK.", "One Sideshow post with decision, before/after, options and undo, routed to Herdra only."]
   claimedAt: "2026-11-20T20:17:21Z"
   deliveredAt: "2026-11-20T20:29:32Z"
@@ -15,10 +14,16 @@ accord:
   summary: "Proposal PR #6 (branch sharp-showcase-proposal, commit 61ec194): Omari clip removed from README Showcase with attachment and recipe preserved in docs/showcase-clips.md; all 14 gallery thumbnails regenerated at 880px wide, native aspect, JPEG q85 4:4:4 via new build/thumbs.sh; originals byte-identical; rendered branch page verified from anonymous HTML; real-browser visual gate unverified (paired Chromium offline). One Sideshow post L8C4f7n0P2U in rsnVsfi6go4 with decide box."
   evidence: ["https://github.com/Algorant/verdigris/pull/6", "https://github.com/Algorant/verdigris/blob/sharp-showcase-proposal/README.md", "http://localhost:8228/p/L8C4f7n0P2U"]
   filesChanged: ["build/thumbs.sh", "README.md", "docs/showcase-clips.md", "build/README.md"]
-  updatedAt: "2026-11-20T20:29:32Z"
+  reviewer: "Algorant"
+  updatedAt: "2026-11-20T21:52:34Z"
 createdAt: "2026-11-20T20:16:58Z"
-updatedAt: "2026-11-20T21:45:19Z"
+updatedAt: "2026-11-20T21:52:34Z"
 assignee: "pi:sharp-showcase-proposal"
+archivedAt: "2026-11-20T21:52:34Z"
+resolution:
+  outcome: "completed"
+  note: "Approved option C via Herdra mb152c546; PR #6 squash-merged as 4168912. Signed-out GitHub confirmed 8+6 original PNGs, no videos, working original links, and updated widgets/floating-terminal image refs. Screenshot convention in docs/screenshots.md. No binary changes; patina GIF remains its only original. Local Pi recapTeal excluded."
+  reviewer: "Algorant"
 ---
 
 ## Description
