@@ -13,30 +13,30 @@ Verdigris in use, four across. Each shot opens the full-resolution screenshot.
 
 <table>
   <tr>
-    <td align="center"><a href="apps/omarchy/screenshot.png"><img src="docs/thumbs/omarchy.jpg" width="200"></a><br><sub>omarchy</sub></td>
-    <td align="center"><a href="apps/omarchy/screenshot-2.png"><img src="docs/thumbs/omarchy-keys.jpg" width="200"></a><br><sub>omarchy · keybindings</sub></td>
-    <td align="center"><a href="apps/ghostty/screenshot.png"><img src="docs/thumbs/ghostty.jpg" width="200"></a><br><sub>ghostty · fastfetch</sub></td>
-    <td align="center"><a href="apps/nvim/screenshot-3.png"><img src="docs/thumbs/neovim-lazy.jpg" width="200"></a><br><sub>neovim · lazy</sub></td>
+    <td align="center"><a href="apps/omarchy/screenshot.png"><img src="apps/omarchy/screenshot.png" width="200"></a><br><sub>omarchy</sub></td>
+    <td align="center"><a href="apps/omarchy/screenshot-2.png"><img src="apps/omarchy/screenshot-2.png" width="200"></a><br><sub>omarchy · keybindings</sub></td>
+    <td align="center"><a href="apps/ghostty/screenshot.png"><img src="apps/ghostty/screenshot.png" width="200"></a><br><sub>ghostty · fastfetch</sub></td>
+    <td align="center"><a href="apps/nvim/screenshot-3.png"><img src="apps/nvim/screenshot-3.png" width="200"></a><br><sub>neovim · lazy</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="apps/omarchy/screenshot-3.png"><img src="docs/thumbs/workstation.jpg" width="200"></a><br><sub>workstation · terminal + editor</sub></td>
-    <td align="center"><a href="apps/leaf/screenshot.png"><img src="docs/thumbs/leaf.jpg" width="200"></a><br><sub>leaf</sub></td>
-    <td align="center"><a href="apps/btop/screenshot.png"><img src="docs/thumbs/btop.jpg" width="200"></a><br><sub>btop</sub></td>
-    <td align="center"><a href="apps/omarchy/widgets/calendar.png"><img src="docs/thumbs/calendar.jpg" width="200"></a><br><sub>calendar widget</sub></td>
+    <td align="center"><a href="apps/omarchy/screenshot-3.png"><img src="apps/omarchy/screenshot-3.png" width="200"></a><br><sub>workstation · terminal + editor</sub></td>
+    <td align="center"><a href="apps/leaf/screenshot.png"><img src="apps/leaf/screenshot.png" width="200"></a><br><sub>leaf</sub></td>
+    <td align="center"><a href="apps/btop/screenshot.png"><img src="apps/btop/screenshot.png" width="200"></a><br><sub>btop</sub></td>
+    <td align="center"><a href="apps/omarchy/widgets/calendar.png"><img src="apps/omarchy/widgets/calendar.png" width="200"></a><br><sub>calendar widget</sub></td>
   </tr>
 </table>
 
 <details><summary>more screenshots</summary>
 <table>
   <tr>
-    <td align="center"><a href="apps/yazi/screenshot.png"><img src="docs/thumbs/yazi.jpg" width="200"></a><br><sub>yazi</sub></td>
-    <td align="center"><a href="apps/nvim/screenshot.png"><img src="apps/nvim/thumbs/nvim.jpg" width="200"></a><br><sub>neovim</sub></td>
-    <td align="center"><a href="apps/omarchy/widgets/system-monitor.png"><img src="docs/thumbs/sysmon.jpg" width="200"></a><br><sub>system monitor</sub></td>
-    <td align="center"><a href="apps/atuin/screenshot.png"><img src="docs/thumbs/atuin.jpg" width="200"></a><br><sub>atuin</sub></td>
+    <td align="center"><a href="apps/yazi/screenshot.png"><img src="apps/yazi/screenshot.png" width="200"></a><br><sub>yazi</sub></td>
+    <td align="center"><a href="apps/nvim/screenshot.png"><img src="apps/nvim/screenshot.png" width="200"></a><br><sub>neovim</sub></td>
+    <td align="center"><a href="apps/omarchy/widgets/system-monitor.png"><img src="apps/omarchy/widgets/system-monitor.png" width="200"></a><br><sub>system monitor</sub></td>
+    <td align="center"><a href="apps/atuin/screenshot.png"><img src="apps/atuin/screenshot.png" width="200"></a><br><sub>atuin</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="apps/tandem/screenshot-2.png"><img src="docs/thumbs/tandem.jpg" width="200"></a><br><sub>tandem</sub></td>
-    <td align="center"><a href="apps/starship/screenshot.png"><img src="docs/thumbs/starship.jpg" width="200"></a><br><sub>starship</sub></td>
+    <td align="center"><a href="apps/tandem/screenshot-2.png"><img src="apps/tandem/screenshot-2.png" width="200"></a><br><sub>tandem</sub></td>
+    <td align="center"><a href="apps/starship/screenshot.png"><img src="apps/starship/screenshot.png" width="200"></a><br><sub>starship</sub></td>
   </tr>
 </table>
 </details>

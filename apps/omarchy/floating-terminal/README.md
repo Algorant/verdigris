@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td align="center"><a href="../screenshot.png"><img src="../thumbs/omarchy.jpg" width="260"></a><br><sub>a floating terminal over the desktop</sub></td>
+    <td align="center"><a href="../screenshot.png"><img src="../screenshot.png" width="260"></a><br><sub>a floating terminal over the desktop</sub></td>
   </tr>
 </table>
 
