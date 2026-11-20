@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-18T19:45:37Z"
+updatedAt: "2026-11-20T14:26:41Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -64,3 +64,6 @@ Status: no capture, encode, post or repo change made. Blocker escalated for dire
 
 
 Scrolling-specific privacy exception, Algorant via Herdra m57170612: "I will allow folder names in the clip. I need to see the clips though. are they recreated?" Encode scrolling only from original x1 22.53_screen recording; Projects/Yazi folder names permitted, near-real-speed left/right transitions, full source resolution, high quality ≤10MB WebP or report MP4 need. Cut all Herdra-source frames around 10.5–12.5s and 23.5–25.5s with safe boundaries. One PLAYING Sideshow preview + cut note, no commits. Omari remains blocked pending neutral human re-record. No new captures.
+
+New demo scope supersedes the old clip drafts for Showcase, Algorant via Herdra mbf6960e7 (2026-11-20): "I recorded two new clips. I don't want any 'personal' information guard blocking anything. that should be informational only (for this specific use case). First clip should show the clean, high quality transition between windows of terminal, browser, OBS studio. omari will be teh same, except highlight the super+tab and alt+tab functions so that its clear what is going on. quality is of highest importance. it needs to be clear what is going one, regardless of end format/size. I want this to be the demo we put on github, right 'start with the obvious' or whatever the wording was"
+Identify ~/Videos/2026-11-20_09.14_screen.mp4 and 09.16_screen.mp4 by content. Full source 2560×1440 frame, no crop/downscale. Quality and clarity first, no WebP cap. Verify shortcut timing for Verdigris-styled labels on Omari only. Privacy observations informational for these two clips only. Plan and one playable draft of each in existing Sideshow session, with recommended GitHub format/placement. No commit or public upload before review.
