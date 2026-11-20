@@ -14,7 +14,7 @@ accord:
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
   updatedAt: "2026-11-18T15:33:59Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T15:05:11Z"
+updatedAt: "2026-11-20T19:37:39Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
@@ -92,3 +92,11 @@ Omari re-record delivered, Algorant via Herdra md3894027 (2026-11-20): "Ok I re-
 - Finished Omari basics clip: 7.0 s, 2560x1440, 60 fps, H.264 CRF 18, 2,596,363 bytes. Spans 58.0-62.5 s (Super+Tab overview, empty placeholders expected) + 0.3 s beat + 32.4-34.6 s (Alt+Tab cycling recent windows), all 1x.
 - Keycap + one-line caption per action: "Super + Tab — overview of all windows" at 0.2-4.4 s; "Alt + Tab — cycle recent windows" at 4.9-6.9 s.
 - Replaced in post vdSAK32VdQk; scrolling clip stays approved and unchanged. No commit or public upload.
+
+
+Showcase playback diagnosis and Omari recut (2026-11-20, agent):
+- Playback failure proven from the pasted screenshot: both players show "No video with supported format and MIME type found." Root cause: Sideshow serves uploaded files as application/octet-stream with Content-Disposition: attachment and X-Content-Type-Options: nosniff, and the embeds used absolute localhost URLs, which fail in a non-local viewer. Sideshow's own server code confirms only raster images are served inline; video cannot be a same-origin Sideshow asset.
+- Fix applied: both players now use the Sideshow-relative /a/<id> path so they resolve against whichever host serves the session, and the loopback fallbacks were removed. Verified in the actual sandboxed surfaces at the MagicDNS session URL with a temporary readiness probe: both videos reached readyState 4 and playing. Probe removed afterwards; sources unchanged.
+- Omari recut, 11.9 s at 2560x1440/60 fps: 56.5-63.0 s (before -> Super+Tab overview -> landed NEOVIM), 0.4 s beat, 31.0-36.0 s (Alt+Tab cycling between browser and adjacent editor). Separate Super/Tab and Alt/Tab keycaps plus captions "overview of all windows" and "cycle recent windows".
+- Master quality 7,656,500 bytes; in-post preview 4,311,344 bytes to fit the 5 MiB Sideshow asset cap. Scrolling stays the approved 2,213,658-byte clip, unchanged.
+- What the footage cannot show: the Alt+Tab switcher overlay itself is not captured; only the focus/landing changes are visible, so the caption describes what happens rather than claiming a visible list. Empty overview placeholders are shown as recorded.
