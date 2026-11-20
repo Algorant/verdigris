@@ -8,13 +8,17 @@ effort: "medium"
 references: ["task-20"]
 relatedFiles: ["apps/", "README.md", "review/"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["Complete inventory lists every supported discrete app/config port, including nested ones; count reported to Herdra.", "Local review/index.html shows one card per port, persisted per-image selections/approvals, and add-image workflow; dimensions informational only, no fixed-size gating.", "Algorant's selected approved media retained byte-for-byte, no crop/resize or captures by agents.", "Per-app README drafts for the 24 approved sets use one short screenshot-first template; top-level README links to them; drafts shown before publishing.", "Unapproved/missing ports remain explicit: hyprland/omari clips, floating terminal, ai-coding-plans and yazi approvals."]
   claimedAt: "2026-11-18T14:45:44Z"
+  deliveredAt: "2026-11-20T20:11:15Z"
   constraints: ["Agents make NO screenshots/captures; Algorant supplies retakes.", "Review page stays local, not published.", "Preserve privacy exclusions; do not resurrect removed private images.", "Showcase selection deferred until full coverage."]
-  updatedAt: "2026-11-18T15:33:59Z"
+  summary: "Delivered both approved clips and the verified reusable Omari v17 recipe; overall coverage Task stays open for floating terminal."
+  evidence: ["Public Showcase at 58fd3a5 uses two bare GitHub attachment URLs before the restored gallery; Markdown API and anonymous live HTML render both as private-user-images video sources. Algorant's browser playback check remains pending.", "Recipe published in docs/showcase-clips.md at 71e019a. Scratch reproduction matched all four overlay PNGs pixel-for-pixel and the Omari v17 master and preview SHA-256 byte-for-byte. Exact scrolling command not recovered; its approved file stayed unchanged."]
+  filesChanged: ["README.md", "docs/showcase-clips.md"]
+  updatedAt: "2026-11-20T20:11:15Z"
 createdAt: "2026-11-18T14:45:15Z"
-updatedAt: "2026-11-20T20:04:10Z"
+updatedAt: "2026-11-20T20:11:15Z"
 assignee: "pi:per-app-screenshot-review"
 ---
 
