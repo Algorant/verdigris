@@ -7,13 +7,17 @@ state: "in-progress"
 effort: "medium"
 relatedFiles: ["README.md", "docs/", "apps/"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["Evidence-backed thumbnail proposal with measured widths, DPR targets, format/proxy support, weight and repeatable generation.", "New PR and rendered branch-page link showing both changes; no merge until Algorant's explicit OK.", "One Sideshow post with decision, before/after, options and undo, routed to Herdra only."]
   claimedAt: "2026-11-20T20:17:21Z"
+  deliveredAt: "2026-11-20T20:29:32Z"
   constraints: ["Do not change main or publish an approval request directly to Algorant.", "No new captures, original edits, video uploads, or changes to algOS."]
-  updatedAt: "2026-11-20T20:17:21Z"
+  summary: "Proposal PR #6 (branch sharp-showcase-proposal, commit 61ec194): Omari clip removed from README Showcase with attachment and recipe preserved in docs/showcase-clips.md; all 14 gallery thumbnails regenerated at 880px wide, native aspect, JPEG q85 4:4:4 via new build/thumbs.sh; originals byte-identical; rendered branch page verified from anonymous HTML; real-browser visual gate unverified (paired Chromium offline). One Sideshow post L8C4f7n0P2U in rsnVsfi6go4 with decide box."
+  evidence: ["https://github.com/Algorant/verdigris/pull/6", "https://github.com/Algorant/verdigris/blob/sharp-showcase-proposal/README.md", "http://localhost:8228/p/L8C4f7n0P2U"]
+  filesChanged: ["build/thumbs.sh", "README.md", "docs/showcase-clips.md", "build/README.md"]
+  updatedAt: "2026-11-20T20:29:32Z"
 createdAt: "2026-11-20T20:16:58Z"
-updatedAt: "2026-11-20T20:17:21Z"
+updatedAt: "2026-11-20T20:29:32Z"
 assignee: "pi:sharp-showcase-proposal"
 ---
 
