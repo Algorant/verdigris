@@ -212,3 +212,4 @@
 {"ts":"2026-11-20T22:35:21Z","event":"task.updated","id":"task-22","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":212,"data":{"fields":["body"]}}
 {"ts":"2026-11-22T16:28:25Z","event":"accord.claimed","id":"task-12","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":213,"data":{}}
 {"ts":"2026-11-22T16:28:27Z","event":"accord.delivered","id":"task-12","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":214,"data":{}}
+{"ts":"2026-11-22T16:28:29Z","event":"task.completed","id":"task-12","actor":"aeb40215-ce2b-4b9d-bdd4-5c3ba482b8ce","seq":215,"data":{}}
