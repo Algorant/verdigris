@@ -9,12 +9,16 @@ priority: "low"
 effort: "small"
 relatedFiles: ["build/mask_from_grid.py", "build/render_logos.py"]
 accord:
-  status: "claimed"
+  status: "delivered"
   acceptance: ["Both image tools' usage/help/docstrings name the actual retained script paths; image behavior is unchanged."]
   claimedAt: "2026-11-22T16:28:25Z"
-  updatedAt: "2026-11-22T16:28:25Z"
+  deliveredAt: "2026-11-22T16:28:27Z"
+  summary: "Corrected stale script names in both retained image-tool usage/help texts via PR #7 (3c21621); no behavior change."
+  evidence: ["Published fix 3c21621 changes only the two retained image tools' usage/docstring names; both published files checked via anonymous raw GitHub.", "Both scripts parse and each prints its corrected Usage line when run without arguments; no behavior or image change."]
+  filesChanged: ["build/mask_from_grid.py", "build/render_logos.py"]
+  updatedAt: "2026-11-22T16:28:27Z"
 createdAt: "2026-11-13T04:58:09Z"
-updatedAt: "2026-11-22T16:28:25Z"
+updatedAt: "2026-11-22T16:28:27Z"
 assignee: "pi:verdigris"
 ---
 
