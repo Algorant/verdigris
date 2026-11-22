@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Render a single-color SVG mask in named Verdigris palette colors.
 
-The mask must use fill="currentColor" (see mask-from-grid.py). Colors are looked
+The mask must use fill="currentColor" (see mask_from_grid.py). Colors are looked
 up by name in ../palette/verdigris.json (core and extended), never hard-coded. Each
 PNG is square, SIZE pixels, with transparent pixels set to the fill color so
 resampling can never introduce dark fringes. A preview sheet is written too.
 
 Requires: ImageMagick 7 (`magick`) and librsvg (`rsvg-convert`).
 
-Usage: render.py MASK.svg OUTDIR NAME SIZE COLOR[,COLOR...]
+Usage: render_logos.py MASK.svg OUTDIR NAME SIZE COLOR[,COLOR...]
 Writes OUTDIR/NAME-verdigris-COLOR.png and OUTDIR/NAME-verdigris-preview.png.
 """
 

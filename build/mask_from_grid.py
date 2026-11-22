@@ -3,13 +3,13 @@
 
 The input must be a PNG whose alpha channel is made of uniform square cells of
 UNIT pixels (for example Omarchy's icon.png: 300px, 20px cells). Each opaque row
-run becomes one <rect>, filled with currentColor so render.py can recolor it.
+run becomes one <rect>, filled with currentColor so render_logos.py can recolor it.
 The script fails if any cell is not uniform, then verifies that the SVG rendered
 back at the original size matches the source alpha exactly.
 
 Requires: ImageMagick 7 (`magick`) and librsvg (`rsvg-convert`).
 
-Usage: mask-from-grid.py SOURCE.png UNIT OUTPUT.svg
+Usage: mask_from_grid.py SOURCE.png UNIT OUTPUT.svg
 """
 
 import subprocess
