@@ -4,16 +4,18 @@ uid: 6acbd287-12aa-498e-8387-7d0ed5fbd112
 type: task
 kind: "papercut"
 title: "Correct logo tool usage filenames"
-state: todo
+state: "in-progress"
 priority: "low"
 effort: "small"
 relatedFiles: ["build/mask_from_grid.py", "build/render_logos.py"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Both image tools' usage/help/docstrings name the actual retained script paths; image behavior is unchanged."]
-  updatedAt: "2026-11-13T04:58:09Z"
+  claimedAt: "2026-11-22T16:28:25Z"
+  updatedAt: "2026-11-22T16:28:25Z"
 createdAt: "2026-11-13T04:58:09Z"
-updatedAt: "2026-11-13T04:58:09Z"
+updatedAt: "2026-11-22T16:28:25Z"
+assignee: "pi:verdigris"
 ---
 
 ## Description
